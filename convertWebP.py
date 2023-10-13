@@ -20,7 +20,7 @@ def convert_to_webp(source):
     return destination
 
 def main():
-    paths = Path("docs/blog").glob("**/*.jpg")
+    paths = Path("articles").glob("**/*.(jpg|jpeg)")
     for path in paths:
         webp_path = convert_to_webp(path)
         print(webp_path)
