@@ -18,7 +18,6 @@ foo: bar
   <figcaption>Image by <a href="https://www.freepik.com/">Freepik</a></figcaption>
 </figure>
 
-
 Excerpt
 Update
 <!--more-->

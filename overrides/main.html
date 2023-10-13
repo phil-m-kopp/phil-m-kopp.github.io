@@ -14,6 +14,7 @@
 {% endblock %}
 
 {% block footer %}
+  
     <!-- <div class="profile-wrapper">
       <a href="/about" id="avatar" class="rounded-circle">
         <img src="{{ config.theme.avatar | url }}" width="128" height="128" alt="avatar" onerror="this.style.display='none'">
@@ -25,4 +26,46 @@
       <hr style="height:1px;border-width:0;color:lightgray;background-color:lightgray;">
     </div> -->
     {{ super() }}
+{% endblock %}
+
+{% block site_nav %}
+{{ super() }}
+<script>
+  function linkToClipboard() {
+      navigator.clipboard.writeText("https://philipp-kopp.com/{{- page.url | urlencode -}}");
+      alert$.next("Copied!");
+  }
+</script>
+<div id="shareButtons" class="md-typeset" style="display: grid; position: fixed; right: 12px; top: 354px;">
+  <a href="https://twitter.com/intent/tweet?text={{- page.title | urlencode -}}&url=https://philipp-kopp.com/{{- page.url | urlencode -}}">
+    <span class="twemoji">
+      {% include ".icons/fontawesome/brands/x-twitter.svg" %}
+    </span>
+  </a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://philipp-kopp.com/{{- page.url | urlencode -}}">
+    <span class="twemoji">
+      {% include ".icons/fontawesome/brands/linkedin.svg" %}
+    </span>
+  </a>
+  <a href="whatsapp://send?text=https://philipp-kopp.com/{{- page.url | urlencode -}}">
+    <span class="twemoji">
+      {% include ".icons/fontawesome/brands/whatsapp.svg" %}
+    </span>
+  </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://philipp-kopp.com/{{- page.url | urlencode -}}">
+    <span class="twemoji">
+      {% include ".icons/fontawesome/brands/facebook.svg" %}
+    </span>
+  </a>
+  <a href="http://www.reddit.com/submit?url=https://philipp-kopp.com/{{- page.url | urlencode -}}&{{- page.title | urlencode -}}">
+    <span class="twemoji">
+      {% include ".icons/fontawesome/brands/reddit.svg" %}
+    </span>
+  </a>
+  <a onclick="linkToClipboard()">
+    <span class="twemoji">
+      {% include ".icons/fontawesome/solid/link.svg" %}
+    </span>
+  </a>
+</div>
 {% endblock %}

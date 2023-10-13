@@ -1,5 +1,7 @@
 ---
 comments: true
+search:
+  exclude: true
 ---
 
 Datenschutzerklärung
@@ -596,3 +598,7 @@ In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser Datenschutz
 *   **Verarbeitung:** "Verarbeitung" ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch jeden Umgang mit Daten, sei es das Erheben, das Auswerten, das Speichern, das Übermitteln oder das Löschen.
 
 [Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke](https://datenschutz-generator.de/ "Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken.")
+
+## Verfahrensverzeichnis
+
+{{ read_excel('other/verfahrensverzeichnis.xlsx') }}

@@ -125,9 +125,9 @@ extra:
     - icon: material/email
       link: mailto:site@philipp-kopp.com
       name: site@philipp-kopp.com
-    - icon: material/newspaper-plus
-      link: /feed_rss_created.xml
-      name: "RSS: new posts"
+    # - icon: material/newspaper-plus
+    #   link: /feed_rss_created.xml
+    #   name: "RSS: new posts"
     - icon: material/rss
       link: /feed_rss_updated.xml
       name: "RSS: all updates"
@@ -147,7 +147,7 @@ extra:
           name: Bad content
           data: 0
           note: >- 
-            Thanks for your feedback!<br><br>You can also use the contact form in the bottom right to send me a message ↘️
+            Thanks for your feedback!<br><br>You can also use <a href="mailto:phil@philipp-kopp.com">phil@philipp-kopp.com</a> or the contact button 💬➡️ to send me a message
   consent:
     title: Cookie consent
     actions:
