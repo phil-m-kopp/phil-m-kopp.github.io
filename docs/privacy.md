@@ -601,4 +601,4 @@ In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser Datenschutz
 
 ## Verfahrensverzeichnis
 
-{{ read_excel('docs/assets/docs/verfahrensverzeichnis.xlsx') }}
+{{ read_excel('site/assets/docs/verfahrensverzeichnis.xlsx') }}
