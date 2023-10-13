@@ -24,5 +24,6 @@ def main():
     for path in paths:
         webp_path = convert_to_webp(path)
         print(webp_path)
+    print("---done converting to webp---")
 
 main()
