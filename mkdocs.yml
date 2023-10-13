@@ -59,7 +59,8 @@ extra_javascript:
 plugins:
   - search
   # - social
-  - table-reader
+  - table-reader:
+      base_path: "docs_dir"
   - macros
   - glightbox:
        auto_caption: false

@@ -1,4 +1,5 @@
 var meta = document.querySelector(".md-post__meta")
+if (!meta)
 meta.style["list-style"] = "none"
 meta.style["margin-left"] = "0px"
 
