@@ -9,6 +9,7 @@ tags:
   - Personal brand
 categories:
   - Tech
+description: description
 comments: true
 foo: bar
 ---
