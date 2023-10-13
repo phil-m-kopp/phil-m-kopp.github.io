@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ 'assets/ext/extra.css' | url }}" />
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'assets/ext/header.js' | url }}"></script>
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script src="{{ 'assets/ext/contact.js' | url }}"></script>
+  <script src="{{ 'assets/ext/meta-above-post.js' | url }}"></script>
+{% endblock %}
+
+{% block footer %}
+    <!-- <div class="profile-wrapper">
+      <a href="/about" id="avatar" class="rounded-circle">
+        <img src="{{ config.theme.avatar | url }}" width="128" height="128" alt="avatar" onerror="this.style.display='none'">
+      </a>
+      <h1 class="site-title">
+        <a href="/about">Philipp Kopp</a>
+      </h1>
+      <p>Sharing pragmatic knowledge <br>about 💻tech, <br>🛠️making stuff and <br>📈personal development</p>
+      <hr style="height:1px;border-width:0;color:lightgray;background-color:lightgray;">
+    </div> -->
+    {{ super() }}
+{% endblock %}
