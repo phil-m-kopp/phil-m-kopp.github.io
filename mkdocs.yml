@@ -26,7 +26,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   favicon: assets/favicons/favicon.ico
-  logo: assets/favicons/android-chrome-192x192.png
+  logo: assets/img/avatar.webp
   features:
     - header.autohide
     - navigation.footer

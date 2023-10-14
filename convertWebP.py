@@ -20,8 +20,12 @@ def convert_to_webp(source):
     return destination
 
 def main():
-    paths = Path("articles").glob("**/*.(jpg|jpeg)")
-    for path in paths:
+    types = ("**/*.jpg", "**/*.jpeg", "**/*.png") # the tuple of file types
+    files_grabbed = []
+    for files in types:
+        files_grabbed.extend(Path("docs/articles").glob(files))
+
+    for path in files_grabbed:
         webp_path = convert_to_webp(path)
         print(webp_path)
     print("---done converting to webp---")
