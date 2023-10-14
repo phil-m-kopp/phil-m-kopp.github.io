@@ -1,4 +1,75 @@
 {% if page.meta.comments %}
+  <script>
+    function linkToClipboard() {
+        navigator.clipboard.writeText("https://philipp-kopp.com/{{- page.url | urlencode -}}");
+        alert$.next("Copied!");
+    }
+  </script>
+  <div id="shareButtonsBottom" class="md-typeset">
+    This post is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0</a> by the author. | Share: 
+    <a href="https://twitter.com/intent/tweet?text={{- page.title | urlencode -}}&url=https://philipp-kopp.com/{{- page.url | urlencode -}}">
+      <span class="twemoji">
+        {% include ".icons/fontawesome/brands/x-twitter.svg" %}
+      </span>
+    </a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://philipp-kopp.com/{{- page.url | urlencode -}}">
+      <span class="twemoji">
+        {% include ".icons/fontawesome/brands/linkedin.svg" %}
+      </span>
+    </a>
+    <a href="whatsapp://send?text=https://philipp-kopp.com/{{- page.url | urlencode -}}">
+      <span class="twemoji">
+        {% include ".icons/fontawesome/brands/whatsapp.svg" %}
+      </span>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://philipp-kopp.com/{{- page.url | urlencode -}}">
+      <span class="twemoji">
+        {% include ".icons/fontawesome/brands/facebook.svg" %}
+      </span>
+    </a>
+    <a href="http://www.reddit.com/submit?url=https://philipp-kopp.com/{{- page.url | urlencode -}}&{{- page.title | urlencode -}}">
+      <span class="twemoji">
+        {% include ".icons/fontawesome/brands/reddit.svg" %}
+      </span>
+    </a>
+    <a onclick="linkToClipboard()">
+      <span class="twemoji">
+        {% include ".icons/fontawesome/solid/link.svg" %}
+      </span>
+    </a>
+    <a href="https://paypal.me/PhilMKopp">
+      <span class="twemoji">
+        {% include ".icons/fontawesome/brands/paypal.svg" %}
+      </span>
+    </a>
+    <br><br>
+    <nav class="md-tags" {{ hidden }}>
+      {% for tag in tags %}
+        {% set icon = "" %}
+        {% if config.extra.tags %}
+          {% set icon = " md-tag-icon" %}
+          {% if tag.type %}
+            {% set icon = icon ~ " md-tag--" ~ tag.type %}
+          {% endif %}
+        {% endif %}
+    
+        <!-- Render tag with link -->
+        {% if tag.url %}
+          <a href="{{ tag.url | url }}" class="md-tag{{ icon }}">
+            {{- tag.name -}}
+          </a>
+    
+        <!-- Render tag without link -->
+        {% else %}
+          <span class="md-tag{{ icon }}">
+            {{- tag.name -}}
+          </span>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+  
+
   <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
   <script src="https://giscus.app/client.js"
         data-repo="phil-m-kopp/phil-m-kopp.github.io"

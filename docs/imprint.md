@@ -32,6 +32,7 @@ Zuständige Regulierungs-, bzw. Aufsichtsbehörde: Bayerische Landeszentrale fü
 Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:
 
 [https://www.linkedin.com/in/philipp-kopp-5b23a912a](https://www.linkedin.com/in/philipp-kopp-5b23a912a)<br>
+[https://github.com/phil-m-kopp](https://github.com/phil-m-kopp)<br>
 [https://discordapp.com/users/1160939065512833124](https://discordapp.com/users/1160939065512833124)<br>
 [https://paypal.me/PhilMKopp](https://paypal.me/PhilMKopp)
 

@@ -3,5 +3,5 @@ hide:
     - footer
 ---
 
-# Articles
+# All articles
 
