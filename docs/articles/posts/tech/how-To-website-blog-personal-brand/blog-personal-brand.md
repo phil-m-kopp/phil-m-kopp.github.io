@@ -1,6 +1,7 @@
 ---
 title: "How-To: Make website/blog for personal brand"
 date: 2023-10-01
+updated: 2023-10-02
 tags: 
   - How-To
   - Web
@@ -127,7 +128,7 @@ How and why this website came to be
     - [DEV](https://dev.to/) (12.5M visits/month)
     - [HubPages](https://discover.hubpages.com/) (1.5M visits/month)
     - [Vocal](https://vocal.media/) (3M visits/month)
-    - [LinkedIn](www.linkedin.com/feed/) (1.7B visits/month)
+    - [LinkedIn](https://www.linkedin.com/feed/) (1.7B visits/month)
 
 #### Comparison of selected frameworks
 

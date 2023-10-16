@@ -31,10 +31,16 @@
 }
 
 .md-header__topic {
-    line-height: 0.9rem;
+    opacity: 100% !important;
+    position: relative;
+    line-height: 1rem;
     font-weight: 100 !important;
     font-size: medium;
     white-space: initial;
+}
+
+.md-header__title {
+    height: auto;
 }
 
 .md-content__inner img {
@@ -54,7 +60,7 @@
 
 .md-nav--lifted label.md-nav__title img {
     position: absolute;
-    top: 0px;
+    top: 0;
 }
 
 #formbutton-button {
@@ -68,4 +74,20 @@
     margin: 0px !important;
     bottom: 0px !important;
     top: 512px !important;
+}
+
+#post-meta .md-post__meta {
+    list-style: none;
+    margin-left: 0;
+}
+
+#post-meta .md-nav__list {
+    display: flex;
+    list-style: none;
+    margin-left: "-20px";
+}
+
+#post-meta .md-nav__link  {
+    align-items: center;
+    gap: 4px;
 }

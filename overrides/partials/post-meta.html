@@ -1,0 +1,56 @@
+<div id="post-meta" style="display: flex; gap: .5rem; margin-bottom: 1rem;">
+  <!-- Post date -->
+  <div class="md-nav__link">
+    {% include ".icons/material/calendar.svg" %}
+    <time
+      datetime="{{ page.config.date.created }}"
+      class="md-ellipsis"
+    >
+      {{- page.config.date.created | date -}}
+    </time>
+  </div>
+
+  <!-- Post date updated -->
+  {% if page.meta.updated %}
+    <div class="md-nav__link">
+      {% include ".icons/material/calendar-clock.svg" %}
+      <time
+        datetime="{{ page.meta.updated }}"
+        class="md-ellipsis"
+      >
+        {{- page.meta.updated | date -}}
+      </time>
+    </div>
+  {% endif %}
+
+  <!-- Post categories -->
+  {% if page.categories %}
+    <div class="md-nav__link">
+      {% include ".icons/material/bookshelf.svg" %}
+      <span class="md-ellipsis">
+        {{ lang.t("blog.categories.in") }}
+        {% for category in page.categories %}
+          <a href="{{ category.url | url }}">
+            {{- category.title -}}
+          </a>
+          {%- if loop.revindex > 1 %}, {% endif -%}
+        {% endfor -%}
+      </span>
+    </div>
+  {% endif %}
+
+  <!-- Post readtime -->
+  {% if page.config.readtime %}
+  {% set time = page.config.readtime %}
+    <div class="md-nav__link">
+      {% include ".icons/material/clock-outline.svg" %}
+      <span class="md-ellipsis">
+        {% if time == 1 %}
+          {{ lang.t("readtime.one") }}
+        {% else %}
+          {{ lang.t("readtime.other") | replace("#", time) }}
+        {% endif %}
+      </span>
+    </div>
+  {% endif %}
+</div>

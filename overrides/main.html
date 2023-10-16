@@ -7,10 +7,8 @@
 
 {% block scripts %}
   {{ super() }}
-  <script src="{{ 'assets/ext/header.js' | url }}"></script>
   <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-  <script src="{{ 'assets/ext/contact.js' | url }}"></script>
-  <script src="{{ 'assets/ext/meta-above-post.js' | url }}"></script>
+  <script src="{{ 'assets/ext/contact_button.js' | url }}"></script>
   <script src="{{ 'assets/ext/categories.js' | url }}"></script>
 {% endblock %}
 
@@ -50,7 +48,7 @@
       alert$.next("Copied!");
   }
 </script>
-<div id="shareButtons" class="md-typeset" style="display: grid; position: fixed; right: 12px; top: 280px;">
+<div id="shareButtons" class="md-typeset" style="display: grid; position: fixed; right: 12px; top: 256px; z-index: 999;">
   <a href="https://twitter.com/intent/tweet?text={{- page.title | urlencode -}}&url=https://philipp-kopp.com/{{- page.url | urlencode -}}">
     <span class="twemoji">
       {% include ".icons/fontawesome/brands/x-twitter.svg" %}

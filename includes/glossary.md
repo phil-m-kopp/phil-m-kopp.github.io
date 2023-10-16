@@ -15,3 +15,5 @@
 *[NDA]: Non-Disclosure Agreement: usually about company secrets or user data
 *[VCS]: Version Control System: e.g. Git(Hub): managing text files (usually code) with a history and thus collaboration features
 *[SSG]: Static Site Generator: type of web framework, often focussing on builting sites purely from Markdown documents 
+*[IRL]: In Real Life
+*[ETF]: Exchange Traded Funds

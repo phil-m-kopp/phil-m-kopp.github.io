@@ -10,4 +10,4 @@ function categoryText(category, text) {
     }
 }
 
-categoryText("tech", "About tech")
+categoryText("tech", "<blockquote>Articles about (information) technology and the industries around it</blockquote>")

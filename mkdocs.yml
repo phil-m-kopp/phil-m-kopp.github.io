@@ -1,8 +1,9 @@
 site_name: Philipp Kopp
 site_url: https://philipp-kopp.com
-site_description: Philipp Kopp - sharing pragmatic ideas about tech, diy and personal development
+site_description: Philipp Kopp - sharing pragmatic ideas about IT, DIY and personal development
 # repo_url: https://github.com/phil-m-kopp/phil-m-kopp.github.io
 site_author: Philipp Kopp
+header: "<a href='/about'><u>Philipp Kopp</u></a> - pragmatic ideas about 💻IT, 🛠️DIY and 📈personal development"
 copyright: >
   © 2023 <a href="/about">Philipp Kopp</a>. All rights reserved under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0</a>.
   | <a href="/privacy">👤 Privacy Policy / Datenschutz</a> | <a href="/imprint">📜Imprint / Impressum</a>
@@ -90,6 +91,7 @@ plugins:
       enabled: true
       date_from_meta:
         as_creation: date
+        as_update: updated
         datetime_format: "%Y-%m-%d"
       match_path: "articles.posts.*"
       comments_path: "#__comments"
@@ -108,7 +110,7 @@ nav:
   # - 'A link': 'https://example.com/'
   - 📑Tags:
     - tags.md
-  - 💻Tech: "/articles/category/tech/"
+  - 💻Tech/IT: "/articles/category/tech/"
 
 extra:
   tags:
