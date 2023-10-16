@@ -7,20 +7,38 @@ search:
 
 Stand: 11. Oktober 2023
 
-## Diensteanbieter
+## Diensteanbieter & Journalistisch-redaktionelle Angebote
 
-> Philipp Kopp<br>
-> Hohenzollernstrasse 55<br>
-> 80801 Munich<br>
-> Germany
+Inhaltlich verantwortlich:
 
-## Kontaktmöglichkeiten
-E-Mail-Adresse:<br>
-[phil@philipp-kopp.com](mailto:phil@philipp-kopp.com)
+=== "Adresse"
 
-## Journalistisch-redaktionelle Angebote
-Inhaltlich verantwortlich:<br>
-(Adresse wie oben)
+    > Philipp Kopp<br>
+    > Hohenzollernstraße 55<br>
+    > 80801 München<br>
+    > Germany
+
+=== "Kontakt"
+
+    **Email**: [phil@philipp-kopp.com](mailto:phil@philipp-kopp.com)
+
+    ---
+
+    **Formular**
+
+    <form action="https://formspree.io/f/xnqklzja" method="POST" style="font-size: medium;">
+      <label>
+          Deine Kontaktinformationen (optional):
+          <input type="text" name="contact" placeholder="z.B.: deine@email.de" style="width: 100%;">
+      </label>
+      <label>
+          Deine Nachricht:
+          <textarea name="message" placeholder="Deine Nachricht" style="width: 100%; height: 256px;" required=""></textarea>
+      </label>
+      <input type="submit" value="Senden">
+    </form>
+
+    ---
 
 ## Audiovisuelle Mediendienste
 Sitzland: Deutschland.

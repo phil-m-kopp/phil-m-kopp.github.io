@@ -19,7 +19,7 @@ hide:
 
 ===+ "💼 Professional"
 
-    I consider myself a **wholistic senior QA, Agile and Knowledge Manager/Coach** with backgrounds as **Fullstack Techlead** and in **E-Com, Mobility and Game Design**. With **Structure, Ownership, transparent Democratic Leadership and Continuous Improvement** as driving values, I aim to tackle cross-cutting issues for **lasting impact** at my clients proactively.
+    > I consider myself a **wholistic senior QA, Agile and Knowledge Manager/Coach** with backgrounds as **Fullstack Techlead** and in **E-Com, Mobility and Game Design**. With **Structure, Ownership, transparent Democratic Leadership and Continuous Improvement** as driving values, I aim to tackle cross-cutting issues for **lasting impact** at my clients proactively.
 
     **Resumee** [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/philipp-kopp-5b23a912a/)
 
@@ -35,11 +35,11 @@ hide:
             - Mobility
             - Games
         - **Tech**
-            - **App dev**: TypeScript NestJS, PHP Symfony, Postman, (, Golang, React, Java, Python, C#)
+            - **App dev**: TypeScript NestJS, PHP Symfony, Postman, (previously: Golang, React, Java, Python, C#)
             - **Architecture**: Microservices, DDD / "Ports & Adapters", Event-driven (Kafka, Protobuf)
             - **Data**: Relational (PostgreSQL etc.), Document-based (MongoDB etc.), Key-Value/Cache (Redis etc.), ORM frameworks (TypeORM etc.)
             - **Payment**: PayPal, Stripe, AmazonPay
-            - **Quality**: Many Unit/E2E/UI testing frameworks (PHPUnit, Jest, Puppeteer, ...), load testing (k6.io), pen testing (OWASP), code quality/linting tools, chaos engineering, Xray, Gherkin, GDPR
+            - **Quality**: Many Unit/E2E/UI testing frameworks (PHPUnit, Jest, Puppeteer, etc.), load testing (k6.io), pen testing (OWASP), code quality/linting tools, chaos engineering, Xray, Gherkin, GDPR
             - **Monitoring**: DataDog, Grafana, Prometheus, Kibana/ELK, Sentry.io
             - **Cloud**: AWS, K8s, Jenkins/GitLab/GitHub/TeamCity CI/CD, Docker, Helm, Istio
             - **Documentation**: PlantUML, C4, OpenAPI, MkDocs, Obsidian.md, draw.io, Confluence, JIRA, CoPs

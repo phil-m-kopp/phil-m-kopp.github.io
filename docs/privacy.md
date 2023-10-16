@@ -23,15 +23,13 @@ Verantwortlicher
 ----------------
 
 > Philipp Kopp<br>
-> Hohenzollernstrasse 55<br>
-> 80801 Munich<br>
-> Germany
+> Hohenzollernstraße 55<br>
+> 80801 München<br>
+> Deutschland
+> 
+> Email: [phil@philipp-kopp.com](mailto:phil@philipp-kopp.com)
 
-E-Mail-Adresse:
-[phil@philipp-kopp.com](mailto:phil@philipp-kopp.com)
-
-Impressum:
-[philipp-kopp.com/imprint](imprint.md)
+[Impressum](imprint.md)
 
 Übersicht der Verarbeitungen
 ----------------------------

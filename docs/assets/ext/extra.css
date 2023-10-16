@@ -91,3 +91,10 @@
     align-items: center;
     gap: 4px;
 }
+
+blockquote {
+    border-left: 0.2rem solid var(--md-primary-fg-color);
+    color: var(--md-primary-fg-color) !important;
+    font-size: large;
+    font-style: italic;
+}
