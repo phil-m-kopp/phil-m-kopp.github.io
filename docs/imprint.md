@@ -1,10 +1,9 @@
 ---
+title: Impressum
 comments: true
 search:
   exclude: true
 ---
-
-# Impressum
 
 Stand: 11. Oktober 2023
 

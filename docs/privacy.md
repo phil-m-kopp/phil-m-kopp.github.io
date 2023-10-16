@@ -1,11 +1,9 @@
 ---
+title: Datenschutzerklärung
 comments: true
 search:
   exclude: true
 ---
-
-Datenschutzerklärung
-====================
 
 Präambel
 --------
@@ -19,35 +17,7 @@ Stand: 11. Oktober 2023
 Inhaltsübersicht
 ----------------
 
-*   [Präambel](#präambel)
-*   [Verantwortlicher](#verantwortlicher)
-*   [Übersicht der Verarbeitungen](#übersicht-der-verarbeitungen)
-*   [Maßgebliche Rechtsgrundlagen](#maßgebliche-rechtsgrundlagen)
-*   [Sicherheitsmaßnahmen](#sicherheitsmaßnahmen)
-*   [Übermittlung von personenbezogenen Daten](#übermittlung-von-personenbezogenen-daten)
-*   [Internationale Datentransfers](#internationale-datentransfers)
-*   [Löschung von Daten](#löschung-von-daten)
-*   [Rechte der betroffenen Personen](#rechte-der-betroffenen-personen)
-*   [Einsatz von Cookies](#einsatz-von-cookies)
-*   [Geschäftliche Leistungen](#geschäftliche-leistungen)
-*   [Einsatz von Online-Plattformen zu Angebots- und Vertriebszwecken](#einsatz-von-online-plattformen-zu-angebots- und-vertriebszwecken)
-*   [Im Rahmen der Geschäftstätigkeit eingesetzte Anbieter und Services](#im-rahmen-der-geschäftstätigkeit eingesetzte-anbieter-und-services)
-*   [Zahlungsverfahren](#zahlungsverfahren)
-*   [Bereitstellung des Onlineangebotes und Webhosting](#bereitstellung-des-onlineangebotes-und-webhosting)
-*   [Community Funktionen](#community-funktionen)
-*   [Blogs und Publikationsmedien](#blogs-und-publikationsmedien)
-*   [Kontakt- und Anfragenverwaltung](#kontakt-und-anfragenverwaltung)
-*   [Audioinhalte](#audioinhalte)
-*   [Newsletter und elektronische Benachrichtigungen](#newsletter-und-elektronische-benachrichtigungen)
-*   [Werbliche Kommunikation via E-Mail, Post, Fax oder Telefon](#werbliche-kommunikation-via-e-mail-post-fax-oder-telefon)
-*   [Umfragen und Befragungen](#umfragen-und-befragungen)
-*   [Webanalyse, Monitoring und Optimierung](#webanalyse-monitoring-und-optimierung)
-*   [Affiliate-Programme und Affiliate-Links](#affiliate-programme-und-affiliate-links)
-*   [Präsenzen in sozialen Netzwerken (Social Media)](#präsenzen-in-sozialen-netzwerken-social-media)
-*   [Plugins und eingebettete Funktionen sowie Inhalte](#plugins-und-eingebettete-funktionen-sowie-inhalte)
-*   [Management, Organisation und Hilfswerkzeuge](#management-organisation-und-hilfswerkzeuge)
-*   [Änderung und Aktualisierung der Datenschutzerklärung](#änderung-und-aktualisierung-der-datenschutzerklärung)
-*   [Begriffsdefinitionen](#begriffsdefinitionen)
+[TOC]
 
 Verantwortlicher
 ----------------

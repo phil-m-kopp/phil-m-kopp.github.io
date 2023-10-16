@@ -37,6 +37,10 @@
     white-space: initial;
 }
 
+.md-content__inner img {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15)
+}
+
 .shadow {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15)
 }

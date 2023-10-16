@@ -26,7 +26,7 @@
       <hr style="height:1px;border-width:0;color:lightgray;background-color:lightgray;">
     </div> -->
     {{ super() }}
-    <div style="background-color: var(--md-default-fg-color); color: white;">
+    <!-- <div style="background-color: var(--md-default-fg-color); color: white;">
       <h1>✉️ Write a mail to Phil</h1>
       <form action="https://formspree.io/f/xnqklzja" method="POST" style="color: white; font-size: medium;">
         <label>
@@ -39,7 +39,7 @@
         </label>
         <input type="submit" value="Submit">
       </form>
-    </div>
+    </div> -->
 {% endblock %}
 
 {% block site_nav %}
@@ -50,7 +50,7 @@
       alert$.next("Copied!");
   }
 </script>
-<div id="shareButtons" class="md-typeset" style="display: grid; position: fixed; right: 12px; top: 312px;">
+<div id="shareButtons" class="md-typeset" style="display: grid; position: fixed; right: 12px; top: 280px;">
   <a href="https://twitter.com/intent/tweet?text={{- page.title | urlencode -}}&url=https://philipp-kopp.com/{{- page.url | urlencode -}}">
     <span class="twemoji">
       {% include ".icons/fontawesome/brands/x-twitter.svg" %}
@@ -79,6 +79,11 @@
   <a onclick="linkToClipboard()">
     <span class="twemoji">
       {% include ".icons/fontawesome/solid/link.svg" %}
+    </span>
+  </a>
+  <a href="https://github.com/phil-m-kopp/phil-m-kopp.github.io/tree/main/docs/articles/posts">
+    <span class="twemoji">
+      {% include ".icons/fontawesome/solid/pencil.svg" %}
     </span>
   </a>
   <a href="https://paypal.me/PhilMKopp">

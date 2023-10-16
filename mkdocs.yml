@@ -43,6 +43,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.tabs.link
     # - announce.dismiss
 
   icon:
@@ -59,6 +60,7 @@ extra_javascript:
 plugins:
   - search
   # - social
+  - autolinks
   - table-reader:
       base_path: "docs_dir"
   - macros
@@ -72,6 +74,8 @@ plugins:
       enabled: true
       blog_dir: articles/
       blog_toc: true
+      archive_toc: true
+      categories_toc: true
       post_date_format: medium
       post_url_format: "{slug}"
       post_excerpt: required
@@ -81,10 +85,12 @@ plugins:
         - Tech
         - DIY
         - Personal Development
-      categories_toc: true
       pagination_per_page: 20
   - rss:
       enabled: true
+      date_from_meta:
+        as_creation: date
+        datetime_format: "%Y-%m-%d"
       match_path: "articles.posts.*"
       comments_path: "#__comments"
       image: https://philipp-kopp.com/assets/favicons/android-chrome-192x192.png
@@ -113,21 +119,21 @@ extra:
     JavaScript: js
     CSS: css
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/phil-m-kopp
-      name: https://github.com/phil-m-kopp
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/philipp-kopp-5b23a912a/
       name: https://www.linkedin.com/in/philipp-kopp-5b23a912a/
+    - icon: material/email
+      link: mailto:site@philipp-kopp.com
+      name: site@philipp-kopp.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/phil-m-kopp
+      name: https://github.com/phil-m-kopp
     - icon: fontawesome/brands/discord
       link: https://discordapp.com/users/1160939065512833124
       name: https://discordapp.com/users/1160939065512833124
     - icon: fontawesome/brands/paypal
       link: https://paypal.me/PhilMKopp
       name: https://paypal.me/PhilMKopp
-    - icon: material/email
-      link: mailto:site@philipp-kopp.com
-      name: site@philipp-kopp.com
     # - icon: material/newspaper-plus
     #   link: /feed_rss_created.xml
     #   name: "RSS: new posts"
@@ -178,11 +184,13 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.details
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary.md
   - pymdownx.smartsymbols
   - pymdownx.tasklist:
       custom_checkbox: true
-      clickable_checkbox: true
+      # clickable_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
@@ -197,3 +205,6 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - toc:
+      toc_depth: 6
+      permalink: "#"

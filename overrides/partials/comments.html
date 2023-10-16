@@ -6,6 +6,12 @@
     }
   </script>
   <div id="shareButtonsBottom" class="md-typeset">
+    <a href="https://github.com/phil-m-kopp/phil-m-kopp.github.io/tree/main/docs/articles/posts">
+      <span class="twemoji">
+        {% include ".icons/fontawesome/solid/pencil.svg" %} Propose edit
+      </span>
+    </a>
+    <br>
     This post is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0</a> by the author. | Share: 
     <a href="https://twitter.com/intent/tweet?text={{- page.title | urlencode -}}&url=https://philipp-kopp.com/{{- page.url | urlencode -}}">
       <span class="twemoji">
@@ -42,7 +48,8 @@
         {% include ".icons/fontawesome/brands/paypal.svg" %}
       </span>
     </a>
-    <br><br>
+    <br>
+    <br>
     <nav class="md-tags" {{ hidden }}>
       {% for tag in tags %}
         {% set icon = "" %}
