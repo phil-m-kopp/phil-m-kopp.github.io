@@ -24,3 +24,4 @@
 *[SSL]: Secure Sockets Layer: e.g. in use if website URL is "http**s**", ensuring data is securely transmitted through encryption
 *[CSV]: Comma Separated Values: file format for tabular data, similar to Excel files
 *[IMO]: In My Opinion
+*[Metroidvania]: sub-genre of action-adventure games and/or platformers focused on guided non-linearity and utility-gated exploration and progression, inspired by games like "Metroid" and "Castlevania"
