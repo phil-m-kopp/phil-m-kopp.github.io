@@ -23,3 +23,4 @@
 *[DDoS]: Distributed Denial of Service: type of web attack where a site can go down due to too many (automated) user requests
 *[SSL]: Secure Sockets Layer: e.g. in use if website URL is "http**s**", ensuring data is securely transmitted through encryption
 *[CSV]: Comma Separated Values: file format for tabular data, similar to Excel files
+*[IMO]: In My Opinion
