@@ -15,5 +15,11 @@
 *[NDA]: Non-Disclosure Agreement: usually about company secrets or user data
 *[VCS]: Version Control System: e.g. Git(Hub): managing text files (usually code) with a history and thus collaboration features
 *[SSG]: Static Site Generator: type of web framework, often focussing on builting sites purely from Markdown documents 
-*[IRL]: In Real Life
-*[ETF]: Exchange Traded Funds
+*[IRL]: In Real Life (vs. digital world)
+*[ETF]: Exchange Traded Funds: popular for passive investing
+*[JS]: JavaScript
+*[TS]: TypeScript: basically JavaScript, but type safe
+*[Regex]: Regular expression: powerful method to select and e.g replace text
+*[DDoS]: Distributed Denial of Service: type of web attack where a site can go down due to too many (automated) user requests
+*[SSL]: Secure Sockets Layer: e.g. in use if website URL is "http**s**", ensuring data is securely transmitted through encryption
+*[CSV]: Comma Separated Values: file format for tabular data, similar to Excel files

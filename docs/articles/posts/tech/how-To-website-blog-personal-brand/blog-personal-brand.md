@@ -17,27 +17,34 @@ comments: true
   <figcaption>Image by <a href="https://www.freepik.com/">Freepik</a></figcaption>
 </figure>
 
-How and why this website came to be
+- How and why this website came to be
+- How you can easily get startet as well
+- What's there to consider and watch out for and how to choose the right software
 
 <!--more-->
-
 
 ## Recommended first steps
 
 1. [Choose a Markdown document focussed static site generator](#static-site-generators-ssg) (SSG) or rather template you like best -> easy setup/maintenance, focus on content
 1. [Buy domain](#custom-domain-email-ssl) with email account, enable SSL -> professional appearance
+1. Register domains in [Google Search Console](https://search.google.com/search-console) (not with private Google account)
 1. [Generate privacy policy, imprint, license](#imprint-privacy-policy-cookie-consent) and set up cookie consent
 1. Invest in a nice "About" page, maybe with contact form & social media links -> IMO an important part of personal brands is your face, a sympathetic introduction and "approachability"
 1. Create [GitHub repo, install SSG](#githubgitlab-pages-static-sites-only), config, deploy via GitHub Pages/Netlify -> free and solid hosting, easy Giscus commenting integration
-1. Register in Google Search Console TODO
 1. Write your first article to show of your style
 1. Also post your first article on Medium + LinkedIn (using cannonical link of your post) for increased exposure
 
-## Why
+## Why build a personal brand via your own site
+
+- **Showcase Expertise**: Articles on your personal site allows you to demonstrate your expertise and knowledge in a specific field or industry. By consistently publishing high-quality, informative content, you can establish yourself as an authority in your niche. Regularly sharing valuable insights, experiences, and opinions can help build trust and credibility with your audience. Your personal site can serve as a dynamic portfolio of your work, achievements, and thought leadership. This is particularly valuable if you're in a creative or knowledge-heavy profession.
+- **Networking**: You can connect with like-minded individuals, experts, and influencers in your field through comments and offering opportunities to contact you via email or links to your social media profiles.
+- **Narritive Control & Value Association**: Publishing content under your domain, maybe even prominently using your name is a really good method to ensure potential clients/employers etc. associate your work and the value you create directly and primarily with you or your brand (vs e.g. your employer or a platform you create value on). Here you also have full control over your narritive and can present whatever you want however you want as well as fully own your content
+- **Monetization**: Though building a solid brand is certainly the more challenging part, having build your brand with your site playing a main role probably makes monitization via affiliate marketing, sponsored posts, selling digital products, or offering online courses a lot easier and ensures the brand is further strenghtened when those are added to your site.
+- **Personal Development**: Writing requires you to research, write, and continuously learn. It can be a platform for personal growth and skill development. Through comments and social sharing, you can engage with your audience and receive feedback on your ideas and content, which can help you refine your personal brand.
 
 ## Tech considerations
 
-### Frameworks
+### Publishing Frameworks
 
 #### Static site generators (SSG)
 
@@ -75,6 +82,14 @@ How and why this website came to be
     - [Gatsby](https://www.gatsbyjs.com/) (js + React)
     - [Nuxt](https://nuxt.com/) (js + Vue)
     - [Astro](https://astro.build/) (js + React/Vue...)
+
+!!! info "My decision for MkDocs Material"
+
+    - [**Setup**](https://squidfunk.github.io/mkdocs-material/getting-started/) **couldn't be more simple**: the init command leaves you with a config file and a folder to drop Markdown files in that immediate get rendered to pages with header- and side-navigation. The excellent documentation leads you through further customization through plugins, where anything you might want to start out with from search, over blogging, commenting and RSS to a cookie consent manager can quickly be setup thanks so sensible defaults.
+    - as a document-focussed SSG it's **fast, secure, scale, low-maintenance and easily and freely hosted** via GitHub Pages
+    - important for me: it's **Markdown (documentation) focussed** in particular, meaning e.g. relative links just work and documents incl. folders can just be copied around even between other (knowledge management) software
+    - I particularly like the emphasis on **good navigation** through fast full-text search, sticky side navigation and TOC and even keyboard shortcuts as well as that large **tables** can easily be rendered from CSV or Excel files
+
 #### (Self-)hosted blogging software/CMS
 
   > About half the internet runs on WordPress 🤯 [^3]
@@ -169,23 +184,42 @@ Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with
 
 ### Custom domain + email + SSL
 
-- Presenting your personal blog/brand on your domain named after you simply looks more professional
-- top level domain doesn't matter much: country specific domains like *.de* only have a slight local advantage. Though hosting an international site in English on a *.com* domain isn't wrong either
-- if you go for a *.com* domain, you might also be able to get a cheap bundle offer (e.g. *.de* + *.com*) for very little additional cost with a domain for your country 
+- Presenting your personal blog/brand on your **domain named after you simply looks more professional**
+- **top level domain doesn't matter much**: country specific domains like *.de* only have a **slight local advantage**. Though hosting an international site in English on a *.com* domain isn't wrong either
+- if you go for a *.com* domain, you might also be able to get a **cheap bundle offer** (e.g. *.de* + *.com*) for very little additional cost with a domain for your country 
 - afaik [hosting.de](https://www.hosting.de/domains/) is providing the cheapest *.de* domains
-- the domain should come with a SSL certificate, ideally a wildcard certificate extending to subdomains
+- the domain should come **with a SSL certificate**, ideally a wildcard certificate extending to subdomains, as encrypting web traffic this way is so expected nowadays that **you'll even rank lower SEO-wise** for not having one even if your site is basically completely static
 - while receiving emails might be possible via a redirect of mails from your domain to your private **email account, for replying** from your domain you either need an email server or account with your hoster - best just get it **in a bundle with the domain**
-- if you are comfortable to commit (after 1 year discount), getting a domain for the next 10 years in advance comes at a good discount e.g. at [namecheap.com](https://www.namecheap.com/)
+- if you are comfortable to commit (after 1 year discount), **getting a domain for** the next 10 **years in advance comes at a good discount** e.g. at [namecheap.com](https://www.namecheap.com/)
 
-### Setup and maintenance
+### Setup, Maintenance & Editing
 
 - **Publishing platforms are the easiest** here in any regard here. While CMSs might be easier so setup than more involved SSGs, CMSs like an **elaborate WordPress setup can be more effort to maintain than a simple SSG solution**
+- as **SSGs** are normal software projects, you can use your **favourite editor incl. extensions** and get a particularly comfortable experience if you choose a framework that uses a familar technology like JS
+    - as SSG sites are just code, it's a the very least possible to e.g. use a Regex change the text color of a certain word or alter image captions on your whole site in a certain way in mere seconds - that usually not easily possible with CMSs via their WYSIWYG editors where you would usually need to edit each page/document individually without special plugins (if they exist). Tech-savy users could of course just edit the page HTML locally, but that's still a bit more cumbersome than if your usual workflow is editing Markdown files like with SSGs
+- if you host e.g. on GitHub/GitLab, you can also edit your content with their built-in **web editors incl. (live-)previews** or even 3rd-party editors like [Dillinger](https://dillinger.io/)
+- it's noteworthy that for **CMS** e.g. for WordPress **plugins** like [WD GitHuber MD](https://wordpress.org/plugins/wp-githuber-md/) usually exist that enable you to **mainly work with Markdown files**
 
-### Backend
+### Backend, Forms & Data Security
 
-- Having a SSG solution with **no backend and DB is totally possible, reduces cost, maintenance effort and security attack vectors** while realising e.g. forms is still easily possible via 3rd-party providers. **3rd-party replacement solutions come with privacy issues and possibly suboptimal UX however** (e.g. need to login to comment).
-
-
+- Having a SSG solution with **no backend and DB is totally possible, scalabe, reduces cost, maintenance effort and security attack vectors** while **realising user interaction** e.g. forms is still easily **possible via 3rd-party providers**
+- the security and scalability aspect is really interesting: without backend/DB:
+    - you can't really easily run out of compute power or run into latency issues, especially since SSG sites can almost be fully cached, so **hosting stays cheap, scaling is easy and no DDoS** attacks to fear about
+    - no public endpoint attacks, network intrusion, SQL injection, user credentials to protect, usual dependency vulnarabilities to worry about since code is only responsible for generating your static side and doesn't run after build
+    - so especially with document-based SSGs, to **only way really get hacked and be solely responsible for it is to have compromised login credentials to your hoster or 3rd-party services** and then data being extracted or e.g. malicious scripts directly being commited to your repo
+- **3rd-party** replacement **solutions** come with **privacy issues and possibly suboptimal UX** however especially on the free tiers as they won't usually be 100% aligned with the existing UX experience on your site (e.g. need to login to comment).
+- Even a blog, without e.g. a webshop or other dynamic web service, one can still make good use of forms in various ways, but basically always to better engage with you readers:
+    - a **generic contact form** pretty much always makes sense and might even be [legally required](#legal)
+    - email sign-up for **newsletter** is the next most popular tool
+    - the **commenting** experience for users is nicer if **no login** like with Giscus or Disqus is required because the comment is handled by your own backend
+    - **polls/surveys** can yield better insights than pure quantitative analytics
+    - **contests and giveaways** can be interested if your niche is related to physical products
+    - **guest posts and local community event/meetup registration** can be interesting if a certain site traffic/size is reached 
+- apart from direct contact and maybe contests/giveaways, many **more specific usecases go beyond simple form submission but also require handling associated processes** (e.g. newsletter -> delivery, surveys -> evaluation, comments -> moderation) - that why you may find highly **specialized 3rd-party providers** in those areas
+    - thus it might seem practical to decide for a setup with backend and DB to avoid an extensive privacy policy by going for a DIY approach and e.g. managing a newsletter feature yourself, however in the **future more sofisticated solutions would require serious dev work and expertise** or at the very least a lot of manual work to handle e.g. hundreds of newsletter subscriptions yourself - not to mention the effort to make sure all user data is secure
+    - in the end, using a backend and forms to handle user data yourself **only makes sense if plugins for your framework exist, that handle everything on your server **without 3rd-party service even in the middle
+    - such plugins are **basically non-existing for SSGs** it seems which means only 3rd-party form services really make sense here
+    - **with CMSs they do exist**, e.g. for WordPress you could use free [MailPoet Plugin](https://www.mailpoet.com/) or [The Newsletter Plugin](https://www.thenewsletterplugin.com/) instead of [Mailchimp](https://mailchimp.com/) to manage newsletters. And since newsletters, commenting, polls etc. all don't really require real-time performance, such plugins could probably also run with greater userbases on typical blog hosting infrastructure 
 
 ### Themes/Templates & Plugins
 
@@ -194,11 +228,11 @@ Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with
 - A theme and especially templates are a **central additional dependency**, that
     - **need to be updated**
     - **can e.g. also break your site** from a software perspective
-    - usually **influences performance** to a greater degree
     - **can influence compatibility with other plugins/extensions**
-    - might come with a **certain lock-in effect** due to specific features even if the framework isn't changed
+- might come with a **certain lock-in effect** due to specific features or your customization effort even if the framework isn't changed
+- usually **influences performance** to a greater degree and thus also **SEO**
 - Especially with **SSGs** and their more generic nature, in contrast to CMSs, **plugins are more likely to be incompatible** if framework-agnostic  
-- A highly popular (and thus e.g. well maintained, documented...) [framework](#frameworks) with a poor template selection for your intended purpose (e.g. blogging) might be less preferable than another less popular framework where you already found a template which you really like
+- A highly popular (and thus e.g. well maintained, documented...) [framework](#publishing-frameworks) with a poor template selection for your intended purpose (e.g. blogging) might be less preferable than another less popular framework where you already found a template which you really like
 - For basically all frameworks you can **find theme/templates galleries that usually also come with demo sites** you can check out right away (e.g. [Hugo](https://themes.gohugo.io/)). Ideally they also come with links to the code for the demo site, so you can and should check out if you like the [file structure](#markdown-features--file-structure) 
 
 ### Collaboration & Commenting
@@ -215,11 +249,6 @@ Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with
                 - [Giscus](https://giscus.app/) is the most popular **cost and ad-free** solution and also **easy to integrate** (especially if the site repo is also on GitHub) via a **simple script snippet**, though requires and only works with a GitHub login (which might be a non-issue for a technical audience)
     - SSG sites **with backend or CMS** might even offer plugins for e.g. line specific user commenting
 
-### Forms
-
-- forms can also be achieve via Google Forms, though for proper private vs. business separation you shouldn't your probably existing private Google account for that
-
-### Editor
 ### Newsletter & RSS
 
 - Through email communication **may seem outdated**, due to the **personal nature, in practise it's still one of the best methods** to build a **core followership** in particular
@@ -229,7 +258,6 @@ Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with
     - updates can be **delivered as a newsletter and sign-up managed by 3rd-party providers** via **simple form script snippet**
         - [Mailchimp](https://mailchimp.com/): popular and powerful, free with 1000 mails/month
         - [Feedburner](https://medium.com/@davideiaiunese/the-problem-why-a-newsletter-baae4409a526)
-        
 
 ### Performance & SEO Optimization
 
@@ -239,26 +267,25 @@ Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with
 - automatic optimization of images, e.g. downsizing or converting to *.WebP* images, is more rare out of the box, so plugins should be found or a [small script](https://github.com/phil-m-kopp/phil-m-kopp.github.io/blob/main/convertWebP.py) be included in the CI/CD pipeline
 - a CDN might not be necessary for text-focussed sites, though e.g. [Cloudflare](https://www.cloudflare.com/) offers a free, near zero-config solution while hosting with Netlify even comes with a CDN
 - larger popular JS libs like [charts.js](https://www.chartjs.org/) can be directly included from [cdnjs.com](https://cdnjs.com/)
-
-TODO: Google Search Console
+- [Google Search Console](https://search.google.com/search-console) is kind of the reverse of Google [Analytics](#analytics) regarding who delivers data to who: with Google Seach Console you prove you own your site and then **Google shares insights regarding SEO optimization e.g. what users search to get to your site via Google** - while **with Google Analytics you primarily share data with Google about what your users do there to get insights about possible marketing/business optimizations** in return
 
 ### Analytics
 
-- [**Google Analytics**](https://analytics.google.com/) is the **de facto standard** for website analytics, **free** and thus pretty much **well supported** in any [framework](#frameworks)
+- [**Google Analytics**](https://analytics.google.com/) is the **de facto standard** for website analytics, **free** and thus pretty much **well supported** in any [framework](#publishing-frameworks)
 - Other popular options like [Matomo](https://matomo.org/) often aren't free
 - [Amplitude](https://amplitude.com/)'s free plan seems usable
 - **Integration** is often achieve by simply including a **script snippet**
 - **Quite relevant from a privacy perspective**, as e.g. non-anonymized IP adresses are already considered **PII** and tracking is usually nothing users particularly like and openly agree to (compared to submitting ones email for a newsletter)
-- You may decide that e.g. authenticity is a key value for and **wouldn't change your content** in any way even if you know you could increase your traffic by e.g. focussing on content that your users prefer according to analytics - then you **can also save yourself a huge [privacy headache**](#imprint-privacy-policy-cookie-consent), maybe even a consent manager altogether (as tracking is usually the first 3rd-party service included in many sites)
+- You may decide that e.g. authenticity is a key value for and **wouldn't change your content** in any way even if you know you could increase your traffic by e.g. focussing on content that your users prefer according to analytics - then you **can also save yourself a huge** [**privacy headache**](#imprint-privacy-policy-cookie-consent), maybe even a consent manager altogether (as tracking is usually the first 3rd-party service included in many sites)
 
 ### Social Sharing
 
 Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text={{- page.title | urlencode -}}&url=https://philipp-kopp.com/{{- page.url | urlencode -}})
 
-- especially if your content niche is non-technical, sharing good content should be made as easy as possible to the user to invite traffic, usually via buttons/links
-- there's no need to e.g. include a facebook button as script and inviting privacy issues and degrading performance: all social service should provide a sharing url structure for desktop and mobile (e.g. ```whatsapp://send?text={text/url}```) can simply be looked up and put on the site as plain link/button (though consulting the documentation how to provide the current page url to the link is necessary)
-- IMO those buttons could also be sticky, not only e.g. at the bottom of the page, if the readers want's to already share mid-read
-- as more than about 6 buttons would start to become a bad user experience, it makes sense to adapt the selection of social buttons depending on your target audience possibly geographic location of your average reader (find out in your analytics tool)
+- especially if your content niche is **non-technical, sharing good content should be made as easy as possible** to the user to invite traffic, usually via buttons/links
+- there's **no need to e.g. include a facebook button as script and inviting privacy issues** and degrading performance: all social service should provide a **sharing url structure** for desktop and mobile (e.g. ```whatsapp://send?text={text/url}```) can simply be looked up and put on the site as plain link/button (though consulting the documentation how to provide the current page url to the link is necessary)
+- IMO those buttons **could also be sticky**, not only e.g. at the bottom of the page, if the readers want's to already share mid-read
+- as more than about 6 buttons would start to become a bad user experience, it makes sense to adapt the **selection of social buttons depending on your target audience possibly geographic location** of your average reader (find out in your analytics tool)
 
 ### Tags & Links
 
@@ -290,8 +317,8 @@ Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text=
 
 - IMO, tables are **just to good for presenting e.g. comparisons to pass up on them**
 - however Medium.com doesn't support them at all and the out of the box **editing experience in Markdown is notoriously bad** (even IDE plugins often don't improve this by much)
-- CMS solutions usually come with accetable table editing in their WYSIWYG editors - Notion.so is particularly pleasant and also offers lighter macro/scripting capabilities
-- Plugins for CMS or SSG may even provide *.csv/.xlxs/.json/.yaml* parsing or even direct rendering (ideally while preserving Markdown formatting, as e.g. the case for the [framework comparison table above](#comparison-of-selected-frameworks)), making local editing of large tables e.g. via MS Excel or proper table editing IDE plugins possible
+- **CMS** solutions usually come with **acceptable table editing** in their WYSIWYG editors - Notion.so is particularly pleasant and also offers lighter macro/scripting capabilities
+- **Plugins** for CMSs or SSGs may even provide *.csv/.xlxs/.json/.yaml* **table data parsing or even direct rendering** (ideally while preserving Markdown formatting, as e.g. the case for the [framework comparison table above](#comparison-of-selected-frameworks)), making local editing of large tables e.g. via MS Excel or proper table editing IDE plugins possible
 
 ![Alt text](table-editing.webp){: loading=lazy}
 
@@ -328,8 +355,8 @@ graph TD;
 ### Localization
 
 - localization is **a more rare feature**
-- even then often only a language switch is provided, but translations have to be provided manually
-- SSGs/web frameworks could potentially translate content during built time
+- even then **often only a language switch** is provided, but translations have to be provided manually
+- with SSGs/web frameworks it's probably easier to e.g. translate content during built time
 - interesting if you want to write in English for global reach **but e.g. your niche is also particularly popular in your country, mostly not talked about in English by tech-savy people** so that users would use a browser translate plugin (e.g. home improvement in Germany)
 - translation of image text extremely rare
 
@@ -342,7 +369,7 @@ graph TD;
 
 !!! tip "File structure"
 
-    - This can be a **crucial [framework](#frameworks) decision**, as e.g. Jekyll wants to see articles, assets/images and tabular data in different directories and e.g. also **doesn't support simple linking to other files in the same directory** as the article - which is **very different to how Markdown e.g. used for documentation usually works**
+    - This can be a **crucial [framework](#publishing-frameworks) decision**, as e.g. Jekyll wants to see articles, assets/images and tabular data in different directories and e.g. also **doesn't support simple linking to other files in the same directory** as the article - which is **very different to how Markdown e.g. used for documentation usually works**
     - Especially for people who maintain their [second brain](https://fortelabs.com/blog/basboverview/) e.g. with Obsidian.md or who got employer approval to release company-agnostic internal knowledge documentation they wrote as a blog post, this means that a workflow where knowledge content is more or less simply published from already existing local content is not possible
     - As **efficiently using existing export knowledge (especially gained in a professional environment) is IMO an important strategy of building a professional personal brand**, this was a deal breaker regarding Jekyll for me
 
@@ -358,6 +385,7 @@ graph TD;
     - [Diagrams as markdown](#diagrams-as-markdown): pretty much supported via plugins everywhere
     - Frontmatter: necessary for basically all frameworks for page metadata (though syntax can slightly differ!)
     - Quoting via ```> quote text```
+    - <i>Mixing HTML and Markdown</i> ```<i>Mixing HTML and Markdown</i>``` for quickly realizing some special formatting. As Markdown is rendered to HTML anyways, this even works with live-preview. That doesn't mean all HTML like e.g. a draw.io ```<iframe>``` snippet will render or even work anywhere though 
     - Reference-style links: to re-use links or for simple script links like [Alert][Alert] ```[Alert]: javascript:alert("Foo")``` which only seem to work like this
 - **Nice to have and/or not widely supported**
     - highlighting (vs **emphasis**), strikethrough, sub/superscript
@@ -406,30 +434,38 @@ graph TD;
   - **your content** is usually automatically **protected under copyright law** in most countries
   - it still doesn't hurt to **point that out on all pages e.g. in the footer** via "© {year} {name}. All rights reserved under {license}"
   - you can decide to declare a **more lax copyright, so that others can build upon your work** (usually given autor attribution): e.g. use the [Creative Commons Licence Chooser](https://chooser-beta.creativecommons.org/) and put the output on your page
-  
 
-## Features
-- Blogging
-- RSS
-- Social buttons
-- Social links
-- Markdown richness
+## Site Structure & Content
 
-1) Choose a platform and domain (e.g. yourname.com).
-2) Design a clean, intuitive layout with easy navigation.
-3) Showcase your projects, providing descriptions and code repository links.
-4) Highlight your skills, certifications, and achievements.
-5) Personalize the About Me section, detailing your experience.
-6) Include clear contact information for recruiters to reach out.
-7) Optimize for SEO with relevant keywords and fast page loading.
-8) Maintain a blog section for insightful posts related to software engineering.
-9) Integrate social media for networking and engagement.
-10) Monitor and continuously update your portfolio to reflect your growth.
+- **About** page:
+    - as a site for **personal branding** has a professional/business goal, IMO it should first and foremost have a "**professional**" section where you detail:
+        - your personal brand pitch
+        - your professional experience: 
+            - LinkedIn etc. profile links
+            - summary skills, certifications, achievements, testimonials
+            - work/project portfolio with links/screenshots/demos (e.g. code repos as a developer)
+            - link to your resumee document
+        - your contact details and/or a contact form
+    - if you aim for a **brand specifically around your name** for a really personal touch rather than proxy brand name with you more in the background, I'd also prominently place a nice **photo of you** here (as well as maybe in the site header or sidebar) accompanied with a "personal" section for smoother networking
+    - as it's really easy now to receive money e.g. via [PayPal.me Page](https://paypal.me/PhilMKopp), IMO it doesn't harm to discretely provide this possibility for people who might want to thank you for the value you provide outside of contracts e.g. via quality blog articels
+- **All articles** page:
+    - should provide an **overview over all available categories and show the most recent or popular articles**
+    - usually also makes a **good home/root page** (a permanent redirect config might be necessary so that "yourdomain/" points to "yourdomain/all-articles")
+    - IMO "articles" imply a bit more professionalism than "posts" - which can an advantage if your style aligns with it 
+- All **tags** and tag specific pages:
+    - aside a page that lists all tags, clicking on a tag anywhere **should lead to an overview page for the particular tag** listing all other pages with that tag
+- **Category** pages:
+    - IMO for easy navigation **each main category you write about** should show up in the main navigation (e.g. header) as well
 
-It should include your bio, resume, contact details, testimonials, and links to your social media profiles, blog, or other online platforms. It should also demonstrate your coding skills, creativity, and problem-solving abilities by featuring your best and most relevant projects, with clear descriptions, screenshots, and links to the source code or live demos.
+!!! warning "Mixing totally different topics"
+        
+        - Mixing totally different topics (e.g. political/religious & tech/science content) without overarching connection/theme/principles (e.g. country or general news) on the same site should come with **careful** consideration for a professional brand, as content here usually expected to be higher quality and more objective than compared to e.g. a personal hobby blog
+            - creating expert content in diverse topics is naturally more challenging and even then it's harder to convey a clear brand message
+            - diverse topics can make having a user-friendly [RSS feed & newsletter](#newsletter--rss) hard, as more fine grained delivery control is necessary for the admin or user in order to not spam readers with unwanted content
 
-==Define your niche==
-
-Social media platforms such as LinkedIn, Twitter, GitHub, or Stack Overflow can help you connect with other software developers, potential clients, employers, or partners, as well as showcase your portfolio, blog, podcast, or open source contributions. You can also use social media to share your thoughts, ideas, questions, or resources on software development, as well as to join relevant groups, communities, or discussions.
-
-The best way to stand out is to create and share content. You don't need to be an expert to do that. You can begin by sharing questions, ideas or your journey from where you are to where you want to be.
+- **Footer/Sidebar** should contain:
+    - Copyright note
+    - Links to
+        - privacy policy, imprint and cookie consent management
+        - your social profiles
+        - the framework & theme you used - even if attribution is not required, it's a free and [quite impactful way to thank the autors](https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#generator-notice) for the usually free software you use

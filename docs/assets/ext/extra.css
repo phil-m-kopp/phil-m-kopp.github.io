@@ -64,7 +64,7 @@
 }
 
 #formbutton-button {
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
     bottom: 128px !important;
     box-shadow:none !important;
     right: 12px !important;
@@ -72,8 +72,11 @@
     height: 18px !important;
     padding: 4px !important;
     margin: 0px !important;
-    bottom: 0px !important;
     top: 512px !important;
+
+    /* position: relative !important;
+    top: 4px !important;
+    box-shadow: none !important; */
 }
 
 #post-meta .md-post__meta {
@@ -97,4 +100,8 @@ blockquote {
     color: var(--md-primary-fg-color) !important;
     font-size: large;
     font-style: italic;
+}
+
+.md-typeset .admonition {
+    font-size: inherit;
 }

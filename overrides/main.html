@@ -10,6 +10,11 @@
   <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
   <script src="{{ 'assets/ext/contact_button.js' | url }}"></script>
   <script src="{{ 'assets/ext/categories.js' | url }}"></script>
+  <script defer>
+    document.addEventListener("load", function(){
+      document.querySelector("#shareButtons").appendChild(document.querySelector("#formbutton-button"))
+    });
+  </script>
 {% endblock %}
 
 {% block footer %}
@@ -48,7 +53,7 @@
       alert$.next("Copied!");
   }
 </script>
-<div id="shareButtons" class="md-typeset" style="display: grid; position: fixed; right: 12px; top: 256px; z-index: 999;">
+<div id="shareButtons" class="md-typeset" style="display: grid; position: fixed; right: 12px; top: 536px; z-index: 999;">
   <a href="https://twitter.com/intent/tweet?text={{- page.title | urlencode -}}&url=https://philipp-kopp.com/{{- page.url | urlencode -}}">
     <span class="twemoji">
       {% include ".icons/fontawesome/brands/x-twitter.svg" %}
@@ -82,11 +87,6 @@
   <a href="https://github.com/phil-m-kopp/phil-m-kopp.github.io/tree/main/docs/articles/posts">
     <span class="twemoji">
       {% include ".icons/fontawesome/solid/pencil.svg" %}
-    </span>
-  </a>
-  <a href="https://paypal.me/PhilMKopp">
-    <span class="twemoji">
-      {% include ".icons/fontawesome/brands/paypal.svg" %}
     </span>
   </a>
 </div>

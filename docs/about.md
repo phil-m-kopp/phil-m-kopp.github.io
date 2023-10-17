@@ -6,7 +6,7 @@ hide:
 
 <script>
     document.querySelector(".md-content__inner h1").innerHTML = "👋 Hi, I'm Phil"
-    document.querySelector(".md-nav__list").remove()
+    // document.querySelector(".md-nav__list").remove()
     // var phil = '<img alt="Phil" src="../assets/img/phil.webp" style="width: 256px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin: 20px">'
     // document.querySelector(".md-sidebar").style["width"] = "304px"
     // var sidebar = document.querySelector(".md-sidebar__scrollwrap")
@@ -19,7 +19,7 @@ hide:
 
 ===+ "💼 Professional"
 
-    > I consider myself a **wholistic senior QA, Agile and Knowledge Manager/Coach** with backgrounds as **Fullstack Techlead** and in **E-Com, Mobility and Game Design**. With **Structure, Ownership, transparent Democratic Leadership and Continuous Improvement** as driving values, I aim to tackle cross-cutting issues for **lasting impact** at my clients proactively.
+    > I consider myself a **wholistic senior QA, Agile and Knowledge Manager/Coach** with backgrounds as **Fullstack Techlead** and in **E-Com, Mobility and Game Design**. With **Structure, Ownership, transparent Democratic Leadership and Continuous Improvement** as driving values, I aim to tackle cross-cutting issues for **lasting Impact** at my clients proactively.
 
     **Resumee** [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/philipp-kopp-5b23a912a/)
 
@@ -61,42 +61,7 @@ hide:
 
 === "❤️ Private"
 
-    - **DIY**
-        - **Electronics & (light) engineering**
-            - energy: power banks and supplies, solar
-            - smart home: mostly LED lighting and sensor/measurement e.g. for air quality
-            - eletric tools: e.g. for drilling, heating, cutting, fans
-            - audio & video, e.g. a DIY around-the-head POV cam
-            - proud of my bedsize mounted TV on a flex arm
-        - **Repairing** anything from household appliances over clothes to plumbing
-        - **Artsy stuff**, like small wooden/metal jewlery or lamps
-        - **Furnitue making & home improvement**
-            - I like to combine light wood with black metal in funiture and green artifical plants and light/white/teal surfaces and linen in the environment for a kind of "carribian light industrial" style
-            - most of my furnite is self-made or at least altered - quite proud about my DIY main desk, bed and steel-rod shelves/wardrobe
-            - my floor is currently artifical grass :D
-            - highly recommended: [SketchUp free](https://www.sketchup.com/de/plans-and-pricing/sketchup-free)
-            - in the winter I enjoy my DIY infrared sauna
-        - **Food & Cooking**
-            - neither vegan nor vegetarian by conviction, but with **heathliness as a primary principle** I still eat mostly (steamed) veggies
-            - because I like to maintain a lean physique, I somewhat regret having learned how to cook properly and make anything taste good 🥲
-            - I highly recommend buying **good spices** online in bulk (e.g. [Würzteufel](https://wuerzteufel.de/)) - it's ultimately cheaper, tastier and e.g. healthier than using lots of salt
-            - I like to do **intermittent fasting** cause I simply like eating good food to much and it also improves my sleep
-            - IMO having good DIY pizza, sushi, burritos and salad skills is a nice asset for **bring-your-own-ingredients parties**
-            - due to my **addiciton to sweet stuff**, I invested a lot of research, trial and error into **making DIY cakes, sweet and especially ice cream** with a fraction of their usual amounts of sugar, fat and calories in general - so now I can eat lots dailys and stay fit 😅
-    - **Tech & Fun**
-        - **Audio**
-            - proud owner of 2.1 setup from [Eve Audio Speakers](https://eve-audio.com/index.php?page=SC305) and more headphones than my flat has rooms
-            - one of my favorite headphones are my [Koss Porta Pros](https://koss.com/products/porta-pro) with bluetooth mod, which also serve as warming ear pads in the winter 
-            - owning a MIDI keyboard, Kalimba and Steel Tongue Drum with zero skill in all of them
-            - collection of VU meters, cause I like the idea of lights synced to music
-        - **Board games**: owning >100 board games, only got to play about half of them so far :D
-        - **Video games**
-            - nowadays I enjoy the never ending technical and broad artistic challenges of (2D) **video game creation** with [Godot](https://godotengine.org/) often more than actually playing games
-            - as **great inspiration for my game-dev journey** I want to mention [Cave Story](https://www.cavestory.org/) - a free (🤯) 2D metroidvania made solo by the dev "Pixel" and IMO all around a masterpiece in every category from art style over music to story and gameplay
-            - I still like to play old games e.g. from [myabandonware.com](https://www.myabandonware.com/) or newer **retro and/or indie** games for the nostalgic feeling and inspiration
-        - **Park games**: from Badminton or Speedball, over Frisbee to Kubb or Mölkky
-        - **Escape games**: IRL or as board games
-    - **Personal development & Life**
+    - 📈**Personal development & Life**
         - **Sports**
             - **Calisthenics (Strength)** at home with programm from [Calisthenics Movement](https://www.calimove.com/p/complete-calisthenics-level-1-5) - highly recommended
             - **Yoga (Mobility)** with [down dog](https://www.downdogapp.com/) - ideally short daily session
@@ -120,18 +85,53 @@ hide:
                 - positive reinforcement via [lofty questions](https://blog.mindvalley.com/lofty-questions/) and future self/goal visualization
                 - happiness through exercising, healthy eating and sleep as well, practising gratitude and investing in relationships
                 - carrots and sticks for habits & commitment devices as well as momentum effect & getting started effect
-                - planning fallacy (especially in IT...)
+                <!-- - planning fallacy (especially in IT...) -->
                 - affect heuristic & making emotional/angry dicisions or e.g. impulse buying & buy month later rule
                 - (anticipatory) loss aversion e.g. in dating & sunk cost fallacy, especially in investing
-                - endowment effect e.g. liking your own cooking to unreasonable extend & not inveted here syndrom
-                - peak-end rule: the ending experience is crucial
-                - barnum effect & cold reading 
-                - compromise "middle choice" effect
-                - system 1|2 or fast|slow brain: understanding what we decide/do (un)consciously 
+                <!-- - endowment effect e.g. liking your own cooking to unreasonable extend & not inveted here syndrom -->
+                <!-- - peak-end rule: the ending experience is crucial -->
+                <!-- - barnum effect & cold reading  -->
+                <!-- - compromise "middle choice" effect -->
+                <!-- - system 1|2 or fast|slow brain: understanding what we decide/do (un)consciously  -->
                 - choice-supportive bias & being happy with (quick) choices
                 - confirmation bias, bias blind spot ("I'm the least biased"), fundamental attribution error (personal rather than situational) and thus giving second chances and staying open for other points of view
-                - social proof
-                - lucid dreaming / dream journaling
+                <!-- - social proof -->
+                <!-- - lucid dreaming / dream journaling -->
+    - 🎲**Tech & Fun**
+        - **Audio**
+            - proud owner of 2.1 setup from [Eve Audio Speakers](https://eve-audio.com/index.php?page=SC305) and more headphones than my flat has rooms
+            - one of my favorite headphones are my [Koss Porta Pros](https://koss.com/products/porta-pro) with bluetooth mod, which also serve as warming ear pads in the winter 
+            - owning a MIDI keyboard, Kalimba and Steel Tongue Drum with zero skill in all of them
+            - collection of VU meters, cause I like the idea of lights synced to music
+        - **Board games**: owning >100 board games, only got to play about half of them so far :D
+        - **Video games**
+            - nowadays I enjoy the never ending technical and broad artistic challenges of (2D) **video game creation** with [Godot](https://godotengine.org/) often more than actually playing games
+            - as **great inspiration for my game-dev journey** I want to mention [Cave Story](https://www.cavestory.org/) - a free (🤯) 2D metroidvania made solo by the dev "Pixel" and IMO all around a masterpiece in every category from art style over music to story and gameplay
+            - I still like to play old games e.g. from [myabandonware.com](https://www.myabandonware.com/) or newer **retro and/or indie** games for the nostalgic feeling and inspiration
+        - **Park games**: from Badminton or Speedball, over Frisbee to Kubb or Mölkky
+        - **Escape games**: IRL or as board games
+    - 🛠️**DIY**
+        - **Electronics & (light) engineering**
+            - energy: power banks and supplies, solar
+            - smart home: mostly LED lighting and sensor/measurement e.g. for air quality
+            - eletric tools: e.g. for drilling, heating, cutting, fans
+            - audio & video, e.g. a DIY around-the-head POV cam
+            - proud of my bedsize mounted TV on a flex arm
+        - **Repairing** anything from household appliances over clothes to plumbing
+        - **Artsy stuff**, like small wooden/metal jewlery or lamps
+        - **Furnitue making & home improvement**
+            - I like to combine light wood with black metal in funiture and green artifical plants and light/white/teal surfaces and linen in the environment for a kind of "carribian light industrial" style
+            - most of my furnite is self-made or at least altered - quite proud about my DIY main desk, bed and steel-rod shelves/wardrobe
+            - my floor is currently artifical grass :D
+            - highly recommended: [SketchUp free](https://www.sketchup.com/de/plans-and-pricing/sketchup-free)
+            - in the winter I enjoy my DIY infrared sauna
+        - **Food & Cooking**
+            - neither vegan nor vegetarian by conviction, but with **heathliness as a primary principle** I still eat mostly (steamed) veggies
+            - because I like to maintain a lean physique, I somewhat regret having learned how to cook properly and make anything taste good 🥲
+            - I highly recommend buying **good spices** online in bulk (e.g. [Würzteufel](https://wuerzteufel.de/)) - it's ultimately cheaper, tastier and e.g. healthier than using lots of salt
+            - I like to do **intermittent fasting** cause I simply like eating good food to much and it also improves my sleep
+            - IMO having good DIY pizza, sushi, burritos and salad skills is a nice asset for **bring-your-own-ingredients parties**
+            - due to my **addiciton to sweet stuff**, I invested a lot of research, trial and error into **making DIY cakes, sweet and especially ice cream** with a fraction of their usual amounts of sugar, fat and calories in general - so now I can eat lots dailys and stay fit 😅
 
 === "🙏 Support"
 
