@@ -4,13 +4,7 @@
         alert$.next("Copied!");
     }
   </script>
-  <hr>
-  <div id="shareButtonsBottom" class="md-typeset">
-    <a href="https://github.com/phil-m-kopp/phil-m-kopp.github.io/tree/main/docs/articles/posts">
-      <span class="twemoji">
-        {% include ".icons/fontawesome/solid/pencil.svg" %}Propose edit
-      </span>
-    </a>
+  <div id="shareButtonsBottom" class="md-typeset" style="align-items: center;">
     <p>
         This post is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0</a> by the author. | Share: 
         <a href="https://twitter.com/intent/tweet?text={{- page.title | urlencode -}}&url=https://philipp-kopp.com/{{- page.url | urlencode -}}">
@@ -42,5 +36,24 @@
         <span class="twemoji">
             {% include ".icons/fontawesome/solid/link.svg" %}
         </span>
+        </a>
+    </p>
+    <p>
+        <a href="https://github.com/phil-m-kopp/phil-m-kopp.github.io/tree/main/docs/articles/posts">
+            <span class="twemoji" style="vertical-align: initial !important;">
+                {% include ".icons/fontawesome/solid/pencil.svg" %}Propose edit
+            </span>
+        </a>
+        | Keep up-to-date via 
+        <a href="http://127.0.0.1:8000/feed_rss_updated.xml">
+            <span class="twemoji" style="vertical-align: initial !important;">
+                {% include ".icons/material/rss.svg" %} RSS
+            </span>
+        </a>
+        | Support via 
+        <a href="https://paypal.me/PhilMKopp">
+            <span class="twemoji" style="vertical-align: initial !important;">
+                {% include ".icons/fontawesome/brands/paypal.svg" %} PayPal
+            </span>
         </a>
     </p>

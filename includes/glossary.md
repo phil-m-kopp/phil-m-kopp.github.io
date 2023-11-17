@@ -9,7 +9,6 @@
 *[CMS]: Content Management System: software platform for creating, managing, and publishing digital content, usually for websites via web UI
 *[WYSISYG]: What you see is what you get: type of document editor that allows users to view and edit content exactly as it will appear in the final product (unlike e.g. code editors)
 *[GDPR]: General Data Protection Regulation
-*[TOC]: Table Of Contents
 *[RSS]: Rich Site Summary / Really Simple Syndication
 *[PII]: [Personally Identifiable Information](https://www.investopedia.com/terms/p/personally-identifiable-information-pii.asp): data to confirm an individual's identity, e.g. address, email, but also e.g. IP adress
 *[NDA]: Non-Disclosure Agreement: usually about company secrets or user data

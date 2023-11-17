@@ -49,10 +49,10 @@ theme:
 
   icon:
     tag:
-      tech: fontawesome/solid/microchip
-      html: fontawesome/brands/html5
-      js: fontawesome/brands/js
-      css:  fontawesome/brands/css3
+      Web: material/web
+      Tech: fontawesome/solid/microchip
+      PersonalDevelopment: material/elevation-rise
+      How-To: material/clipboard-list-outline
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
@@ -114,12 +114,11 @@ nav:
 
 extra:
   tags:
+    Web: Web
     Tech: Tech
     DIY: DIY
     Personal Development: PersonalDevelopment
-    HTML5: html
-    JavaScript: js
-    CSS: css
+    How-To: How-To
   social:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/philipp-kopp-5b23a912a/

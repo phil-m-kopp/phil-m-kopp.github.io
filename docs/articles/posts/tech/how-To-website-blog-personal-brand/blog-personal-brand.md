@@ -1,19 +1,19 @@
 ---
 title: "How-To: Make website/blog for personal brand"
 date: 2023-10-01
-updated: 2023-10-02
+updated: 2023-10-01
 tags: 
   - How-To
   - Web
   - Personal brand
 categories:
   - Tech
-description: description
+description: How and why this website came to be; How you can easily get started as well; What's there to consider and watch out for and how to choose the right software
 comments: true
 ---
 
 <figure markdown>
-  ![Alt text](how-to-website-blog-personal-brand.webp){: loading=lazy}
+  ![Blog](how-to-website-blog-personal-brand.webp){: loading=lazy}
   <figcaption>Image by <a href="https://www.freepik.com/">Freepik</a></figcaption>
 </figure>
 
