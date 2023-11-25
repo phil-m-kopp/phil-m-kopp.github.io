@@ -261,13 +261,14 @@ Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with
 
 ### Newsletter & RSS
 
-- Through email communication **may seem outdated**, due to the **personal nature, in practice it's still one of the best methods** to build a **core followership** in particular
-- RSS
+- **Newsletter**
+  - Though email communication **may seem outdated**, due to the **personal nature, in practice it's still one of the best methods** to build a **core followership** in particular
+  - If you have a backend you can of course achieve subscription via a simple HTML form if you want to manage subscriber data yourself, though **considering** the legal **implications** (data protection) as well as necessary complementary features such as subscription/marketing consent management or e.g. [double-opt-in](https://www.linkedin.com/pulse/reverse-double-opt-in-gdpr-consent-guarantee-dr-stephan-g%C3%A4rtner) and also the effort to manage >100 subscribers and especially targeting specific subscribers - you probably **need at least a specialized (probably commercial) marketing plugin**
+  - **3rd-party service** like [Mailchimp](https://mailchimp.com/) (free with 1000 mails/month) offer a free and simple start and e.g. in case of Mailchimp not only provides the classic script snippet method but also offers **newsletter forms hosting** (sign-up, management...) so that you can use a simple link instead, which thus makes e.g. sign-up possible from everywhere even when HTML is not supported (like a WhatsApp group if you wanted) 
+- **RSS**
     - Is maybe underappreciated by non-power-user for how it **can deliver content from custom sources with custom filtering without** e.g. the need to disclose one's email for a generic **newsletter** delivery
     - Usually available in all frameworks, customizable to varying degree, e.g. Docusaurus even supports [multiple separate blogs + feeds!](https://docusaurus.io/docs/blog#multiple-blogs)
-    - updates can be **delivered as a newsletter and sign-up managed by 3rd-party providers** via **simple form script snippet**
-        - [Mailchimp](https://mailchimp.com/): popular and powerful, free with 1000 mails/month
-        - [Feedburner](https://medium.com/@davideiaiunese/the-problem-why-a-newsletter-baae4409a526)
+    - 3rd-party services like [Feedburner](https://medium.com/@davideiaiunese/the-problem-why-a-newsletter-baae4409a526) exist than can manage subscribers (usually need to include script snippet for sign-up), read the RSS and deliver updates as newsletter
 
 ### Performance & SEO Optimization
 
@@ -297,7 +298,7 @@ Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text=
 - IMO those buttons **could also be sticky**, not only e.g. at the bottom of the page, if the readers want's to already share mid-read
 - As more than about 6 buttons would start to become a bad user experience, it makes sense to adapt the **selection of social buttons depending on your target audience possibly geographic location** of your average reader (find out in your analytics tool)
 
-### Tags & Links
+### Tags & (internal) Links
 
 - Tags are **useful to critical** in many ways
     - **For user to find**
@@ -307,7 +308,7 @@ Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text=
     - Picked up by **RSS** module (as are blog "categories"), potentially influencing newsletter delivery
 - **DOs/DONTs**
     - Post with more than 10-15 tags can be considered as spam with reader apps
-    - Don't be too specific, e.g. "#workingWithEbonyWood#
+    - Don't be too specific, e.g. "#workingWithEbonyWood
     - Delete underused tags
     - Tag list should be prominently places, maybe even be sticky when scrolling
     - Tags should ideally also be considered by the search
@@ -321,7 +322,9 @@ Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text=
     - function similarly to tags in **keeping readers on the pages**
     - at the very least it **should be easily possible to link to any page on the site**
         - incl. blog articles, particularly if you want the publish date as part of your canonical url
-        - e.g. there's a [autolink plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) for MkDocs that will automatically discover a linked *.md* file in any location similar to Obsidian.md does
+- **"Autolink"**:
+  - type A: **converting existing shortlinks/"WikiLinks"** like `[[Typic XYZ]]` to normal form `(Typic XYZ)[../topic_xyz.md]`, e.g. [autolink plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) for MkDocs
+  - type B: automatically **converting normal text** to links based on text matching, e.g. [Internal Link Juicer](https://wordpress.org/plugins/internal-links/) for Wordpress
 
 ### Tables
 
@@ -365,7 +368,8 @@ graph TD;
 ### Localization
 
 - Localization is **a more rare feature**
-- Even then **often only a language switch** is provided, but translations have to be provided manually
+- Even then **often only a language switch** is provided, but translations have to be provided manually as separate files for each language
+- Some (often client-side) plugins offer **instant translation** while reading
 - With SSGs/web frameworks it's probably easier to e.g. translate content during built time
 - Interesting if you want to write in English for global reach **but e.g. your niche is also particularly popular in your country, mostly not talked about in English by tech-savvy people** so that users would use a browser translate plugin (e.g. home improvement in Germany)
 - Translation of image text extremely rare

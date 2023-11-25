@@ -65,18 +65,23 @@ hide:
 
         I like to support my favorite products and services by linking, though I don't have any affiliate relationships with any atm
 
+    > "Writing equals thinking" - Jordan Peterson
+
     - 📈**Personal development & Life**
         - **Sports**
             - **Calisthenics (Strength)** at home with program from [Calisthenics Movement](https://www.calimove.com/p/complete-calisthenics-level-1-5)
             - **Yoga (Mobility)** with [down dog](https://www.downdogapp.com/) - ideally short daily session
             - **Gymnastics/Tricking (Cardio/Skill)** as long term member of [Free Arts of Movement "FAM"](https://www.freeartsofmovement.com/)
-        - **Habits & Goals**: defining and tracking goals in 3 main areas **"Physical/Mental Health", "Social/Romantic Relationships" and "Career/Business"** every few months and using and reviewing daily [***"atomic"* habits/systems**](https://jamesclear.com/atomic-habits) to get there
+        - **Habits & Goals**: defining and tracking goals in 3 main areas **"Physical/Mental Health", "Social/Romantic Relationships" and "Career/Business"** every few months and using and reviewing daily [***"atomic"* habits/systems**](https://jamesclear.com/atomic-habits) to get there        
         - **Learning/knowledge building**: Maintaining a [**second brain**](https://www.buildingasecondbrain.com/) with [Obsidian.md](https://obsidian.md/) also this website (made with [MkDocs](https://squidfunk.github.io/mkdocs-material/)) to ensure I don't forget but continuously build upon things I learn and experience by "writing stuff down", sharing and thus reflecting on it. [**Spaced Repetition**](https://ncase.me/remember/) then automates the process of regular reviews for optimal retention
         - **Financial**: strong believer in **passive investing** as the only sane, practical, time/cost efficient and not to mention scientific way to invest. Highly recommend [Souverän investieren](https://www.amazon.de/Souver%C3%A4n-investieren-Indexfonds-ETFs-Book/dp/3593508524)/ the ETF-based [globally diversified portfolio](https://www.justetf.com/en/academy/how-to-get-a-globally-diversified-portfolio-with-just-one-etf.html) approach
         - **Psychology**: I find it fascinating **unintuitive** the **brain** often works and thus how much there is **gain from understanding** it. My favorite **concepts** being:
             - [non-judgemental mindfulness](https://en.wikipedia.org/wiki/The_Power_of_Now) / meditation / ignoring "monkey brain"
             - positive reinforcement via [lofty questions](https://blog.mindvalley.com/lofty-questions/) and future self/goal visualization, carrots and sticks for habits & commitment devices as well as momentum effect & getting started effect
             - happiness through exercising, healthy eating and sleep as well, practising gratitude and investing in relationships
+    
+    > "Medicine, law, business, engineering, these are all noble pursuits, and necessary to sustain life. But poetry, beauty, romance, love, these are what we stay alive for." ― Dead Poet’s Society
+    
     - 🎲**Tech & Fun**
         - **Audio**: really enjoy the immersive sound good 2.1 speakers can deliver (fan of [Eve Audio](https://eve-audio.com/index.php?page=SC305)) and owning more headphones than my flat has rooms - favorite ones still being some modded [Koss Porta Pros](https://koss.com/products/porta-pro), which also serve as warming ear pads in the winter
         - **Video games**: nowadays I enjoy the never ending technical and broad artistic challenges of (2D) **video game creation** with [Godot](https://godotengine.org/) often more than actually playing games. Though I still like to play old games e.g. from [myabandonware.com](https://www.myabandonware.com/) or newer **retro and/or indie** games for the nostalgic feeling and inspiration that either challenge my **reaction/dexterity** via action or thinking in turn-based **strategy**
