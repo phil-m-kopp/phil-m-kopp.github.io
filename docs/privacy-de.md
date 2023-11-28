@@ -5,7 +5,7 @@ search:
   exclude: true
 ---
 
-Übersetzungen: [DE :flag_de:](privacy-de.md) | [EN :flag_us:](privacy.md)
+Übersetzungen: [EN :flag_us:](privacy.md) | [DE :flag_de:](privacy-de.md) (verbindliche Fassung)
 
 Präambel
 --------

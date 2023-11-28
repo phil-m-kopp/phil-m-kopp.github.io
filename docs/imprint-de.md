@@ -5,7 +5,7 @@ search:
   exclude: true
 ---
 
-Übersetzungen: [DE :flag_de:](imprint-de.md) | [EN :flag_us:](imprint.md)
+Übersetzungen: [EN :flag_us:](imprint.md) | [DE :flag_de:](imprint-de.md) (verbindliche Fassung)
 
 Stand: 11. Oktober 2023
 

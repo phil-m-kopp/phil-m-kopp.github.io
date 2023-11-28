@@ -103,7 +103,7 @@ comments: true
 
   > About half the internet runs on WordPress 🤯 [^3]
 
-  [^3]: https://medium.com/@lintonhale/42-of-the-internet-runs-wordpress-to-democratize-publishing-8467f3b8907a
+  [^3]: https://w3techs.com/technologies/overview/content_management
 
 - **Typical minimal setup**:
     - Pay for hosting with one click install of your CMS of choice
@@ -145,7 +145,7 @@ comments: true
 !!! success "Recommendation"
 
     **Mirror your own blog** on Medium + LinkedIn <br> 
-    ([using canonical links!](https://help.medium.com/hc/en-us/articles/214550207-Import-a-post?ref=hulry.com) to mark your blog as the original source for SEO reasons)
+    ([using canonical links!](https://help.medium.com/hc/en-us/articles/214550207-Import-a-post) to mark your blog as the original source for SEO reasons)
 
 - **Examples**
     - [Medium](https://medium.com/) (135M visits/month)
@@ -192,13 +192,14 @@ Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with
 - very **similar usage limits** on **free plan** (but charges you for exceeded limits)
 - **direct integration with most SSGs**
 
-### Custom domain + email + SSL
+### Custom domain + email + security/SSL
 
 - Presenting your personal blog/brand on your **domain named after you simply looks more professional**
 - **Top level domain doesn't matter much**: country specific domains like *.de* only have a **slight local advantage**. Though hosting an international site in English on a *.com* domain isn't wrong either
 - If you go for a *.com* domain, you might also be able to get a **cheap bundle offer** (e.g. *.de* + *.com*) for very little additional cost with a domain for your country 
 - Afaik [hosting.de](https://www.hosting.de/domains/) is providing the cheapest *.de* domains
 - The domain should come **with a SSL certificate**, ideally a wildcard certificate extending to subdomains, as encrypting web traffic this way is so expected nowadays that **you'll even rank lower SEO-wise** for not having one even if your site is basically completely static
+  - With GitHub Pages, you can use the [option "Enforce HTTPS"](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https) so that it can fetch a TLS cert from Let's Encrypt automatically if your repo is public
 - While receiving emails might be possible via a redirect of mails from your domain to your private **email account, for replying** from your domain you either need an email server or account with your hoster - best just get it **in a bundle with the domain**
 - If you are comfortable to commit (after 1 year discount), **getting a domain for** the next 10 **years in advance comes at a good discount** e.g. at [namecheap.com](https://www.namecheap.com/)
 
@@ -263,12 +264,14 @@ Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with
 
 - **Newsletter**
   - Though email communication **may seem outdated**, due to the **personal nature, in practice it's still one of the best methods** to build a **core followership** in particular
-  - If you have a backend you can of course achieve subscription via a simple HTML form if you want to manage subscriber data yourself, though **considering** the legal **implications** (data protection) as well as necessary complementary features such as subscription/marketing consent management or e.g. [double-opt-in](https://www.linkedin.com/pulse/reverse-double-opt-in-gdpr-consent-guarantee-dr-stephan-g%C3%A4rtner) and also the effort to manage >100 subscribers and especially targeting specific subscribers - you probably **need at least a specialized (probably commercial) marketing plugin**
+  - If you have a backend you can of course achieve subscription via a simple HTML form if you want to manage subscriber data yourself, though **considering** the legal **implications** (data protection) as well as necessary complementary features such as subscription/marketing consent management or e.g. double-opt-in (confirm sign-up again via link in confirmation email) and also the effort to manage >100 subscribers and especially targeting specific subscribers - you probably **need at least a specialized (probably commercial) marketing plugin**
   - **3rd-party service** like [Mailchimp](https://mailchimp.com/) (free with 1000 mails/month) offer a free and simple start and e.g. in case of Mailchimp not only provides the classic script snippet method but also offers **newsletter forms hosting** (sign-up, management...) so that you can use a simple link instead, which thus makes e.g. sign-up possible from everywhere even when HTML is not supported (like a WhatsApp group if you wanted) 
 - **RSS**
     - Is maybe underappreciated by non-power-user for how it **can deliver content from custom sources with custom filtering without** e.g. the need to disclose one's email for a generic **newsletter** delivery
     - Usually available in all frameworks, customizable to varying degree, e.g. Docusaurus even supports [multiple separate blogs + feeds!](https://docusaurus.io/docs/blog#multiple-blogs)
-    - 3rd-party services like [Feedburner](https://medium.com/@davideiaiunese/the-problem-why-a-newsletter-baae4409a526) exist than can manage subscribers (usually need to include script snippet for sign-up), read the RSS and deliver updates as newsletter
+    - 3rd-party services like [Feedburner](https://feedburner.google.com/) exist than can manage subscribers (usually need to include script snippet for sign-up), read the RSS and deliver updates as newsletter [^4]
+
+    [^4]: https://medium.com/@davideiaiunese/the-problem-why-a-newsletter-baae4409a526
 
 ### Performance & SEO Optimization
 
@@ -322,9 +325,8 @@ Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text=
     - function similarly to tags in **keeping readers on the pages**
     - at the very least it **should be easily possible to link to any page on the site**
         - incl. blog articles, particularly if you want the publish date as part of your canonical url
-- **"Autolink"**:
-  - type A: **converting existing shortlinks/"WikiLinks"** like `[[Typic XYZ]]` to normal form `(Typic XYZ)[../topic_xyz.md]`, e.g. [autolink plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) for MkDocs
-  - type B: automatically **converting normal text** to links based on text matching, e.g. [Internal Link Juicer](https://wordpress.org/plugins/internal-links/) for Wordpress
+- **"Autolink"**: automatically **converting normal text** to links based on text matching, e.g. [Internal Link Juicer](https://wordpress.org/plugins/internal-links/) for Wordpress
+- Some plugins can **convert existing shortlinks/"Wiki-links"** like `[[Typic XYZ]]` to normal form `(Typic XYZ)[../topic_xyz.md]` - e.g. [autolink plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) for MkDocs
 
 ### Tables
 
@@ -367,7 +369,6 @@ graph TD;
 
 ### Localization
 
-- Localization is **a more rare feature**
 - Even then **often only a language switch** is provided, but translations have to be provided manually as separate files for each language
 - Some (often client-side) plugins offer **instant translation** while reading
 - With SSGs/web frameworks it's probably easier to e.g. translate content during built time
@@ -377,7 +378,7 @@ graph TD;
 ### Mobile first
 
 - **Responsive frontend design** is the norm now, but the **doesn't automatically mean mobile first**
-- **Try viewing** your favorite articles on **mobile** (if not the case right now 😏) or via desktop browser dev tools and see if e.g. **TOC, social buttons, header, article metadata incl. author info, tags, cookie consent** is still somewhat **usable and e.g. tables don't wildly overflow**
+- **Try viewing** your favorite articles on **mobile** or via desktop browser dev tools and see if e.g. **TOC, social buttons, header, article metadata incl. author info, tags, cookie consent** is still somewhat **usable and e.g. tables don't wildly overflow**
 
 ### Markdown features & file structure
 

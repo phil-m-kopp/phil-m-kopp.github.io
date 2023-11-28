@@ -5,7 +5,7 @@ search:
   exclude: true
 ---
 
-Translations: [DE :flag_de:](imprint-de.md) | [EN :flag_us:](imprint.md)
+Translations: [EN :flag_us:](imprint.md) | [DE :flag_de:](imprint-de.md) (verbindliche Fassung)
 
 As of: 11. October 2023
 
