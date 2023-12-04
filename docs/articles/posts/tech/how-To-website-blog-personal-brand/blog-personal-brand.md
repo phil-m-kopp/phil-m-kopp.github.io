@@ -28,11 +28,11 @@ comments: true
 1. [Choose a Markdown document focussed static site generator](#static-site-generators-ssg) (SSG) or rather template you like best -> easy setup/maintenance, focus on content
 1. [Buy domain](#custom-domain-email-ssl) with email account, enable SSL -> professional appearance
 1. Register domains in [Google Search Console](https://search.google.com/search-console) (not with private Google account)
-1. [Generate privacy policy, imprint, license](#imprint-privacy-policy-cookie-consent) and set up cookie consent
-1. Invest in a nice "About" page, maybe with contact form & social media links -> IMO an important part of personal brands is your face, a sympathetic introduction and "approachability"
-1. Create [GitHub repo, install SSG](#githubgitlab-pages-static-sites-only), config, deploy via GitHub Pages/Netlify -> free and solid hosting, easy Giscus commenting integration
-1. Write your first article to show of your style
-1. Also post your first article on Medium + LinkedIn (using canonical link of your post) for increased exposure
+2. [Generate privacy policy, imprint, license](#imprint-privacy-policy--cookie-consent) and set up cookie consent
+3. Invest in a nice "About" page, maybe with contact form & social media links -> IMO an important part of personal brands is your face, a sympathetic introduction and "approachability"
+4. Create [GitHub repo, install SSG](#githubgitlab-pages-static-sites-only), config, deploy via GitHub Pages/Netlify -> free and solid hosting, easy Giscus commenting integration
+5. Write your first article to show of your style
+6. Also post your first article on Medium + LinkedIn (using canonical link of your post) for increased exposure
 
 ## Why build a personal brand via your own site
 
@@ -443,12 +443,45 @@ graph TD;
     - Bi-directional links to other social media presences should also go here, if there's a connection to any commercial activity via those social media presences
 
 - All of the above need to always be accessible and clearly labeled, e.g. as links in the footer
+- Also, theoretically, you'd need to provide translations for all the languages your users use and also declare a legally binding version. In practice, most sites go with English only.
 
-### Copyright/Licensing
+
+### Others rights and more legal considerations
+
+- Domain: a domain being available doesn't mean that it couldn't be a protected name of a brand or company, potentially getting you a fine and losing the domain again - in Germany you can check [dpma.de](https://www.dpma.de/) and [handelsregister.de](https://www.handelsregister.de/) respectively
+- Content: in Germany how much external content looks like your own depending on how you integrate it has big implications on your liability for that external content. 
+    - Text, Images, Music, Video: state the source and for anything more than very short quotes/few seconds of media you probably need the permission of the rights holders
+    - Photo of persons (except celebrities): Permission of that person
+    - Brand names, trademarks etc: "using" brands by writing their name or displaying their logo should be done with care as it may result in cease and desist as well as damage claims, especially if your traffic benefits from it while it's not obvious that you don't own the brand. While descriptive use in your main content, e.g. naming "GitHub" as one of many possible ways to host your site is usually fine, e.g. isolated use of brands in your meta tags (yes, including meta-tile, meta-description) can be considered as primarily a SEO measure to rank higher and generate more traffic/revenue particularly via organic search results where it's not obvious which result is from the brand owner or not. Be aware that your framework might generate more meta information than you are aware of, so check the generated source of use a site like [heymeta.com](https://www.heymeta.com/). For example, e.g. writing about your favorite games I'd avoid "Nintend* games you musn't skip" in favor of "My personal top 5 Nintend* games". Rights aside, many potential claims are probably not acted on because positive content is usually appreciated anyways but be extra careful when using brands in a critical context.
+    - Maps: Also requires permission from owner + providing the source. Using Google-Maps is ok, though it requires a paragraph in your privacy policy
+    - Embeddings, Frames, Links: regarding rights, if something e.g. a video on YouTube was (legally!) made available publicly on the internet, then you can also display it as embedding (YouTube: "Share" -> "Embed") in a frame on your site. This is different than e.g. simply downloading the video and directly integrating it into your side, as embeddings can usually still be managed by the owner to a certain extend (e.g. blocked at any time) and the content is not really distributed by you, but rather streamed to clients, so in this sense it's more similar to a link. That's why attribution might not be necessary, but good practice at the very least considering the second aspect: liability. Depending on how obvious or not you integrate external content in your site (different design, placed separate to main content, content creator visible in the video?), you are also liable for anything that's wrong with the external content - e.g. copyright, hate speech or illegal services. "Surface-links" linking only to a root/homepage of a site are generally unproblematic, while e.g. with (inline links)[https://en.wikipedia.org/wiki/Inline_linking] it's hard to tell at first glance if it will lead to a different site or not. In any case, if you're acting commercially and the more it look like you're trying present external content as your own, the stricter and less favorably for you those laws will be applied. 
+- Advertising: needs to be of course be not untrue and recognizable as such: e.g. clearly labeled as "Ad" in the context of social media/influencer marketing (especially if brands etc. are named), where it's not clear what advertising is paid or not (in which case it's actually not advertising in the first place in the legal sense) and/or clearly distinct e.g. from the main purely informative content in a blog post (e.g. sponsored content for a product in the middle of a blog post about such products in general)
+- Marketing like Newsletters etc.: only allowed to use on non or new users/customers after explicit approval ("opt-in"). Marketing of related products directed at existing customers (-> bought something!) is fine 
+- Statements, comments etc.: your posts but also e.g. comments other can leave on your site need to be free of e.g. hate speech or also untrue statements especially regarding other brands, products etc. - e.g. there can be a big legal difference between stating "this product doesn't work properly" (generally) and "**In my opinion** this products doesn't work properly"
+- If your website serves as a shop, you'd also need pages for your "terms of service" as well as for your "cancellation policy"
+- For 
+
+### Own Copyright/Licensing
 
   - **Your content** is usually automatically **protected under copyright law** in most countries
   - It still doesn't hurt to **point that out on all pages e.g. in the footer** via "© {year} {name}. All rights reserved under {license}"
   - You can decide to declare a **more lax copyright, so that others can build upon your work** (usually given author attribution): e.g. use the [Creative Commons License Chooser](https://chooser-beta.creativecommons.org/) and put the output on your page
+
+### Checklist
+
+Domainregistrierung
+Impressum
+Haftung und Disclaimer
+Datenschutzerklärung
+Fremde Inhalte, fremde Rechte
+Preisangaben
+Onlineshops: AGBs, Widerrufsbelehrung
+Keywords, Adwords, Metatags -Verwendung fremder Markennamen
+Social Media Buttons
+Influencer-Marketing
+Newsletter und Werbung – rechtssichere Verteiler
+Embedding / Framing / Hyperlinks
+Streaming
 
 ## Site Structure & Content
 
