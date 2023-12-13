@@ -31,6 +31,6 @@ jobs:
                 openpyxl \
                 mkdocs-macros-plugin \
                 mkdocs-autolinks-plugin
-      - run: python3 convertWebP.py
+      # - run: python3 convertWebP.py
       - run: mkdocs gh-deploy --force
 

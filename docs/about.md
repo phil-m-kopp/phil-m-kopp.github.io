@@ -19,7 +19,7 @@ hide:
 
 ===+ "💼 Professional"
 
-    > I consider myself a **wholistic senior QA, Agile and Knowledge Manager/Coach** with backgrounds as **Fullstack Tech Lead** and in **E-Com, Mobility and Game Design**. With **Structure, Ownership, transparent Democratic Leadership and Continuous Improvement** as driving values, I aim to tackle cross-cutting issues for **lasting Impact** at my clients proactively.
+    > I consider myself a **wholistic senior QA-, Agile- and Knowledge-Manager/Coach** with backgrounds as **Fullstack Tech Lead** and in **E-Com, Mobility and Games Development**. With **Structure, Ownership, transparent Democratic Leadership and Continuous Improvement** as driving values, I aim to tackle cross-cutting issues for **lasting Impact** at my clients proactively.
 
     **Resume** [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/philipp-kopp-5b23a912a/)
 
