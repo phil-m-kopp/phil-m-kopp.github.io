@@ -105,3 +105,11 @@ blockquote {
 .md-typeset .admonition {
     font-size: inherit;
 }
+
+h1, h2, h3 {
+    color: var(--md-primary-fg-color) !important;
+}
+
+h4, h5 {
+    color: var(--md-primary-fg-color--light) !important;
+}

@@ -5,7 +5,7 @@ site_description: Philipp Kopp - sharing pragmatic ideas about IT, DIY and perso
 site_author: Philipp Kopp
 header: "<a href='/about'><u>Philipp Kopp</u></a> - pragmatic ideas about 💻IT, 🛠️DIY and 📈personal development"
 copyright: >
-  © 2023 <a href="/about">Philipp Kopp</a>. All rights reserved under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0</a>.
+  © 2023 <a href="/about">Philipp Kopp</a>. All rights reserved under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1">CC BY-SA 4.0</a>.
   | <a href="/privacy">👤 Privacy Policy / Datenschutz</a> | <a href="/imprint">📜Imprint / Impressum</a>
   | <a href="#__consent">🍪Cookie settings</a>
 
@@ -51,8 +51,21 @@ theme:
     tag:
       Web: material/web
       Tech: fontawesome/solid/microchip
-      PersonalDevelopment: material/elevation-rise
-      How-To: material/clipboard-list-outline
+      PersonalDevelopment: octicons/rocket-24
+      Guide: material/clipboard-list-outline
+      PersonalBrand: fontawesome/solid/trademark
+      KnowledgeManagement: fontawesome/regular/lightbulb
+      DIY: fontawesome/solid/hammer
+      QA: material/magnify-scan
+      Agile: fontawesome/solid/arrows-spin
+      SoftwareEngineering: fontawesome/solid/laptop-code
+      GamesDevelopment: material/gamepad-square
+      Fitness: material/arm-flex-outline
+      Finances: fontawesome/regular/money-bill-1
+      Psychology: material/brain
+      FoodAndCooking: material/food-apple-outline
+      ArtAndCraft: fontawesome/solid/scissors
+      HomeImprovement: material/hammer-screwdriver
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
@@ -102,6 +115,7 @@ plugins:
   - tags:
       enabled: true
       tags_file: tags.md
+  # - mkdocs-pdf
 
 nav:
   - "👦Phil": about.md
@@ -118,7 +132,19 @@ extra:
     Tech: Tech
     DIY: DIY
     Personal Development: PersonalDevelopment
-    How-To: How-To
+    Guide: Guide
+    Personal Brand: PersonalBrand
+    QA: QA
+    Knowledge Management: KnowledgeManagement
+    Agile: Agile
+    Software Engineering: SoftwareEngineering
+    Games Development: GamesDevelopment
+    Fitness: Fitness
+    Finances: Finances
+    Psychology: Psychology
+    Food & Cooking: FoodAndCooking
+    Art & Craft: ArtAndCraft
+    Home Improvement & Repair: HomeImprovement
   social:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/philipp-kopp-5b23a912a/

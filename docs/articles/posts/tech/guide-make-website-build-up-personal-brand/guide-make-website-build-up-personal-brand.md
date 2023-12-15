@@ -1,14 +1,16 @@
 ---
-title: "How-To: Make website/blog for personal brand"
+title: "Guide: Make a website to build up your personal brand"
+slug: guide-make-website-build-up-personal-brand
 date: 2023-10-01
-updated: 2023-10-01
+updated: 2023-12-15
 tags: 
-  - How-To
   - Web
-  - Personal brand
+  - Personal Brand
+  - Knowledge Management
 categories:
   - Tech
-description: How and why this website came to be; How you can easily get started as well; What's there to consider and watch out for and how to choose the right software
+  - Personal Development
+description: Quick steps + details on all technical options to get your website up - quick and cheap, yet professional and legally sound
 comments: true
 ---
 
@@ -17,36 +19,36 @@ comments: true
   <figcaption>Image by <a href="https://www.freepik.com/">Freepik</a></figcaption>
 </figure>
 
-- How and why this website came to be
-- How you can easily get started as well
-- What's there to consider and watch out for and how to choose a tech stack
+- Quick steps to get your website up - quick and cheap, yet professional and legally sound
+- Details on all technical options and legal considerations
+- Tips for continuous efficient content creation by leveraging your existing knowledge
 
 <!--more-->
 
 ## Recommended first steps
 
-1. [Choose a Markdown/document-focused static site generator](#static-site-generators-ssg) (SSG) or rather [theme](#themes--plugins) you like best -> easy setup/maintenance, focus on content
-1. [Buy a domain](#custom-domain--email--ssl) with email account, enable SSL -> professional appearance
+1. [Choose a Markdown/document-focused static site generator](#static-site-generators-ssg) ("SSG") or rather [theme](#themes--plugins) you like best -> easy setup/maintenance, focus on content
+1. [Buy a domain](#custom-domain--email--ssl) incl. email account, enable SSL -> professional appearance
 1. Register domains in [Google Search Console](https://search.google.com/search-console) (not with your private Google account)
-2. [Generate privacy policy, imprint, license](#minimum-for-own-website) and set up cookie consent
-3. Invest in a nice "[About](#about-page)" page and possibilities to reach you (e.g. contact form, social links) -> an important part of *personal* brands is your face, a sympathetic introduction and approachability
-4. Create [GitHub repo, install SSG](#githubgitlab-pages-static-sites-only), config, deploy via GitHub Pages/Netlify -> free and solid hosting, easy Giscus commenting integration
-5. Write your first article and establish your article style
-6. Also post your first article on Medium + LinkedIn (using the canonical link of your post) for increased exposure
+1. [Generate privacy policy, imprint, license](#minimum-for-own-website) and set up cookie consent
+1. Invest in a nice "[About](#about-page)" page and possibilities to reach you (e.g. contact form, social links) -> an important part of *personal* brands is your face, a sympathetic introduction and approachability
+1. Create [GitHub repo, install SSG](#githubgitlab-pages-static-sites-only), config, deploy via GitHub Pages/Netlify -> free and solid hosting, easy Giscus commenting integration
+1. Write your first article and establish your article style
+1. Also post your first article on Medium + LinkedIn (using the canonical link of your post) for increased exposure
 
 ## Why build a personal brand via your site
 
-- **Showcase Expertise**:
+- **Showcase expertise**:
     - Articles on your site allow you to demonstrate your expertise and knowledge in a specific field or industry. By consistently publishing high-quality, informative content, you can **establish yourself as an authority in your niche**. Regularly sharing valuable insights, experiences, and opinions can help **build trust and credibility** with your audience.
     - Your site can serve as a **dynamic portfolio of your work, achievements, and thought leadership**. This is particularly valuable if you're in a creative or knowledge-heavy profession.
 - **Networking**:
     - You can connect with like-minded individuals, experts, and influencers in your field **through comments and offering opportunities to contact you** via email or links to your social media profiles.
-- **Narrative Control & Value Association**:
+- **Narrative control & value association**:
     - Publishing content under your domain, maybe even prominently using your name is a really good method to ensure potential clients/employers etc. **associate your work and the value you create directly and primarily with you or your brand** (vs. e.g. your employer or a platform you create value on).
     - Here you also have **full control** over your narrative and can present whatever you want however you want as well as fully **own your content**
 - **Monetization**:
     - Though building a solid brand is certainly the more challenging part, having build your brand with your site playing a main role probably makes **monetization via affiliate marketing, sponsored posts, selling digital products, or offering online courses** a lot easier and ensures the brand is further strengthened when those are added to your site.
-- **Personal Development**:
+- **Personal development**:
     - **Writing requires you to research, write, and continuously learn**. It can be a platform for personal growth and skill development. Through comments and social sharing, you can engage with your audience and **receive feedback on your ideas and content**, which can help you refine your personal brand.
 
 ## Tech considerations
@@ -104,7 +106,7 @@ comments: true
     - Important for me: it's **Markdown (documentation) focused** in particular, meaning e.g. relative links just work and documents incl. folders can just be copied around even between other (knowledge management) software
     - I particularly like the emphasis on **good navigation** through fast full-text search, sticky side navigation, TOC and even keyboard shortcuts as well as that large **tables** can easily be rendered from CSV or Excel files
 
-#### (Self-)hosted blogging software/CMS/Website Builder
+#### (Self-)hosted blogging software / CMS / Website builder
 
   > About half the internet runs on WordPress 🤯 [^internetwordpress]
 
@@ -124,7 +126,7 @@ comments: true
 
 <br>
 
-- **Typical CMS / Website Builder**
+- **Typical CMS / Website builder**
     - [WordPress](https://wordpress.com/)
     - [Drupal](https://www.drupal.org/)
     - [Ghost](https://ghost.org/)
@@ -196,7 +198,7 @@ comments: true
 - **Responsive frontend design** is the norm now, but this **doesn't automatically mean mobile first**
 - **Try viewing** your framework theme of choice on **mobile** or via desktop browser dev tools and see if e.g. **TOC, social buttons, header, article metadata incl. author info, tags and cookie consent** are still somewhat **usable and e.g. tables don't wildly overflow**
 
-### Basic Web Setup
+### Basic web setup
 
 #### Hosting for static sites
 
@@ -316,7 +318,7 @@ Having an SSG solution with **no backend and DB is totally possible, scalable, r
 
 [^rssfeedburner]: [https://medium.com/@davideiaiunese/the-problem-why-a-newsletter-baae4409a526](https://medium.com/@davideiaiunese/the-problem-why-a-newsletter-baae4409a526)
 
-#### Social Sharing
+#### Social sharing
 
 Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text={{- page.title | urlencode -}}&url=https://philipp-kopp.com/{{- page.url | urlencode -}})
 
@@ -325,7 +327,7 @@ Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text=
 - IMO those buttons **could also be sticky**, not only e.g. at the bottom of the page, if the reader wants to share mid-read
 - As more than about 6 buttons would start to become a bad user experience, it makes sense to adapt the **selection of social buttons depending on your target audience and possibly their geographic location** (find out in your analytics tool)
 
-#### SEO Optimization & Performance
+#### SEO optimization & Performance
 
 <figure markdown>
   ![SEO organic results](seo-organic.webp){: loading=lazy}
@@ -345,7 +347,7 @@ Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text=
     - Be aware of what **keywords** your audience uses in searches (see Google Search Console below) and use them in an organic and unique way as well as a reasonable amount in titles, headings, meta-tags (careful with [brands](#others-rights-and-more-legal-considerations)), image alt-tags (use them in general), and in your content incl. synonyms and long-tail ("bright running shoes" vs "shoes")/low competition versions
     - **Consistency** in quality, uniqueness of topics, publishing frequency and **up-to-date** content
     - **Simple & clear navigation, content** separation/"siloing" (e.g. when providing tips to both snowboarding learners and trainers, man and machine should have no problem finding the corresponding content e.g. via keywords), URLs (via optimized site/article titles); use of internal links
-
+- **Analyzer Tools** like [capitalizemytitle.com/headline-analyzer](https://capitalizemytitle.com/headline-analyzer/) or [monsterinsights.com/headline-analyzer](https://www.monsterinsights.com/headline-analyzer/) can help optimize article titles
 - [**Google Search Console**](https://search.google.com/search-console) is kind of the reverse of Google [Analytics](#analytics) regarding who delivers data to who: with Google Search Console you prove you own your site and then **Google shares insights regarding SEO optimization e.g. what users search to get to your site via Google** - while **with Google Analytics you primarily share data with Google about what your users do there to get insights about possible marketing/business optimizations** in return
 
 - Also check out this [SEO guide series by ahrefs](https://ahrefs.com/seo)
@@ -364,7 +366,7 @@ Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text=
 - A **CDN** might not be necessary for text-focused sites, though e.g. [Cloudflare](https://www.cloudflare.com/) offers a free, near zero-config solution while hosting with Netlify even comes with a CDN
 - Larger popular **JS libs** like [charts.js](https://www.chartjs.org/) can be directly included from [cdnjs.com](https://cdnjs.com/)
 
-### Content Management
+### Content management
 
 #### Maintenance & Editing
 
@@ -373,7 +375,7 @@ Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text=
 - If you host e.g. on GitHub/GitLab, you can also edit your content with their built-in **web editors incl. (live-)previews** or even 3rd-party editors like [Dillinger](https://dillinger.io/)
 - For **CMS** e.g. for WordPress **plugins** like [WD GitHuber MD](https://wordpress.org/plugins/wp-githuber-md/) usually exist that enable you to **mainly work with Markdown files**
 
-#### Markdown features & file structure
+#### Markdown features & File structure
 
 !!! tip "File structure"
 
@@ -504,7 +506,7 @@ graph TD;
     - With 3rd-parties that process your user's data and without e.g. there being an NDA
     - Usually: your hoster, Google Analytics, newsletter service
 
-#### Cookie/Script Consent Management
+#### Cookie/Script Consent management
 
 - **Non-essential** (e.g. Google Analytics, unlike e.g. shopping cart content-related cookies) **cookies AND other data collection scripts etc.** need to be **blocked** until explicitly approved by the user
 - This also means that the site needs be stay **usable even if consent is not given**
@@ -559,13 +561,13 @@ If you publish content **in Germany**, you **always need** an **imprint**:
   - Regarding rights, **if** something e.g. a video on YouTube **was (legally!) made available publicly** on the internet, then you can also display it as embedding (YouTube: "Share" -> "Embed") in a frame on your site. This is different than e.g. simply downloading the video and directly integrating it into your side, as **embeddings can usually still be managed by the owner** to a certain extent (e.g. blocked at any time) and the content is not really distributed by you, but rather streamed to clients, so in this sense it's **more similar to a link**. That's why attribution might not be necessary, but good practice at the very least considering the second aspect: liability. 
   - **Depending on how obvious or not you integrate external content in your site** (different design, placed separately from the main content, content creator visible in the video?), **you are also liable for anything that's wrong with the external content** - e.g. copyright, hate speech or illegal services. "Surface-links" linking only to a root/homepage of a site are generally unproblematic, while e.g. with (inline links)[https://en.wikipedia.org/wiki/Inline_linking] it's hard to tell at first glance if it will lead to a different site or not. In any case, if you're acting commercially and the more it looks like you're trying to present external content as your own, the stricter and less favorably for you those laws will be applied. 
 
-#### Own Copyright/Licensing
+#### Own Copyright / Licensing
 
   - **Your content** is usually automatically **protected under copyright law** in most countries
   - It still doesn't hurt to **point that out on all pages e.g. in the footer** via "© {year} {name}. All rights reserved under {license}"
   - You can decide to declare a **more lax copyright so that others can build upon your work** (usually given author attribution): e.g. use the [Creative Commons License Chooser](https://chooser-beta.creativecommons.org/) and put the output on your page
 
-## Site Structure & Content
+## Site structure & Content
 
 ### About page
 - As a site for **personal branding** has a professional/business goal, IMO it should first and foremost have a "**professional**" section where you detail:
@@ -579,7 +581,7 @@ If you publish content **in Germany**, you **always need** an **imprint**:
 - If you aim for a **brand specifically around your name** for a really personal touch rather than a proxy brand name with you more in the background, I'd also prominently place a nice **photo of you** here (as well as maybe in the site header or sidebar) accompanied with a "personal" section for smoother networking
 - As it's really easy now to **receive money** e.g. via [PayPal.me](https://paypal.me/PhilMKopp) Page, IMO it doesn't harm to discretely provide this possibility for people who might want to thank you for the value you provide outside of contracts e.g. via quality blog articles
 
-### Main Content & Navigation
+### Main content & Navigation
 
 - **All articles** page:
     - Should provide an **overview of all available categories and show the most recent or popular articles**
@@ -596,7 +598,7 @@ If you publish content **in Germany**, you **always need** an **imprint**:
         - Creating expert content on diverse topics is naturally more challenging and even then it's harder to convey a clear brand message
         - Diverse topics can make having a user-friendly [RSS feed & newsletter](#newsletter--rss) hard, as more fine-grained delivery control is necessary for the admin or user in order to not spam readers with unwanted content
 
-### Footer/Sidebar
+### Footer / Sidebar
 
 - **Copyright note** for your content
 - Links to

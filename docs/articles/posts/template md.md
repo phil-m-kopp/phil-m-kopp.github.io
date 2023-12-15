@@ -4,7 +4,7 @@ title: "Template"
 date: 2023-10-18
 updated: 2023-10-18
 tags: 
-  - How-To
+  - Guide
 categories:
   - Personal Development
 description: description
