@@ -171,6 +171,7 @@ comments: true
 
 [^jekyllspeed]: [https://oceanumeric.github.io/blog/jekyll-mkdocs-quarto](https://oceanumeric.github.io/blog/jekyll-mkdocs-quarto)
 [^blogvsmedium]: [https://www.bloggersgoto.com/medium-vs-own-blog/](https://www.bloggersgoto.com/medium-vs-own-blog/), [https://hulry.com/medium-vs-own-blog/](https://hulry.com/medium-vs-own-blog/)
+[^obsidianperf]: [https://obsidian.md/blog/obsidian-publish-now-offers-more-for-less/](https://obsidian.md/blog/obsidian-publish-now-offers-more-for-less/)
 
 #### Themes & Plugins
 
