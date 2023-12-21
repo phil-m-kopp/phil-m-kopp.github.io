@@ -32,5 +32,6 @@ jobs:
                 mkdocs-macros-plugin \
                 mkdocs-autolinks-plugin
       # - run: python3 convertWebP.py
+      - run: echo "philipp-kopp.com" > build/CNAME
       - run: mkdocs gh-deploy --force
 
