@@ -22,13 +22,17 @@ comments: true
 
 ### Sources
 
+
+
 - **Learning from others**
-  - **Menteeship**
+  - **With Mentor/Coach**
   - **Social/networking**
-  - **Idols**
-- **books: book summaries**
-- **book vs course vs coach**
+  - **Idols**: people that inspire you with their actions and achievements. Without mentoring, learning is mostly limited to imitation. You can try to learn about what they do e.g. via LinkedIn or (press) articles about them or trying to contact them directly via direct message/email
+- **Courses**: in contrast to books etc. with focus on teaching a skill to a certain level, often asserted by practical exercises, thus incorporating a feedback loop 
+- **Books etc.**: often rather theoretical or for reference. own ways of applying the knowledge necessary to actually learn
+  - **Book summaries**
 - **introspection**
+  - **measure and track**
   - **retros**
 
 
@@ -40,7 +44,7 @@ comments: true
 
 - **Growth mindset**
 
-- **Learn on the go**
+- **Learn on the go**: e.g. podcasts or books can be consumed on the go, putting often otherwise unused time to good use
 - **Iteration**
 
 ### Persist / Enhance
