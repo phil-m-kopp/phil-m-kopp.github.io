@@ -28,11 +28,36 @@ comments: true
 
 ## Generic image to pixel/low-fi art techniques
 
-- Color quantization
+- Color quantization / restricted palette: usually last to ensure restricted palette
+  - posterize
 - Color dithering
-- Sharpening
+- Pixelation / Mosaic
+  - in paint.NET: uses selected filter method to downsample by given factor of 2, then uses nearest-neighbour to scale up to original size
+  - nearest-neighbour: "pixel perfect"
+  - bilinear vs cubic: cubic is slightly sharper
+  - multi bilinear: quite blurry
+- Saturation & contrast
+- Sharpness / clarify
+- Blur
 - "Brush" filters
 
+### Outline
+
+- Outline / Edge detection / High Pass (copy layer first and apply effects to top layer)
+- Inverting colors might be necessary to get black lines on white ground
+
+![](outline1.png)
+
+- Use color quantization, high contrast etc. to increase sharpness of the outlines 
+
+| Quantized outline | High contrast outline |
+| :---------------: | :-------------------: |
+| ![](outline2.png) |  ![](outline22.png)   |
+
+- Multiply-overlay the outlines with the image
+- Layer-merge outline with image to be able to apply effects to the image incl. outline
+
+![](outline3.png)
 
 ## Pixel art scalers
 
@@ -68,7 +93,7 @@ On the other hand, if **filtering** (e.g. bilinear interpolation[^bilinear]) is 
 
   - **Scale2x**: sharp upscaler
   - **Eagle**: sharp upscaler
-  - **HQ2X**: sharp with slight blur, bit blocky
+  - **HQ2X**: sharp with slight blur, more blocky
   - **Lanzcos**: improvement over e.g. bilinear filtering
 
 If also like:
@@ -79,14 +104,17 @@ If also like:
   - **XBR4x (with blend)**: sharp and rounded
   - **AdvInterp2x**: sharp with slight blur
   - **EPXC**: sharp with slight blur
+  - **HQ2X bold**: blurry
 
 !!! warning
 
-    Before pixel art scalers can be effectively applied, you need to **make sure that the source material isn't** already nearest-neighbour **scaled**. If you e.g. Scale2x pixel art at 400% you will just blow up the pixels and slightly round their edges. While non-scaled the result is a more cell-shaded look like originally intended.
+    Before pixel art scalers can be effectively applied, you need to **make sure that the source material isn't** already nearest-neighbour **pre-scaled**. If you e.g. Scale2x pixel art at 400% you will just blow up the pixels and slightly round their edges. While non-scaled the result is a more cell-shaded look like originally intended.
 
-    |           Scaled           |         Non-scaled         |
+    |         Pre-scaled         |         Non-scaled         |
     | :------------------------: | :------------------------: |
     | ![](ravenfantasyWrong.png) | ![](ravenfantasyRight.png) |
+
+    Sometimes scalers also have difficulties with transparent backgrounds (black outlines will bleed out sharply) but not with white backgrounds.
     
 
 ![](ravenfantasy2dimagefilter.png)
@@ -103,11 +131,11 @@ Note that **applying** e.g. **HQ2X two times** (e.g. via using repeat=2 or using
 
 ### My favourite methods
 
-**2x EPXB**: very crisp look. E.g. the sandwich bread or the grapes look like they have small triangular artifacts
+**2x EPXB**: very sharp look. E.g. the sandwich bread or the grapes look like they have small triangular artifacts
 
 ![](ravenfantasy2xScale2x.png)
 
-**2x XBR2x (no blend)**: crisp look, bit more rounded 
+**2x XBR2x (no blend)**: sharp look, bit more rounded 
 
 ![](ravenfantasy2xXBR2x.png)
 
@@ -127,45 +155,134 @@ Note that **applying** e.g. **HQ2X two times** (e.g. via using repeat=2 or using
 
 ![](ravenfantasyXBR4x.png)
 
+
+
+### AI upscaling
+
+4x scaling right from 16x16 results in blocky smudges and especially the outlines are very hard blocky:
+
+![](ravenfantasy16x16_waifu2x_4x_0n.png)
+
+If the icons are pre-scaled with blur like XBR2x, then another pass with Waifu2x (no denoise) gets us a results quite similar to XBR4x, however with more "fluidity", as e.g. visible with the jellyfish or the bloody dagger
+
+![](ravenfantasy_waifu2x_2x_0n.png)
+
 ## AI art to pixel art
 
-### **1. Generate image**
+### 3d to pixel art
 
-- Example **prompt**: "fire ball spell sprite, effect, game asset, white background"
-  - **negative**: "wood, metal, shadow, flash"
+[PoseMy.art](https://app.posemy.art/)
+
+| 3D model screenshot | Pixelated -> quantized |
+| :-----------------: | :--------------------: |
+|     ![](3d.png)     |   ![](3d_pixel.png)    |
+
+[Kenney Shape](https://kenney.nl/tools/kenney-shape)
+
+| 3D model screenshot | Pixelated -> quantized |
+| :-----------------: | :--------------------: |
+|   ![](house.png)    |  ![](house_pixel.png)  |
+
+### Large/full-screen art
+
+Original image:
+
+"grass plain, magic tower, fantasy world, (birds:0.3), (travelers:1.3), god rays, afternoon, illuminated (purple clouds:0.5), masterpiece, highly detailed"
+
+![](bg1.png)
+
+- Color quantization: Octree, 48 colors, no dither
+
+Difference between sharp nearest-neighbour and more blurry bicubic pixelation is barely noticable after color quantization
+
+|     Nearest -> Quantize      |     Bicubic -> Quantize      |
+| :--------------------------: | :--------------------------: |
+| ![](bg_nearest_quantize.png) | ![](bg_bicubic_quantize.png) |
+
+The difference between Octree and Median Cut quantization is I think a matter of taste. To me Median Cut seems to produce harsher colors reminding my of older console palettes like with the Commodore 64
+
+|       Quantize: Octree       |     Quantize: Median Cut      |
+| :--------------------------: | :---------------------------: |
+| ![](bg_nearest_quantize.png) | ![](bg_mediancut-nearest.png) |
+
+The difference in ordering color quantization and pixelation hardly makes a difference, especially when using nearest-neighbour scaling. With blurrier methods like (multi) bilinear or bicubic, scaling after quantization smoothes over the hard edges that the quantization procudes especially in the sky, though the distinct "color steps" are still quite visible. Dithering is probably preferably here, since smooth edges but visible color steps don't seem like a nice combination
+
+|     Multi-bilinear -> Quantize      |     Quantize -> Multi-bilinear      |
+| :---------------------------------: | :---------------------------------: |
+| ![](bg_multi-bilinear_quantize.png) | ![](bg_quantize_multi-bilinear.png) |
+
+While color quantization alone yields the same results on a nearest-neighbour downscaled vs. pixalated image, the dithering effect will apply quite different to a smaller downscaled image compared to a large pixelated image:
+
+| Downscale 25% -> Dither 4  | Pixelate 4x/25% -> Dither 4 |
+| :------------------------: | :-------------------------: |
+| ![](bg_down25_dither4.png) | ![](bg_pixel4_dither4.png)  |
+
+|   Dither 18 colors   |   Dither 48 colors   |
+| :------------------: | :------------------: |
+| ![](bg_dither18.png) | ![](bg_dither48.png) |
+
+|  Gauss Blur -> Dither   |     Nearest -> Dither      | 
+| :---------------------: | :------------------------: | 
+| ![](bg_blur_dither.png) | ![](bg_nearest_dither.png) | 
+
+|    Nearest -> Oil -> Dither    | Oil -> Nearest -> Dither |
+| :----------------------------: | :----------------------: |
+| ![](bg_nearest_oil_dither.png) |  ![](bg_oil_dither.png)  |
+
+
+
+
+
+### Small-medium art/sprites
+
+#### **1. Generate image**
+
+- Example **prompt**: "fire ball spell sprite, flame, effect, game asset, white background, cell shaded, thick lines"
+  - **negative**: "(wood:1.5), (metal:1.2), (shadow:1.2), (flash:1.2), (rock:1.2)"
   - **style**: "game-rpg fantasy game"
 
 ![](1.png)
 
-### 2. 1st color quantization
+#### 2. Sharpness and contrast
 
-![](2.png)
+As pixel art is done with restricted color palettes, each color needs to have value and purpose and the pallete as a whole also needs to be flexible enough to typically display a wide variety of objects nicely. Thus, such color palettes tend to have high contrast, so that details can be visible even on a small scale.
 
-### 3. Filtered downscaling
+- Highlights / Shadows -> Clarity
+- Contrast
+- Saturation
 
-- bicubic (crispier than bilinear)
+![](2crisp.png)
 
-![](3.png)
+#### 3. Pixelate
 
-### 4. Pixel upscaling
+Cell size = 4 (= downscale to 25%)
 
-- XBR2x -> AdvInterp2x
+Options:
 
-![](4.png)
+- Sharp (nearest-neighbour) or blurry (bilinear, cubic etc.)
 
-### 5. 2nd color quantization
+![](3crisp.png)
 
-#### Quantization comparison
+#### 4. Quantize colors
 
-|  Colors = 9  |  Colors = 11  |  Colors = 13  |
-| :----------: | :-----------: | :-----------: |
-| ![](5_9.png) | ![](5_11.png) | ![](5_13.png) |
+- Use as few colors as possible to keep the look clean
+- A shaper look works better with a few more colors to preserve fine details
+- 
 
-#### Dithering comparison
+| Vibrant & sharp |    Vibrant & blurry     |
+| :-------------: | :---------------------: |
+| ![](4crisp.png) | ![](4_oil_bilinear.png) |
 
-|  Level = 0   |   Level = 4   |   Level = 8   |
-| :----------: | :-----------: | :-----------: |
-| ![](5_9.png) | ![](5_9h.png) | ![](5_9f.png) |
+ |  Low contrast & blurry  |     Low contrast & dither      |
+ | :---------------------: | :----------------------------: |
+ | ![](4_low-contrast.png) | ![](4_low-contrast_dither.png) |
 
+| 100% outline, sharp & few colors |     50% outline, blurry & more colors     |
+| :------------------------------: | :---------------------------------------: |
+|        ![](4_outline.png)        | ![](4_outline_blur_high-quantization.png) |
+
+|       Sharp        |       Blurry        |
+| :----------------: | :-----------------: |
+| ![](ice_crisp.png) | ![](ice_blurry.png) |
 
 
