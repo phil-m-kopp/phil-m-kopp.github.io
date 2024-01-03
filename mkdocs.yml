@@ -66,6 +66,7 @@ theme:
       FoodAndCooking: material/food-apple-outline
       ArtAndCraft: fontawesome/solid/scissors
       HomeImprovement: material/hammer-screwdriver
+      List: fontawesome/solid/list-ol
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
@@ -133,6 +134,7 @@ extra:
     DIY: DIY
     Personal Development: PersonalDevelopment
     Guide: Guide
+    List: List
     Personal Brand: PersonalBrand
     QA: QA
     Knowledge Management: KnowledgeManagement
