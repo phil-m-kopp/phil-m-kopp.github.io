@@ -78,9 +78,9 @@ comments: true
 	- [aseprite](https://www.aseprite.org) (paid)
 	- [pyxeledit](https://pyxeledit.com/) (paid)
 - **Animation (general)**
-  - [synfig](https://www.synfig.org/)
-  - [pencil2d](https://www.pencil2d.org/)
-  - [spookyghost](https://encelo.itch.io/spookyghost)
+    - [synfig](https://www.synfig.org/)
+    - [pencil2d](https://www.pencil2d.org/)
+    - [spookyghost](https://encelo.itch.io/spookyghost)
 
 - **Conversion**
 	- [converseen](https://converseen.fasterland.net)
@@ -96,7 +96,7 @@ comments: true
 #### 2D Game asset work
 
 - **Tool collection**:
-  - [lospec.com](https://lospec.com/resources/): pixel art palettes, pixel art web editor and other tools
+    - [lospec.com](https://lospec.com/resources/): pixel art palettes, pixel art web editor and other tools
 - **Sprite cutter**
 	- [ezgif.com/sprite-cutter](https://ezgif.com/sprite-cutter)
 	- [yeoji.github.io/spritesheet-cutter](https://yeoji.github.io/spritesheet-cutter)
@@ -110,8 +110,8 @@ comments: true
 	- [pixelover](https://deakcor.itch.io/pixelover) (paid)
 	- [pixel-composer](https://makham.itch.io/pixel-composer) (paid)
 - **Maps / Levels**
-  - [Tiled](https://www.mapeditor.org/)
-  - [LDtk](https://ldtk.io/)
+    - [Tiled](https://www.mapeditor.org/)
+    - [LDtk](https://ldtk.io/)
 	- [tabletop-rpg-map-editor](https://deepnight.itch.io/tabletop-rpg-map-editor)
 
 #### 3D Modeling
@@ -180,16 +180,16 @@ comments: true
 #### Creation
 
 - **Retro**
-  - [bosca-ceoil](https://terrycavanagh.itch.io/bosca-ceoil)
-	- [amistudio](https://bleubleu.itch.io/famistudio)
-	- [petaporon](https://pixwlk.itch.io/petaporon) (web)
-	- [beepbox.co](https://www.beepbox.co/) (web)
+    - [bosca-ceoil](https://terrycavanagh.itch.io/bosca-ceoil)
+    - [amistudio](https://bleubleu.itch.io/famistudio)
+    - [petaporon](https://pixwlk.itch.io/petaporon) (web)
+    - [beepbox.co](https://www.beepbox.co/) (web)
 - **Sound only**
 	- [chiptone](https://sfbgames.itch.io/chiptone) (web)
-  - [labchirp](https://labbed.itch.io/labchirp)
+    - [labchirp](https://labbed.itch.io/labchirp)
 - **DAW**:
-  - [lmms](https://lmms.io/)
-  - [ardour](https://ardour.org/)
+    - [lmms](https://lmms.io/)
+    - [ardour](https://ardour.org/)
 
 #### Generation
 
@@ -200,13 +200,16 @@ comments: true
 
 ### Tools
 
-- Project management (game/art specific):
-	- [articy](https://www.articy.com) (personal use: free)
-	- [hacknplan](https://hacknplan.com) (personal use: free)
-- Engines (open source, for beginners):
-  - [Godot](https://godotengine.org/): 2D & 3D, Python-like & C#
-  - [GDevelop](https://gdevelop.io/): 2D, no-code
-  - [pico-8](https://www.lexaloffle.com/pico-8.php): 2D & 3D, Lua
+#### Project management (game/art specific)
+
+- [articy](https://www.articy.com) (personal use: free)
+- [hacknplan](https://hacknplan.com) (personal use: free)
+
+#### Engines / IDEs (open source, for beginners)
+
+- [Godot](https://godotengine.org/): 2D & 3D, Python-like & C#
+- [GDevelop](https://gdevelop.io/): 2D, no-code
+- [pico-8](https://www.lexaloffle.com/pico-8.php): 2D & 3D, Lua
 
 ### Guides
 
