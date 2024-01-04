@@ -1,7 +1,7 @@
 ---
 title: "List: Indie Game Dev Assets and Tools"
 date: 2024-01-03
-updated: 2024-01-03
+updated: 2024-01-04
 tags: 
   - List
   - GamesDevelopment
@@ -156,6 +156,7 @@ comments: true
 
 - [freesound.org](https://freesound.org): general, various licences
 - [zapsplat.com](https://www.zapsplat.com): general, mostly single assets (also paid)
+- [soundly.com](https://getsoundly.com/): general (also paid)
 - [kenney.nl](https://kenney.nl): indie focus, free packs
 - [sonniss.com/gameaudiogdc](https://sonniss.com/gameaudiogdc): general, free packs (also paid)
 - [99sounds.org](https://99sounds.org): general, free packs
