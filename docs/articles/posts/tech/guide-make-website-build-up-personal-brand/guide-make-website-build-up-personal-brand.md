@@ -38,17 +38,17 @@ comments: true
 
 ## Why build a personal brand via your site
 
-- **Showcase expertise**:
+- **Showcase expertise**
     - Articles on your site allow you to demonstrate your expertise and knowledge in a specific field or industry. By consistently publishing high-quality, informative content, you can **establish yourself as an authority in your niche**. Regularly sharing valuable insights, experiences, and opinions can help **build trust and credibility** with your audience.
     - Your site can serve as a **dynamic portfolio of your work, achievements, and thought leadership**. This is particularly valuable if you're in a creative or knowledge-heavy profession.
-- **Networking**:
+- **Networking**
     - You can connect with like-minded individuals, experts, and influencers in your field **through comments and offering opportunities to contact you** via email or links to your social media profiles.
-- **Narrative control & value association**:
+- **Narrative control & value association**
     - Publishing content under your domain, maybe even prominently using your name is a really good method to ensure potential clients/employers etc. **associate your work and the value you create directly and primarily with you or your brand** (vs. e.g. your employer or a platform you create value on).
     - Here you also have **full control** over your narrative and can present whatever you want however you want as well as fully **own your content**
-- **Monetization**:
+- **Monetization**
     - Though building a solid brand is certainly the more challenging part, having build your brand with your site playing a main role probably makes **monetization via affiliate marketing, sponsored posts, selling digital products, or offering online courses** a lot easier and ensures the brand is further strengthened when those are added to your site.
-- **Personal development**:
+- **Personal development**
     - **Writing requires you to research, write, and continuously learn**. It can be a platform for personal growth and skill development. Through comments and social sharing, you can engage with your audience and **receive feedback on your ideas and content**, which can help you refine your personal brand.
 
 ## Tech considerations
@@ -62,18 +62,18 @@ comments: true
 
 #### Static site generators (SSG)
 
-- **Typical minimal setup**:
+- **Typical minimal setup**
     - Create repo
     - Choose a [theme](#themes--plugins) for your needs (landing page, blog, image portfolio...)
     - Provide config values
     - Publish e.g. via [GitHub/GitLab](#githubgitlab-pages-static-sites-only)
-- **"Static"** premise:
+- **"Static"** premise
     - **Generate HTML from static documents** (e.g. markdown) and/or via templating/frameworks (e.g. React)
     - Thus they **don't require a DB or backend** and code-wise **may contain little more than only the website content itself** (almost "no-code")
-    - Usually **SSR**-focused:
+    - Usually **SSR**-focused
         - **Fast** even with plugins etc., as compute effort mostly at build time + mostly CDN cacheable (+ some frameworks still over single-page-application behavior)
         - Good for **SEO** as fully rendered pages are delivered
-- **Document-focused** frameworks:
+- **Document-focused** frameworks
     - Centered around the idea of **generating navigation and content directly from .md files**
     - For main page content to **update** a **rebuild** is usually necessary
     - Even they can be heavily **extended via underlying language**/web-framework
@@ -101,7 +101,7 @@ comments: true
 
 !!! info "My decision for MkDocs Material"
 
-    - [**Setup**](https://squidfunk.github.io/mkdocs-material/getting-started/) **couldn't be more simple**: the init command leaves you with a config file and a folder to drop Markdown files in that immediate get rendered to pages with header- and side-navigation. The excellent documentation leads you through further customization through plugins, where anything you might want to start with from search, over blogging, commenting and RSS to a cookie consent manager can quickly be set up thanks to sensible defaults.
+    - [**Setup**](https://squidfunk.github.io/mkdocs-material/getting-started/) **couldn't be more simple** the init command leaves you with a config file and a folder to drop Markdown files in that immediate get rendered to pages with header- and side-navigation. The excellent documentation leads you through further customization through plugins, where anything you might want to start with from search, over blogging, commenting and RSS to a cookie consent manager can quickly be set up thanks to sensible defaults.
     - As a document-focused SSG it's **fast, secure, scale, low-maintenance and easily and freely hosted** via GitHub Pages
     - Important for me: it's **Markdown (documentation) focused** in particular, meaning e.g. relative links just work and documents incl. folders can just be copied around even between other (knowledge management) software
     - I particularly like the emphasis on **good navigation** through fast full-text search, sticky side navigation, TOC and even keyboard shortcuts as well as that large **tables** can easily be rendered from CSV or Excel files
@@ -112,11 +112,11 @@ comments: true
 
   [^internetwordpress]: [https://w3techs.com/technologies/overview/content_management](https://w3techs.com/technologies/overview/content_management)
 
-- **Typical minimal setup**:
+- **Typical minimal setup**
     - Pay for hosting with one click install of your CMS of choice
     - Basic config like site name, admin account... via wizard
 - **Not really free**, as hosting on a server or as a service has to be paid. Also, powerful plugins can be quite expensive 
-- **Battle-proven solutions**: having existed a decade longer, WordPress etc. have vast
+- **Battle-proven solutions** having existed a decade longer, WordPress etc. have vast
     - **Communities and documentation**
     - **Ecosystems of plugins/integrations** for any purpose
 - **More accessible UI/WYSIWYG approach** compared to SSGs for non-tech-savvy people
@@ -135,19 +135,19 @@ comments: true
     - [HubSpot](https://www.hubspot.com/)
     - [Squarespace](https://de.squarespace.com/)
 
-- **Personal knowledge management with publishing feature**:
+- **Personal knowledge management with publishing feature**
     - [Notion.so](https://www.notion.so/)
     - [Obsidian.md](https://obsidian.md/)
 
 #### Publishing platform
 
-- The main advantage is a **quick and easy start**:
+- The main advantage is a **quick and easy start**
     - **start writing right away** after sign-up, no maintenance, administration etc.
     - **immediate expose** via the vast traffic, which honestly also feels quite motivating for starters
 - **May be paywalled**, but thus might also **allow you monetization of your content**
 - You **only own your content (legally)**, but have **little to no control** over everything else. Exporting/moving your content might be practically impossible (without dedicated tools) 
 - Usually **very limited to no customization/extension**, e.g. forms, newsletters, content beyond text and images... (though e.g. Medium offers using your domain [^mediumdomain])
-- **Restricted applicability for personal branding**: not ensured that visitors associate your content particularly with you, not the platform (probably less the case on LinkedIn)
+- **Restricted applicability for personal branding** not ensured that visitors associate your content particularly with you, not the platform (probably less the case on LinkedIn)
 - Networking opportunity amongst authors as well as authors and readers
 
 [^mediumdomain]: [https://help.medium.com/hc/en-us/articles/115003053487](https://help.medium.com/hc/en-us/articles/115003053487)
@@ -209,11 +209,11 @@ comments: true
     - Better availability
     - Easier integration of free [Giscus](https://giscus.app/) commenting
 
-Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#limits-on-use-of-github-pages):
+Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#limits-on-use-of-github-pages)
 
 - Price: **free**
-- **Custom domain**: yes
-- **Prohibited uses**:
+- **Custom domain** yes
+- **Prohibited uses**
     - **Online business**, e.g. webshop or SaaS solution
     - Handling sensitive data, e.g. passwords or transactions
 - **Limits: more than enough** for years of personal blog/brand hosting and you'll be contacted rather than charged in case you exceed the limits
@@ -222,7 +222,7 @@ Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with
     - Deployment: 10min
     - Builds: 10/h (soft)
     - Traffic: 100GB/month (soft)
-- Privacy:
+- Privacy
     - IPs are logged
 
 ##### Netlify
@@ -234,7 +234,7 @@ Details for [GitHub Pages](https://docs.github.com/en/pages/getting-started-with
 #### Custom domain & email & SSL
 
 - Presenting your personal blog/brand on your **domain named after you simply looks more professional** and can also be used even if your content is non-self-hosted (e.g. on Medium [^mediumdomain])
-- **Top level domain doesn't matter much**: country-specific domains like *.de* only have a **slight local advantage**. Though hosting an international site in English on a *.com* domain isn't wrong either
+- **Top level domain doesn't matter much** country-specific domains like *.de* only have a **slight local advantage**. Though hosting an international site in English on a *.com* domain isn't wrong either
 - If you go for a *.com* domain, you might also be able to get a **cheap bundle offer** (e.g. *.de* + *.com*) for very little additional cost with a domain for your country 
 - Afaik [hosting.de](https://www.hosting.de/domains/) provides the cheapest *.de* domains
 - The domain should come **with an SSL certificate**, ideally a wildcard certificate extending to subdomains, as encrypting web traffic this way is so expected nowadays that **you'll even rank lower SEO-wise** for not having one even if your site is nearly completely static
@@ -248,7 +248,7 @@ Having an SSG solution with **no backend and DB is totally possible, scalable, r
 
 ##### Security and Scalability
 
-- Without backend/DB:
+- Without backend/DB
     - You can't easily run out of compute power or run into latency issues, especially since SSG sites can almost be fully cached, so **hosting stays cheap, scaling is easy and no DDoS** attacks to fear about
     - No public endpoint attacks, network intrusion, SQL injection, user credentials to protect or usual dependency vulnerabilities to worry about since code is only responsible for generating your static side and doesn't run after the initial build
     - So especially with document-based SSGs, to **only way to get hacked and be solely responsible for it is to have compromised login credentials to your hoster or 3rd-party services** and then data being extracted or e.g. malicious scripts directly being committed to your repo
@@ -261,7 +261,7 @@ Having an SSG solution with **no backend and DB is totally possible, scalable, r
   <figcaption>formspree.io</figcaption>
 </figure>
 
-- Even a blog, without e.g. a webshop or other dynamic web service, one can still make good use of **forms** in various ways, mostly to better engage with your readers:
+- Even a blog, without e.g. a webshop or other dynamic web service, one can still make good use of **forms** in various ways, mostly to better engage with your readers
     - A **generic contact form** pretty much always makes sense and might even be [legally required](#imprint-privacy-policy--cookie-consent)
     - Email sign-up for a **newsletter** is the next most popular tool
     - The **commenting** experience for users is nicer if **no login** like with Giscus or Disqus is required because the comment is handled by your own backend
@@ -287,10 +287,10 @@ Having an SSG solution with **no backend and DB is totally possible, scalable, r
 
 - Good idea from a **core reader engagement** point of view
 - **Without backend**
-        - **Content**: often solved via "**edit this page**" links that lead to the **page source on GitHub**, where users can propose changes via the established PR request process
-        - For **commenting**    
-            - The popular [Disqus](https://disqus.com/) sadly comes with additional privacy protection baggage, a Disqus or Facebook/Google/Twitter login as well as ads in the free version
-            - [Giscus](https://giscus.app/) is the most popular **cost and ad-free** solution and also **easy to integrate** (especially if the site repo is also on GitHub) via a **simple script snippet**, though requires and only works with a GitHub login (which might be a non-issue for a technical audience)
+    - **Content** often solved via "**edit this page**" links that lead to the **page source on GitHub**, where users can propose changes via the established PR request process
+    - For **commenting**    
+        - The popular [Disqus](https://disqus.com/) sadly comes with additional privacy protection baggage, a Disqus or Facebook/Google/Twitter login as well as ads in the free version
+        - [Giscus](https://giscus.app/) is the most popular **cost and ad-free** solution and also **easy to integrate** (especially if the site repo is also on GitHub) via a **simple script snippet**, though requires and only works with a GitHub login (which might be a non-issue for a technical audience)
 - SSG sites **with backend or CMS** might even offer plugins for e.g. line specific user commenting
 
 #### Analytics
@@ -342,7 +342,7 @@ Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text=
 
 ##### Content SEO
 
-- **Main content SEO tips**:
+- **Main content SEO tips**
     - **Link** to (and get "backlinked" to by) other **relevant websites or content**. Thus, having **sharable** content (e.g. hero image + good abstract) and easy sharing options is also an advantage
     - "Simply" provide good **content and a good user experience** first, only then optimize for machines ([Analytics](#analytics) can help here as well)
     - Be aware of what **keywords** your audience uses in searches (see Google Search Console below) and use them in an organic and unique way as well as a reasonable amount in titles, headings, meta-tags (careful with [brands](#others-rights-and-more-legal-considerations)), image alt-tags (use them in general), and in your content incl. synonyms and long-tail ("bright running shoes" vs "shoes")/low competition versions
@@ -431,7 +431,7 @@ Example: [:fontawesome-brands-x-twitter:](https://twitter.com/intent/tweet?text=
     - function similarly to tags in **keeping readers on the pages**
     - at the very least it **should be easily possible to link to any page on the site**
         - incl. blog articles, particularly if you want the publish date as part of your canonical URL
-- **"Autolink"**: automatically **converting normal text** to links based on text matching, e.g. [Internal Link Juicer](https://wordpress.org/plugins/internal-links/) for Wordpress
+- **"Autolink"** automatically **converting normal text** to links based on text matching, e.g. [Internal Link Juicer](https://wordpress.org/plugins/internal-links/) for Wordpress
 - Some plugins can **convert existing shortlinks/"Wiki-links"** like `[[Typic XYZ]]` to normal form `(Typic XYZ)[../topic_xyz.md]` - e.g. [autolink plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) for MkDocs
   
 [^secondbrain]: [https://fortelabs.com/blog/basboverview/](https://fortelabs.com/blog/basboverview/)
@@ -524,20 +524,20 @@ graph TD;
   
 #### Imprint
 
-If you publish content **in Germany**, you **always need** an **imprint**:
+If you publish content **in Germany**, you **always need** an **imprint**
 - Consisting of an **address for mail via post** (can be your private but also be another address with mail forwarding to you - "Impressumsservice") as well as a phone number OR contact form (email address alone apparently not sufficient)
 - Bi-directional links to **other social media presences** should also go here if there's a connection to any commercial activity via those social media presences
 - Although legal relevance is questionable, it's still common to have ["Liability and Legal Notices"](/imprint/#social-media-and-other-online-presences) below the imprint to try to distance yourself from e.g. external unlawful content or other unintended rights violations
 
 ### Other's rights and more legal considerations
 
-- **Domain**: 
+- **Domain** 
   - a domain being available doesn't mean that it couldn't be a **protected name of a brand or company**, potentially getting you a fine and losing the domain again - in Germany you can check [dpma.de](https://www.dpma.de/) and [handelsregister.de](https://www.handelsregister.de/) respectively
-- **Advertising**: 
+- **Advertising** 
   - needs to be of course not **untrue and recognizable** as such: e.g. clearly labeled as "Ad" in the context of social media/influencer marketing (especially if brands etc. are named), where it's not clear what advertising is paid or not (in which case it's actually not advertising in the first place in the legal sense) and/or clearly distinct e.g. from the main purely informative content in a blog post (e.g. sponsored content for a product in the middle of a blog post about such products in general)
-- **Marketing like Newsletters etc**: 
+- **Marketing like Newsletters etc** 
   - only allowed to be used with non or new users/customers **after explicit approval ("opt-in")**. Marketing of related products directed at existing customers (-> bought something!) is fine 
-- **Statements, comments etc**: 
+- **Statements, comments etc** 
   - your posts but also e.g. comments others can leave on your site need to be free of e.g. hate speech or untrue statements, especially regarding other brands, products etc. - e.g. there can be a big **legal difference** between stating "this product doesn't work properly" (generally) and "**In my opinion** this product doesn't work properly".
 - You have to **immediately remove unlawful external or user [content](#content-from-external-sources) as it comes to your attention**. It's common to have a statement regarding that in your [imprint](#imprint) 
 - If your website serves as a **shop**, you'd also need pages for your **"terms of service"** as well as for your **"cancellation policy"**
@@ -546,19 +546,19 @@ If you publish content **in Germany**, you **always need** an **imprint**:
 
 - In Germany: how much external content looks like your own depending on how you integrate it has big implications on your **liability** for that **external content**
 
-- **Text, Images, Music, Video**: 
+- **Text, Images, Music, Video** 
   - State the source and for anything more than very short quotes/few seconds of media you probably need the permission of the rights holders
-- **Photos of persons** (except celebrities):
+- **Photos of persons** (except celebrities)
   - Permission of that person
-- **Brand names, trademarks etc**: 
+- **Brand names, trademarks etc** 
   - "Using" brands by writing their name or displaying their logo should be done **with care** as it may result in cease and desist as well as damage claims, especially **if your traffic benefits** from it while it's not obvious that you don't own the brand. 
   - **Descriptive use** in your main content, e.g. naming "GitHub" as one of many possible ways to host your site is usually **fine**
   - But e.g. **isolated use of brands in your meta tags** (yes, including meta-tile, meta-description) can be considered as primarily an SEO measure to **rank higher and generate more traffic/revenue**, particularly via organic search results where it's not obvious which result is from the brand owner or not.
   - Be aware that your **framework might generate more meta information** than you are aware of, so check the generated source of use of a site like [heymeta.com](https://www.heymeta.com/). For example, e.g. writing about your favorite games I'd avoid "Nintend* games you mustn't skip" in favor of "My personal top 5 Nintend* games". 
   - Rights aside, many potential claims are probably not acted on because **positive content is usually appreciated anyways** but be extra careful when using brands in a critical context.
-- **Maps**: 
+- **Maps** 
   - Also requires permission from the owner + providing the source. Using Google Maps is ok, though it requires a paragraph in your privacy policy
-- **Embeddings, Frames, Links**: 
+- **Embeddings, Frames, Links** 
   - Regarding rights, **if** something e.g. a video on YouTube **was (legally!) made available publicly** on the internet, then you can also display it as embedding (YouTube: "Share" -> "Embed") in a frame on your site. This is different than e.g. simply downloading the video and directly integrating it into your side, as **embeddings can usually still be managed by the owner** to a certain extent (e.g. blocked at any time) and the content is not really distributed by you, but rather streamed to clients, so in this sense it's **more similar to a link**. That's why attribution might not be necessary, but good practice at the very least considering the second aspect: liability. 
   - **Depending on how obvious or not you integrate external content in your site** (different design, placed separately from the main content, content creator visible in the video?), **you are also liable for anything that's wrong with the external content** - e.g. copyright, hate speech or illegal services. "Surface-links" linking only to a root/homepage of a site are generally unproblematic, while e.g. with (inline links)[https://en.wikipedia.org/wiki/Inline_linking] it's hard to tell at first glance if it will lead to a different site or not. In any case, if you're acting commercially and the more it looks like you're trying to present external content as your own, the stricter and less favorably for you those laws will be applied. 
 
@@ -571,9 +571,9 @@ If you publish content **in Germany**, you **always need** an **imprint**:
 ## Site structure & Content
 
 ### About page
-- As a site for **personal branding** has a professional/business goal, IMO it should first and foremost have a "**professional**" section where you detail:
+- As a site for **personal branding** has a professional/business goal, IMO it should first and foremost have a "**professional**" section where you detail
     - Your personal brand pitch
-    - Your professional experience: 
+    - Your professional experience
         - LinkedIn etc. profile links
         - Summary skills, certifications, achievements, testimonials
         - Work/project portfolio with links/screenshots/demos (e.g. code repos as a developer)
@@ -584,13 +584,13 @@ If you publish content **in Germany**, you **always need** an **imprint**:
 
 ### Main content & Navigation
 
-- **All articles** page:
+- **All articles** page
     - Should provide an **overview of all available categories and show the most recent or popular articles**
     - Usually also makes a **good home/root page** (a permanent redirect config might be necessary so that "yourdomain/" points to "yourdomain/all-articles")
     - IMO "articles" imply a bit more professionalism than "posts" - which can be an advantage if your style aligns with it 
-- All **tags** and tag-specific pages:
+- All **tags** and tag-specific pages
     - Aside from a page that lists all tags, clicking on a tag anywhere **should lead to an overview page for the particular tag** listing all other pages with that tag
-- **Category** pages:
+- **Category** pages
     - IMO for easy navigation **each main category you write about** should show up in the main navigation (e.g. header) as well
 
 !!! warning "Mixing totally different topics"

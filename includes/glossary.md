@@ -10,7 +10,7 @@
 *[WYSISYG]: What you see is what you get: type of document editor that allows users to view and edit content exactly as it will appear in the final product (unlike e.g. code editors)
 *[GDPR]: General Data Protection Regulation
 *[RSS]: Rich Site Summary / Really Simple Syndication
-*[PII]: [Personally Identifiable Information](https://www.investopedia.com/terms/p/personally-identifiable-information-pii.asp): data to confirm an individual's identity, e.g. address, email, but also e.g. IP adress
+*[PII]: Personally Identifiable Information: data to confirm an individual's identity, e.g. address, email, but also e.g. IP adress
 *[NDA]: Non-Disclosure Agreement: usually about company secrets or user data
 *[VCS]: Version Control System: e.g. Git(Hub): managing text files (usually code) with a history and thus collaboration features
 *[SSG]: Static Site Generator: type of web framework, often focussing on builting sites purely from Markdown documents 
@@ -24,3 +24,4 @@
 *[CSV]: Comma Separated Values: file format for tabular data, similar to Excel files
 *[IMO]: In My Opinion
 *[Metroidvania]: sub-genre of action-adventure games and/or platformers focused on guided non-linearity and utility-gated exploration and progression, inspired by games like "Metroid" and "Castlevania"
+*[CC0]: Creative Commons Zero: "no rights reserved" / "public domain" assets - possible commercial use without attribution
