@@ -1,0 +1,115 @@
+.profile-wrapper {
+    /* padding-left: 2.5rem; */
+    /* padding-right: 1.25rem; */
+    text-align: center;
+    font-size: .75rem;
+  }
+
+.site-title {
+    color: var(--md-typeset-a-color);
+    font-size: 1.75rem;
+}
+
+.rounded-circle * {
+    border-radius: 50% !important;
+}
+
+#avatar {
+    display: block;
+    overflow: hidden;
+    filter: drop-shadow(0 0 0.2rem black);
+}
+
+.md-logo img {
+    height: 64px !important;
+    filter: drop-shadow(0 0 0.2rem black) ;
+    border-radius: 50% !important;
+}
+
+.md-header__inner {
+    height: 68px;
+}
+
+.md-header__topic {
+    opacity: 100% !important;
+    position: relative;
+    line-height: 1rem;
+    font-weight: 100 !important;
+    font-size: medium;
+    white-space: initial;
+}
+
+.md-header__title {
+    height: auto;
+}
+
+.md-content__inner img {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15)
+}
+
+.shadow {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15)
+}
+
+/* .md-nav--lifted label.md-nav__title {
+    white-space: normal !important;
+    line-height: normal !important;
+    padding: 24px !important;
+    height: 200px !important;
+} */
+
+.md-nav--lifted label.md-nav__title img {
+    position: absolute;
+    top: 0;
+}
+
+#formbutton-button {
+    position: -webkit-sticky;
+    bottom: 128px !important;
+    box-shadow:none !important;
+    right: 12px !important;
+    width: 18px !important;
+    height: 18px !important;
+    padding: 4px !important;
+    margin: 0px !important;
+    top: 512px !important;
+
+    /* position: relative !important;
+    top: 4px !important;
+    box-shadow: none !important; */
+}
+
+#post-meta .md-post__meta {
+    list-style: none;
+    margin-left: 0;
+}
+
+#post-meta .md-nav__list {
+    display: flex;
+    list-style: none;
+    margin-left: "-20px";
+}
+
+#post-meta .md-nav__link  {
+    align-items: center;
+    gap: 4px;
+}
+
+blockquote {
+    border-left: 0.2rem solid var(--md-primary-fg-color);
+    color: var(--md-primary-fg-color) !important;
+    font-size: large;
+    font-style: italic;
+}
+
+.md-typeset .admonition {
+    font-size: inherit;
+}
+
+h1, h2, h3 {
+    color: var(--md-primary-fg-color) !important;
+}
+
+h4, h5 {
+    color: var(--md-primary-fg-color--light) !important;
+}
