@@ -20,8 +20,10 @@
 *[TS]: TypeScript: basically JavaScript, but type safe
 *[Regex]: Regular expression: powerful method to select and e.g replace text
 *[DDoS]: Distributed Denial of Service: type of web attack where a site can go down due to too many (automated) user requests
-*[SSL]: Secure Sockets Layer: e.g. in use if website URL is "http**s**", ensuring data is securely transmitted through encryption
+*[SSL]: Secure Sockets Layer: e.g. in use if website URL is "https", ensuring data is securely transmitted through encryption
 *[CSV]: Comma Separated Values: file format for tabular data, similar to Excel files
 *[IMO]: In My Opinion
 *[Metroidvania]: sub-genre of action-adventure games and/or platformers focused on guided non-linearity and utility-gated exploration and progression, inspired by games like "Metroid" and "Castlevania"
 *[CC0]: Creative Commons Zero: "no rights reserved" / "public domain" assets - possible commercial use without attribution
+*[2FA]: Two factor authentication: e.g. authenticator app as second login step after entering user & password
+*[MFA]: Multi factor authentication: e.g. authenticator app as second login step after entering user & password

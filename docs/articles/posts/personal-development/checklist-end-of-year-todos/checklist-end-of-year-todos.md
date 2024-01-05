@@ -20,7 +20,7 @@ comments: true
 
 - Dentist:
   - Set up check-ups (reminders) 2x a year 
-  - In Germany, if you visit the denist for a routine check-up at least 1x a year, an additional 10% is paid by health insurance after 5 years, 15% after 10 years
+  - In Germany, if you visit the denist for a routine check-up at least 1x a year, an additional 10% is paid by health insurance after 5 years, 15% after 10 years. Considering dentist operations can start to cost >1000€ beyond age 30-40, this habit can be worth a lot 
 - Vaccination:
   - Some vaccinations e.g. against the flu, corona or local sicknesses like FSME (Bavaria) are only effective for a limited time and need to be refreshed potentially yearly
 - Preventive check-ups [^preventive]:
@@ -40,7 +40,7 @@ comments: true
   - Insurance:
     - Third party liability / "Haftpflichtversicherung"
     - Health insurance
-    - As needed: car, travel, pet, household, life, accident, disability, legal 
+    - As needed: car, travel, pet, household, life, teeth, accident, disability, legal 
   - Subscriptions:
     - Netflix, AmazonPrime, Hulu, Apple Music, Spotify etc.
     - Other web services, e.g. cloud storage, game passes etc.
@@ -61,13 +61,20 @@ comments: true
 
 - Security:
   - Burglary protection: check if still adequate, e.g. after moving, new expensive stuff etc.
+  - IT:
+    - Smartphone and other mobile devices: 
+      - the risk: 
+        - huge collection of private and sensitive data in an easy to lose package
+        - often also used for MFA via authenticator apps or SMS: you not only loose access yourself but worst case your MFA is also compromised
+      - read up on state of the art security methods
 - Safety
   - Fire extinguisher: check pressure, refill/replace if needed
   - Fire sources:
     - Old or damaged eletronics & batteries: dispose e.g. if cable insulation open, water heater etc. sometimes not turning off again by itself, recharchable battery toy getting warm while charging ...
+    - New/moved stuff: the amount of electrical devices at home usually only increases and you should look out for clustering of devices, overloaded multi-plugs and proximity to flammable materials (overloaded multi-plug behind couch is not ideal)
 
-Versicherungen: Haftpflicht, Kranken
-Verträge: Internet, Strom, Gym/Sport, Entertain (Netflix, Spotify), Vereine (M&M)
+Stock up emergency stock
+
 Sicherheit: Einbruch, Brand (Feuerlöscher), Hausschlüssel, IT-SicherheFit (PC, Handy, Verschlüsselung, Passwörter, TOTP, WLAN)
 Backups: HDD, Phone, USB Crypt, Contacts, TOTP, Passwörter, Emails, Google Drive Docs
 Finanzen: Ausgaben, Portfolio (ETFs Anlagevolumen), Bank Belege archivieren + kopie, Freibetrag ausnutzen

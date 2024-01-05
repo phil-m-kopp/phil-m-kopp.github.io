@@ -35,7 +35,7 @@ comments: true
 ## Legend and infos
 
 | Icon  | Description                           |
-| :---: | ------------------------------------- |
+| --- | ------------------------------------- |
 |  🟠  | Few CC0 assets (attribution required) |
 |  🟡  | Mixed CC0 / non-CC0 assets            |
 |  🟢  | Primarily CC0 assets                  |
