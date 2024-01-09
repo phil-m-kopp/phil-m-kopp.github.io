@@ -1,6 +1,7 @@
 ---
 draft: true
 title: "Checklist: End of Year Todos"
+slug: tem-plate
 date: 2024-01-03
 updated: 2024-01-03
 tags: 
@@ -15,6 +16,8 @@ comments: true
 - What to check on a yearly basis or particularly near the end of the year
 
 <!--more-->
+
+---
 
 ### Doctors
 

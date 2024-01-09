@@ -1,5 +1,6 @@
 ---
 title: "List: Indie Game Dev Assets and Tools"
+slug: list-game-dev-assets-tools
 date: 2024-01-03
 updated: 2024-01-04
 tags: 
@@ -17,6 +18,8 @@ comments: true
 - Almost everything also usable for commercial projects
 
 <!--more-->
+
+---
 
 ## Licensing infos
 

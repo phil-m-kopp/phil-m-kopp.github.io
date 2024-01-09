@@ -1,6 +1,7 @@
 ---
 draft: true
 title: "Template"
+slug: tem-plate
 date: 2023-12-16
 updated: 2023-12-16
 tags: 
@@ -19,6 +20,8 @@ comments: true
 # - How and why this website came to be
 
 <!--more-->
+
+---
 
 ## Goals & Habits
 

@@ -1,6 +1,7 @@
 ---
 draft: true
 title: "How-To: Passive Investing (overview)"
+slug: tem-plate
 date: 2023-10-18
 updated: 2023-10-18
 tags: 
@@ -24,6 +25,8 @@ TODO images phil copyright
 * Believe: not fundamentally less capitalism in the future
 
 <!--more-->
+
+---
 
 Main source: [Souverän investieren](https://www.amazon.de/Souver%C3%A4n-investieren-Indexfonds-ETFs-Book/dp/3593508524) from [Gerd Kommer](https://gerd-kommer.de/)
 

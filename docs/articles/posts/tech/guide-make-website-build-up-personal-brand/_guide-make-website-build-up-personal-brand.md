@@ -25,6 +25,8 @@ comments: true
 
 <!--more-->
 
+---
+
 ## Recommended first steps
 
 1. [Choose a Markdown/document-focused static site generator](#static-site-generators-ssg) ("SSG") or rather [theme](#themes--plugins) you like best -> easy setup/maintenance, focus on content

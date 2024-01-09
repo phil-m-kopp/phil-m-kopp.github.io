@@ -1,6 +1,7 @@
 ---
 draft: true
 title: "Template"
+slug: tem-plate
 date: 2023-12-17
 updated: 2023-12-17
 tags: 
@@ -19,6 +20,8 @@ comments: true
 - Build your knowledge and skills effectively and efficiently
 
 <!--more-->
+
+---
 
 ### Sources
 

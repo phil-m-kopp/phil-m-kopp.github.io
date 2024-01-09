@@ -1,6 +1,7 @@
 ---
 draft: true
 title: "Guide: Make pixel art using AI, upscalers or quantization"
+slug: guide-pixel-art-ai-upscalers-quantization
 date: 2023-12-29
 updated: 2023-12-29
 tags: 
@@ -19,6 +20,8 @@ comments: true
 - How and why this website came to be
 
 <!--more-->
+
+---
 
 ## Tools
 
