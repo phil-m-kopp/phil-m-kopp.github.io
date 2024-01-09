@@ -14,7 +14,7 @@ comments: true
 ---
 
 - Game dev assets and tools
-- For indie devs: mostly open source / free, beginner friendly and royalty free (e.g. unline Unity asset store etc.)
+- For indie devs: mostly open source / free, beginner-friendly and royalty-free (e.g. unlike Unity asset store etc.)
 - Almost everything also usable for commercial projects
 
 <!--more-->
