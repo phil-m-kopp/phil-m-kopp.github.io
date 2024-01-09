@@ -23,19 +23,19 @@ comments: true
 
 ## Licensing infos
 
-- ["CC0"](https://creativecommons.org/publicdomain/zero/1.0/deed) (similar license): "no rights reserved" / "public domain" assets - possible commercial use without attribution
-- Most common attribution licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed)
-- Attribution example: 
+- [**"CC0"**](https://creativecommons.org/publicdomain/zero/1.0/deed) (similar license): "no rights reserved" / "public domain" assets - possible commercial use without attribution
+- Most common **attribution** licence: [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed)
+- **Attribution example**: 
 
 	> "Pack XYZ" (+ product link) by Dillon Becker (+ autor site link), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed)
 
-- "Royalty free": no royalties or license fees over volume or time
-- Use in games: since redistribution/resell is prohibited even with paid content, it's necessary to ensure that raw assets cannot be easily copied out of your project. Many engines pack assets on export by default for this. Some sources even require you to use encryption [^turbosquid]
-- I recommend e.g. organizing assets in folders by authors to always be able to attribute - either if necessary or as minimum common coutesy and thanks in case of free content
+- **"Royalty free"**: no royalties or license fees over volume or time
+- **Use in games**: since redistribution/resell is prohibited even with paid content, it's necessary to ensure that raw assets cannot be easily copied out of your project. Many engines **pack assets** on export by default for this. Some sources even require you to use encryption [^turbosquid]
+- I recommend e.g. **organizing assets in folders by authors** to always be able to attribute - either if necessary or as minimum common courtesy and thanks in case of free content
 
 [^turbosquid]: E.g. see turbosquid ["Access to 3D Models"](https://blog.turbosquid.com/turbosquid-3d-model-license/)
 
-## Legend and infos
+## Legend
 
 | Icon  | Description                           |
 | --- | ------------------------------------- |
