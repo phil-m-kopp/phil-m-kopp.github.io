@@ -19,7 +19,7 @@ hide:
 
 ===+ "💼 Professional"
 
-    > I'm a **wholistic QA-Manager** with backgrounds as **Knowledge Management & Agile Coach** as well as **Full Stack Tech Lead & Cloud Architecture** and in **E-Com / Payment, Mobility and Games Development**. With **Structure, Ownership, transparent Democratic Leadership and Continuous Improvement** as driving values, I aim to tackle cross-cutting issues for **lasting Impact** at my client's companies proactively.
+    > I'm a **wholistic QA-Manager** with backgrounds as **Certified Agile & Knowledge Management Coach** as well as **Full Stack Tech Lead & Cloud Architecture** and in **E-Com / Payment, Mobility and Games Development**. With **Structure, Ownership, transparent Democratic Leadership and Continuous Improvement** as driving values, I aim to tackle cross-cutting issues for **lasting Impact** at my client's companies proactively.
 
     [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/philipp-kopp-5b23a912a/)
 
@@ -29,8 +29,8 @@ hide:
 
     === "🧠 Expertise"
         - **Roles**
-            - QA Engineer & Manager
-            - Knowledge Management & Agile Coach
+            - QA Manager
+            - Certified Agile & Knowledge Management Coach
             - Full Stack Tech Lead & Cloud Architect
             - Games Designer & Developer
         - **Domains**
@@ -43,7 +43,7 @@ hide:
             - Monitoring (alerts, metrics, logs, RUM, APM): Datadog, Grafana, Prometheus, Kibana, Sentry.io
         - **Agile / Knowledge Management** 
             - Team lead (~5 people)
-            - Scrum (of Scrums)
+            - Scrum (of Scrums, Nexus), Certified Scrum Product Owner
             - Confluence, PlantUML, [C4](https://c4model.com/), BPMN, Communities of Practice [^COP], [MkDocs](https://squidfunk.github.io/mkdocs-material/)
         - **Software Eng.**
             - Domain Driven Design | Microservices | Event-driven: Kafka

@@ -23,6 +23,8 @@ comments: true
 
 ---
 
+https://www.scrum.org/scaled-professional-scrum-nexus-practices
+
 ## Feedback
 
 - ritueller Widerspruch
@@ -56,6 +58,10 @@ comments: true
   4. Glauben wir immer noch unsere Sprint Vorhersage
   zu schaffen?
 - paralelles arbeiten, z.B. Brainstorming
+
+## Ideation
+
+- Idea matrix
 
 ## Problem Verständnis
 
@@ -100,6 +106,7 @@ comments: true
 - Kaufe deine Features (z.B. Mapping 100€ pro Stakeholder auf Features)
 - Heuristik
 - Risiko
+- MoSCoW
 
 ## Arbeitsteilung
 

@@ -122,7 +122,7 @@ comments: true
 	- [craiyon](https://www.craiyon.com/) 🌐 🟠 💰➕
 	- [freepik.com/ai/image-editor](https://www.freepik.com/ai/image-editor) 🌐 🟢 💰➕ (rate limited)
 	- [midjourney](https://www.midjourney.com) 🌐 🟢 💰
-- **Image/Scrible to image**:
+- **Image/Scribble to image (and more)**:
     - [dezgo.com](https://dezgo.com/) 🌐 🟢
     - [freepik.com/pikaso](https://www.freepik.com/pikaso/) 🌐 🟢 💰➕
     - [scribblediffusion.com](https://scribblediffusion.com/) 🌐 🟢
