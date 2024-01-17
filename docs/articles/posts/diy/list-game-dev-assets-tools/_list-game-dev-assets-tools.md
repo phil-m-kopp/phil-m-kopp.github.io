@@ -104,6 +104,7 @@ comments: true
 	- [graphicsgale](https://graphicsgale.com/)
 	- [libresprite](https://libresprite.github.io/)
 	- [aseprite](https://www.aseprite.org) 💰
+	- [pixelmash](https://nevercenter.com/pixelmash) 💰
 	- [pyxeledit](https://pyxeledit.com/) 💰
 - **Animation (general)**
     - [synfig](https://www.synfig.org/)

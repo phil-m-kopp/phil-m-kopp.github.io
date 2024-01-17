@@ -24,7 +24,7 @@ comments: true
 ---
 
 https://www.scrum.org/scaled-professional-scrum-nexus-practices
-
+https://liberatingstructures.de/liberating-structures-menue/alle-liberating-structures-alphabetisch-sortiert/
 ## Feedback
 
 - ritueller Widerspruch
