@@ -29,7 +29,7 @@ def main():
     files_grabbed = []
     for files in types:
         files_grabbed.extend(Path("docs/articles").glob(files))
-        files_grabbed.extend(Path("docs/assets").glob(files))
+        files_grabbed.extend(Path("docs/assets/games").glob(files))
 
     for path in files_grabbed:
         webp_path = convert_to_webp(path)
