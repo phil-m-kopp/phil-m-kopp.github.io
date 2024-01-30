@@ -119,14 +119,15 @@ plugins:
   # - mkdocs-pdf
 
 nav:
-  - "👦Phil": about.md
+  - "👦 Phil": about.md
   - 📰All articles: 
     - articles/index.md
   # - 'A link': 'https://example.com/'
-  - 📑Tags:
+  - 📑 Tags:
     - tags.md
-  - 💻Tech/IT: "/articles/category/tech/"
-  - 🛠️DIY & Craft: "/articles/category/diy/"
+  - 💻 Tech/IT: "/articles/category/tech/"
+  - 🛠️ DIY & Craft: "/articles/category/diy/"
+  - "🎮 Games": games.md
 
 extra:
   tags:
@@ -161,6 +162,9 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discordapp.com/users/1160939065512833124
       name: https://discordapp.com/users/1160939065512833124
+    - icon: fontawesome/brands/itch-io
+      link: https://bitcrisp.itch.io/
+      name: https://bitcrisp.itch.io/
     - icon: fontawesome/brands/paypal
       link: https://paypal.me/PhilMKopp
       name: https://paypal.me/PhilMKopp
