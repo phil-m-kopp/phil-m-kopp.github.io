@@ -35,11 +35,12 @@ hide:
             - Games Designer & Developer
         - **Domains**
             - E-Commerce: Checkout, Orders & Payment (PayPal, Stripe, AmazonPay)
-            - Mobility
+            - Mobility Services
         - **QA** 
-            - xUnit e.g. Jest | Int/API: Docker, Postman, OpenAPI, Supertest … | UI: Puppeteer, Selenium, Cucumber … | 
+            - xUnit e.g. Jest | Int/API: Docker, Postman, OpenAPI, Supertest … | UI: Puppeteer, Selenium, TestCafé … | 
             - Load: k6 | Pen.: OWASP | DevOps: Chaos Monkey | Static: SonarCube, ESLint ...
-            - Jira: Xray, Zephyr, Cucumber/Gherkin
+            - Mgmt: Jira, Xray, Zephyr
+            - TDD/BDD: Serenity, Allure, Cucumber, 3 Amigo Sessions
             - Monitoring (alerts, metrics, logs, RUM, APM): Datadog, Grafana, Prometheus, Kibana, Sentry.io
         - **Agile / Knowledge Management** 
             - Team lead (~5 people)
