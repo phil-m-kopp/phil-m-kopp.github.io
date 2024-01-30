@@ -2,7 +2,7 @@
 title: "List: Indie Game Dev Assets and Tools"
 slug: list-game-dev-assets-tools
 date: 2024-01-03
-updated: 2024-01-04
+updated: 2024-01-21
 tags: 
   - List
   - GamesDevelopment
@@ -27,7 +27,7 @@ comments: true
 - Most common **attribution** licence: [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed)
 - **Attribution example**: 
 
-	> "Pack XYZ" (+ product link) by Dillon Becker (+ autor site link), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed)
+	> "Pack XYZ" (+ product link) by John Doe (+ autor site link), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed)
 
 - **"Royalty free"**: no royalties or license fees over volume or time
 - **Use in games**: since redistribution/resell is prohibited even with paid content, it's necessary to ensure that raw assets cannot be easily copied out of your project. Many engines **pack assets** on export by default for this. Some sources even require you to use encryption [^turbosquid]
@@ -63,9 +63,10 @@ comments: true
 - [game-icons.net](https://game-icons.net): Icons 🟢 
 - [remixicon.com](https://remixicon.com): Icons (general) 🟢
 
-#### Stock images
+#### Stock images & fonts
 
 - [freepik.com](https://www.freepik.com): Stock Photos, vectors & videos 🟡 💰➕
+- [dafont.com](https://www.dafont.com): Fonts 🟡
 - [pixabay.com](https://pixabay.com): Stock Photos, vectors & videos 🟢
 - [pexels.com/](https://www.pexels.com/): Stock Photos & videos 🟢
 
