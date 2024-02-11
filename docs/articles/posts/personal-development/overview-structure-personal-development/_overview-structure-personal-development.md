@@ -71,6 +71,7 @@ comments: true
       - Pomodoro: Work in focused intervals (e.g., 25 minutes) followed by short breaks to enhance productivity.
       - Getting Things Done (GTD) Method: Organize tasks into actionable items, projects, and next steps for effective task management.
       - Time tracking
+      - Burner email (use with password manager)
     - Motivation:
       - Goal visualization: Have a concrete and vividly positive image of your goal in mind or even physically around  
       - (Small) Next steps: Having the very next steps laid out in small junks makes it easy to start
@@ -97,6 +98,8 @@ comments: true
       - automatic saving
       - renting vs buying
       - financial literacy: even more than knowing what to do, it's crucial especially for investing what not to do as greed, fear and irrational, emotionally driven impulsive behavior is one of the most important factors in bad financial situations
+    - minimalism
+      - buy from wishlist instead of directly (30 days later)
     - knowledge building
       - book summaries
       - spaced repetition
