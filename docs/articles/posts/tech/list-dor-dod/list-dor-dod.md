@@ -80,16 +80,16 @@ comments: true
 ## DoD
 
 ### Release
-- Deployed to final stage (mostly: Prod)
-- Post-deployment sanity and smoke tests successful
-- Deployment monitored to be stable for 1h-24h (e.g. depending on traffic, scheduled cron jobs ...)
-- Release notes available
-- New code unit test coverage > 80%
+- **Deployed** to final stage (mostly: Prod)
+- **Post-deployment** sanity and smoke **tests** successful
+- **Deployment monitored to be stable** for 1h-24h (e.g. depending on traffic, scheduled cron jobs ...)
+- **Release notes** available
+- **New code** unit test **coverage** > 80%
 
 ### Approval
-- Approved by ticket reporter or product owner
-- All peer-review/static analysis feedback closed or tracked as tech-debt (e.g. using MoSCoW method)
+- **Approved by** ticket **reporter** or product **owner**
+- All peer-review/static analysis **feedback closed or tracked** as tech-debt (e.g. using MoSCoW method)
 
 ### Documentation
-- Architecture/ADRs and data flow diagrams updated
-- Services README/Manual/Troubleshooting Guide updated
+- **Architecture**/ADRs and data flow diagrams **updated**
+- Services **README/Manual/Troubleshooting Guide updated**
