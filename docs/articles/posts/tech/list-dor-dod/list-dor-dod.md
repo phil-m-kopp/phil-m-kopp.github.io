@@ -12,8 +12,8 @@ description: Definition Of Ready (DoR) and Done (DoR) are checklists to ensure a
 comments: true
 ---
 
-- A Definition Of Ready (DoR) and Definition Of Done (DoR) are common checklists to ensure a quality delivery of (software) products
-- DoRs are used early in software development (e.g. refinements) while DoDs ensure that work is not considered done without passing certain quality gates
+- A **Definition Of Ready (DoR)** and **Definition Of Done (DoR)** are common **checklists** to ensure a **quality deliver**y of (software) products
+- DoRs are used **early in software development** (e.g. refinements) while DoDs ensure that work is not considered **done** without passing certain **quality gates**
 
 <!--more-->
 
@@ -51,7 +51,7 @@ comments: true
 
 ### Backward compatibility
 
-- **Breaking changes** (HTTP API, events, DB schema etc.) and subsequent work (e.g. versioning) as well as deployment strategy (incl. rollback)
+- **Breaking changes** (HTTP API, events, DB schema ...) and subsequent work (e.g. versioning) as well as deployment strategy (incl. rollback)
 - **Testability and existing E2E tests**
 - **Data on Prod**
 
