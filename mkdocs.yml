@@ -117,6 +117,8 @@ plugins:
       enabled: true
       tags_file: tags.md
   # - mkdocs-pdf
+  - plantuml:
+        puml_url: https://www.plantuml.com/plantuml/
 
 nav:
   - "👦 Phil": about.md

@@ -30,7 +30,8 @@ jobs:
                 Pillow \
                 openpyxl \
                 mkdocs-macros-plugin \
-                mkdocs-autolinks-plugin
+                mkdocs-autolinks-plugin \
+                mkdocs_puml
       # - run: python3 convertWebP.py
       # - run: mkdocs build -d build
       # - run: echo "philipp-kopp.com" > build/CNAME
