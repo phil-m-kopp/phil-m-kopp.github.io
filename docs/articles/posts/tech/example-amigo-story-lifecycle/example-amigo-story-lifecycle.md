@@ -14,8 +14,7 @@ comments: true
 
 - Example of high level **3 Amigos** (Business, Development, QA) **story lifecycle** process
 
-![Process teaser](teaser.webp)
-
+![Process teaser](example-amigo-story-lifecycle-teaser.webp)
 <!--more-->
 
 ---
