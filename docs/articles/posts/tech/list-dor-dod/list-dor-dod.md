@@ -24,7 +24,7 @@ comments: true
 ### Solution design
 
 - **Solution design and data flows/classification** visualized (e.g. using [C4](https://c4model.com) diagrams)
-  - **Failure cases** also considered (or e.g. extracted to follow up stories)
+  - **Failure/edge cases** also considered (or e.g. extracted to follow up stories)
   - **Sensitive data** is handled appropriately, even in case of failures
   - **Non-functional requirements** considered:
     - **Performance**: throughput, latency, and response time ...
@@ -39,7 +39,7 @@ comments: true
 
 ### Work definition
 
-- **Acceptance criteria** clear to everyone
+- **Acceptance criteria** and business value clear to everyone
 - **Uncertainties** discussed and accepted, considered for estimation
 - Sub-tasks have **meaningful title** (e.g. "[component]: [change needed]") and **detailed description**
     - Enabling also **people not present** in refinement to work on task
@@ -48,6 +48,7 @@ comments: true
 - Sub-tasks with high **uncertainty** (e.g. new technology) are planned to be done in **pairing** with a senior dev
 - Sub-tasks are aimed at reaching **integration state early** (e.g. working API endpoint + validation)
 - Consider **knowledge sharing** (e.g. pairing) possibilities. People with clear **knowledge silos** are **not allowed** to work alone
+- In Scrum etc., the story can be **finished in one sprint** or else needs to be **split** (focus on MVP: what's the happy path needed now for which users?)
 
 ### Backward compatibility
 
@@ -71,9 +72,10 @@ comments: true
     - Dependencies are **visualized/documented** (e.g. using "links" in Jira)
     - Work on the story/task can only start with a clear plan on **how to work around the issue**
 
-### Testing/Review/Deployment
+### Post-implementation
 
 - **Acceptance testing** steps and scope defined
+  - Defined **who**'s needed for and will give the final **approval** (ticket autor, PO ...)
 - **Sanity/Smoke testing** steps and scope clarified
 - **Rollout strategy** clarified
 
@@ -87,9 +89,11 @@ comments: true
 - **New code** unit test **coverage** > 80%
 
 ### Approval
-- **Approved by** ticket **reporter** or product **owner**
+- **Approved** by persons defined before in DoR
+- Passed user acceptance tests (**UAT**) if required
 - All peer-review/static analysis **feedback closed or tracked** as tech-debt (e.g. using MoSCoW method)
 
 ### Documentation
 - **Architecture**/ADRs and data flow diagrams **updated**
 - Services **README/Manual/Troubleshooting Guide updated**
+- **Ticket updated** (state, closing comments, metrics ...)
