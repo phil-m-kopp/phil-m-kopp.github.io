@@ -11,7 +11,7 @@ description: Sprint planner tool
 comments: true
 ---
 
-- Simple table for sprint **capacity** planning and e.g. **mood tracking**
+- Automated spreadsheet for sprint **capacity** planning and e.g. **mood tracking**
 
 [![Sprint planner](tool-sprint-capacity-planner.png)](https://docs.google.com/spreadsheets/d/1OY3dkVtlRC1NAypwfnpmKWqPAYZcQfxA/view#gid=1236726701)
 
