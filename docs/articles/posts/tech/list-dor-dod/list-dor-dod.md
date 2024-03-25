@@ -19,9 +19,9 @@ comments: true
 
 ---
 
-!!! note
+!!! info
 
-    To increase efficiency in regards to who needs to be present (in addition to devs), refinements can be split into business (PO and e.g. stakeholders  present) & technical refinements (e.g. architect present). Tech refinements are usually done after the business refinements since they e.g. rely on agreed on acceptance criteria. The outcome, e.g. much higher expected cost than expected, might indicate the need for further business refinement
+    To increase efficiency in regards to who needs to be present (in addition to devs), refinements can be split into business (PO and e.g. stakeholders present) & technical refinements (e.g. architect present). Tech refinements are usually done after the business refinements since they e.g. rely on agreed on acceptance criteria. The outcome, e.g. much higher expected cost than expected, might indicate the need for further business refinement
 
 ## DoR (Business refinement)
 
