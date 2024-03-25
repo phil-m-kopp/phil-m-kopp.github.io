@@ -19,6 +19,6 @@ comments: true
 
 !!! info
 
-    - Make a copy of the file to adapt it to your project and needs
-    - Yellow fields are meant for manual input
-    - Blue fields are calculated
+    - **Make a copy** of the file to adapt it to your project and needs
+    - 🟡 **Yellow** fields are meant for manual **input**
+    - 🔵 **Blue** fields are **calculated** automatically
