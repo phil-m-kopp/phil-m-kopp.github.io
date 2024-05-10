@@ -40,6 +40,7 @@ comments: true
       - body scan: Practice focusing attention on different parts of the body, relaxing each part consciously
     - sleep hygiene: quality sleep is indispensable for physical and mental help as well as enabling consistently high productivity
       - sleep/wake same times
+      - rythm reset: camping or 5-10min stare into clouds every morning + walk 1h before bed
       - 10-3-2-1-0 rule - avoid before sleep: caffeine 10h, food/drinks 3h, work/exercise 2h, screens 1h + 0x times snoozing in the morning
     - positive thinking
       - Random Acts of Kindness: Perform small, unexpected acts of kindness to positively impact others' lives.
