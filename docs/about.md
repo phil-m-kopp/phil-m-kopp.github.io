@@ -43,7 +43,7 @@ hide:
             - TDD/BDD: Serenity, Allure, Cucumber, 3 Amigo Sessions
             - Monitoring (alerts, metrics, logs, RUM, APM): Datadog, Grafana, Prometheus, Kibana, Sentry.io
         - **Agile / Knowledge Management** 
-            - Team lead (~5 people)
+            - Team (~5 people directly) and tech. project lead (e.g. QA measures across ~5-10 teams)
             - Scrum (of Scrums, Nexus), Certified Scrum Product Owner
             - Confluence, PlantUML, [C4](https://c4model.com/), BPMN, Communities of Practice [^COP], [MkDocs](https://squidfunk.github.io/mkdocs-material/)
         - **Software Eng.**
