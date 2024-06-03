@@ -44,9 +44,9 @@ comments: true
 
 #### Tests/"test pyramid" (coverage, count/runtime, execution, tools/frameworks)
 - [ ] Unit/Component
-  - [ ] Mutation testing
-  - [ ] Property-based testing
-  - [ ] Fuzz testing
+    - [ ] Mutation testing
+    - [ ] Property-based testing
+    - [ ] Fuzz testing
 - [ ] Integration (infrastructure)
 - [ ] E2E
     - [ ] API
@@ -98,10 +98,10 @@ comments: true
 ### Development
 - [ ] Use of specialized roles (Architect, DevOps, Security)
 - [ ] Quality software engineering
-  - [ ] DDD
-  - [ ] Software design patterns
-  - [ ] Software design principles (SOLID)
-  - [ ] Code style/linters
+    - [ ] DDD
+    - [ ] Software design patterns
+    - [ ] Software design principles (SOLID)
+    - [ ] Code style/linters
 - [ ] Code reviews
 - [ ] Tech debt management (MoSCoW etc)
 - [ ] Stewardship/ownership
