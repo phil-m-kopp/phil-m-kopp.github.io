@@ -76,9 +76,9 @@ plugins:
   - search
   # - social
   - autolinks
+  - macros
   - table-reader:
       base_path: "docs_dir"
-  - macros
   # - drawio-exporter
   - glightbox:
        auto_caption: false
