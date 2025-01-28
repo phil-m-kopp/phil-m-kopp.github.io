@@ -48,6 +48,8 @@ comments: true
 - deepfake attacks on family
 - burglary, cyberstalking etc.
 
+Also see: ["Google: a walk down privacy lane" on CupWire](https://archive.ph/XzrbQ)
+
 ## Security & privacy in general
 
 ### Compartmentalization
@@ -100,42 +102,59 @@ comments: true
 
 ### Address/post
 
-To consider
+Caveats
 - legal requirements for a physical address ("ladungsfähig") in certain cases like business mail
+  - operating e.g. own blog or business without this can get you fined
 
 #### Services
 
-[**"Postfach"** by Deutsche Post](https://www.deutschepost.de/de/p/postfach.html)
-- ~30€/y
-- provides anonymous "Postfach" address, but your real name is still needed
-- forked routing to home address for private mail and Postfach for e.g. business mail possible
-- not a physical address in the legal sense
-- doesn't work for packages
+| **Service**                                                                      | **Cost**      | **Description**                                                   | **Providers**                                                                                                                                     | **Supports Name Anonymization** | **Supports Packages** | **Legal Physical/Business Address** | **Other Notes**                                                                      |
+| -------------------------------------------------------------------------------- | ------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | --------------------- | ----------------------------------- | ------------------------------------------------------------------------------------ |
+| [**"Postfach"**](https://www.deutschepost.de/de/p/postfach.html)                 | ~30€/year     | "Postfach" locker inside Post offices - no forwarding             | Deutsche Post                                                                                                                                     | No                              | No                    | No                                  | - More secure as harder to intercept than home mail.<br>- Mail needs to be picked up |
+| **Packing stations**                                                             | Free          | For packages, nothing else                                        | [DHL](https://www.dhl.de/de/privatkunden/pakete-empfangen/an-einem-abholort-empfangen/packstation/empfangen-packstation.html), UPS, Amazon Locker | No                              | Yes                   | No                                  |                                                                                      |
+| **Imprint services**                                                             | ~5-20€/month  | Physical address for legal requirements, e.g. blogs or businesses | e.g. [Autorenservices](https://www.autorenservices.de/impressums-service/)                                                                        | Yes                             | No                    | Yes                                 | Mail forwarding usually costs extra.                                                 |
+| **Scan and forwarding services**                                                 | ~10-40€/month | Full aliasing and convenience/ digitization service               | e.g.<br>[Clevver](https://www.clevver.io/de/produkte/clevvermail-postdigitalisierung/#prices), [Dropscan](https://www.dropscan.de/preise/privat)  | Yes                             | Yes 💵               | Yes 💵                             | Still not suitable for all kinds of personal mail, e.g. tax confirmations.           |
+| [**"Nachsendeservice"**](https://www.deutschepost.de/de/n/nachsendeservice.html) | ~30€/6 month  | Forwards mail from one address to another for up to 6 months.     | Deutsche Post                                                                                                                                     | No                              | No                    | No                                  | Explicitly forbids use for address anonymization.                                    |
 
-**Packing stations**
-- free!
-- e.g. from [DHL](https://www.dhl.de/de/privatkunden/pakete-empfangen/an-einem-abholort-empfangen/packstation/empfangen-packstation.html), UPS, Amazon Locker
-- provides anonymous address, but your real name is still needed
+### Phone number
 
-**Imprint services**
-- ~5-20€/m
-- e.g. https://www.autorenservices.de/impressums-service/
-- provide a physical address to satisfy legal requirements e.g. for own blog or business
-  - where you could otherwise be fined for not putting your home address publicly on the internet
-- mail forwarding usually costs extra and packages usually not possible
+#### Security
+- phone numbers are not only security relevant indirectly via communiction (see social engineering) but nowadays also directly e.g. in 2FA
+  - e.g. in Germany especially critical services like bank, health insurance like to only offer SIM 2FA without alternative
+  - SIM hijacking is hard to defend against as fraudsters often use attack vectors out of the users control, like SIM provider customer support
+    - depending on the attack (and e.g. personal use of the SIM), a SIM transfer is hard to notice just by absence of incoming calls/SMS
+  - phone numbers can often be considered as significant proof of identity, thus can play a role in identity theft
+    - your voicemail can be enough to clone your voice for an AI to impersonate you    
+- phone calls an SMS are inherently insecure because unencrypted, making eavesdropping trivial given certain hardware
+  - treat them like public conversations
 
-**Scan and forwarding services**
-- ~10-40€/m
-- e.g. [Clevver](https://www.clevver.io/de/produkte/clevvermail-postdigitalisierung/#prices), [Dropscan](https://www.dropscan.de/preise/privat)
-- even name aliasing possible for post without legal requirements (e.g. marketing mail)
-- automated scanning also very practical digital mail management
-- still cannot be used for all post e.g. tax confirmations
-- plans for businesses available, then e.g. valid for imprint use
+#### Privacy
+- Mobile network providers can track your location accurately via cell phone tower triangulation while identifying your via your SIM IMEI
+  - e.g. in US network providers routinely sell this information
+- SIM cards actually funtion as small individual computers, using the phones hardware but bypassing the software (e.g. VPNs -> split tunneling) [^SIMcomputer]
+- not all countries allow anonymous SIM purchase
+- dedicated privacy measures probably not necessary in EU thanks to data protection laws
 
-[**"Nachsendeservice"** by Deutsche Post](https://www.deutschepost.de/de/n/nachsendeservice.html)
-- explicitly forbids use for address anonymization and can anyways only be used for 6 months max
+[^SIMcomputer]: https://youtu.be/RyirQOCUUK8?feature=shared&t=156
 
-### Phone
+#### Mitigation
+
+- airplane mode will prevent location tracking but only SIM removal will stop the SIM doing anything on its own
+- use encrypted messengers like [Signal](https://signal.org/) for both text and calls
+- deactivate voicemail to prevent voice cloning
+- harden your provider account to prevent SIM hijacking
+- Compartementalization
+  - Having e.g. 5 phone numbers is feasible nowadays
+    - pre paid is often sufficient as mainly the number is needed, wifi can handle communication just fine 
+    - eSIMs can't all be active at the same time but still be switched and are harder to steal
+
+| Compartment                      | Notes                                                    | Usually on? | Incoming calls/SMS | Outgoing calls/SMS | Data plan |
+| -------------------------------- | -------------------------------------------------------- | ----------- | ------------------ | ------------------ | --------- |
+| Work + dating/events             | number not expected to be valid for long                 | yes         | All (worktime)     | See compartment    | Main      |
+| Family & friends<br>(+ security) | always active. Usable for e.g. banking 2FA as well       | yes         | All                | Prefer VoIP        | (Backup)  |
+| Security                         | for other or all 2FA, possible only turned on explicitly | no          | SMS only           | -                  | -         |
+| Service<br>incl. messaging       | public number meant for e.g. registration only           | no          | Reject             | -                  | -         |
+| Travel                           | Usually data-only plans                                  | no          | Reject             | -                  | Prepaid   |
 
 ### Email
 
