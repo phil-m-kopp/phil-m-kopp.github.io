@@ -98,6 +98,28 @@ Also see: ["Google: a walk down privacy lane" on CupWire](https://archive.ph/Xzr
     - fewer options less of an issue
     - more extreme methods like SIMless phone less necessary
 
+### Authentification methods
+
+- hardware keys e.g. a FIDO2 Yubikey especially if additionally secured with PIN or fingerprint provide the highest security overall and also against most attack vectors individually
+- Both secrets and biometrics have specific advantages
+  - secrets like PINs offer the possibility of (plausible) deniability but can be observed and pished as they then need to be typed
+  - biomtrics 
+
+⚪ no known threat
+🟢 very low risk
+🔵 low risk
+🟡 moderate risk
+🟠 high risk
+🔴 very high risk
+
+| Auth method                    | Brute Force / Dictionary                                  | Phishing (remote)                                                                          | Social Engineering (customer care etc.)                             | MITM  (Evilginx) -&gt; session cookie                                    | Physical Access<br>(Victim away)                                                                    | Physical Access (Victim present)                                                                             | Physical Access to unlocked device (Victim away 2min)                                                     | Watching the Victim                                                                                 |
+| :----------------------------- | :-------------------------------------------------------- | :----------------------------------------------------------------------------------------- | :------------------------------------------------------------------ | :----------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| PIN                            | 🟢 Protected by wipe/lockout                             | 🔵 remote screen or 🟡 existing session required                                         | 🟡2FA disable likely possible                                      | 🟠 (with Anti-Malware)                                                  | 🟡 Keylogger (USB keyboards)                                                                       | 🟢 Protected by wipe/lockout                                                                                | 🟠 Software keylogger etc                                                                                | 🔴 short PIN easily remembered                                                                     |
+| Password (Manager) + TOTP      | 🟢 changing TOTP                                         | 🔵 with Anti-Malware + PW manager autofill[^1]<br><br>TOTP prevents re-login / 2FA change | 🟡2FA disable likely possible                                      | 🟡 (with Anti-Malware)<br><br>prevents re-login / 2FA change            | 🟢 Password not vulnerable to keylogger; TOTP often invalid after use by victim<br>                | 🔵 PIN unlock<br><br>🟠 fingerprint unlock of password manager easily forced<br><br>TOTP seed could copied | 🟡 Software keylogger etc (harder without typed password)<br><br>TOTP prevents re-login / 2FA change<br> | 🟡 Password + TOTP can be spied on<br><br>TOTP prevents re-login / 2FA change                      |
+| Fingerprint                    | 🟢 "master fingerprints" have low success rate + lockout | ⚪ (FIDO2/WebAuthn)                                                                        | 🔵 2FA disable unlikely                                            | 🟡 (with Anti-Malware)<br><br>Biometrics prevents re-login / 2FA change | 🟡 (sophisticated) fingerprint clones can spoof common optical (/sophisticated capacitive) readers | 🔴 easily forced or making clone                                                                            | 🟡 (sophisticated) fingerprint clones can spoof common optical (/sophisticated capacitive) readers       | 🟡 (sophisticated) fingerprint clones can spoof common optical (/sophisticated capacitive) readers |
+| Face                           | 🟢 "master face" have low success rate + lockout         | ⚪ (FIDO2/WebAuthn)                                                                        | 🔵 2FA disable unlikely<br><br>identical twin often not sufficient | 🟡 (with Anti-Malware)<br><br>Biometrics prevents re-login / 2FA change | ⚪ e.g. no known biometric face cloners                                                             | 🔴 easily forced                                                                                            | 🟢 modern readers not vulnerable to photos                                                               | 🟢 modern readers not vulnerable to photos                                                         |
+| Hardware Key + Fingerprint/PIN | ⚪ hardware key                                           | ⚪ (FIDO2/WebAuthn)                                                                        | 🟢 2FA disable very unlikely                                       | ⚪ (FIDO2/WebAuthn)                                                      | ⚪ (FIDO2/WebAuthn)                                                                                 | 🔵 PIN<br>🔴 Fingerprint<br>                                                                               | ⚪ hardware key + FIDO2/WebAuthn                                                                          | 🔵 PIN<br>🟡 Fingerprint                                                                          |
+
 ## Security & privacy per topic
 
 ### Address/post
@@ -119,8 +141,8 @@ Caveats
 ### Phone number
 
 #### Security
-- phone numbers are not only security relevant indirectly via communiction (see social engineering) but nowadays also directly e.g. in 2FA
-  - e.g. in Germany especially critical services like bank, health insurance like to only offer SIM 2FA without alternative
+- phone numbers are not only security relevant indirectly via communiction (see social engineering) but nowadays also directly e.g. in MFA
+  - e.g. in Germany especially critical services like bank, health insurance like to only offer SIM MFA without alternative
   - SIM hijacking is hard to defend against as fraudsters often use attack vectors out of the users control, like SIM provider customer support
     - depending on the attack (and e.g. personal use of the SIM), a SIM transfer is hard to notice just by absence of incoming calls/SMS
   - phone numbers can often be considered as significant proof of identity, thus can play a role in identity theft
@@ -151,14 +173,43 @@ Caveats
 | Compartment                      | Notes                                                    | Usually on? | Incoming calls/SMS | Outgoing calls/SMS | Data plan |
 | -------------------------------- | -------------------------------------------------------- | ----------- | ------------------ | ------------------ | --------- |
 | Work + dating/events             | number not expected to be valid for long                 | yes         | All (worktime)     | See compartment    | Main      |
-| Family & friends<br>(+ security) | always active. Usable for e.g. banking 2FA as well       | yes         | All                | Prefer VoIP        | (Backup)  |
-| Security                         | for other or all 2FA, possible only turned on explicitly | no          | SMS only           | -                  | -         |
+| Family & friends<br>(+ security) | always active. Usable for e.g. banking MFA as well       | yes         | All                | Prefer VoIP        | (Backup)  |
+| Security                         | for other or all MFA, possible only turned on explicitly | no          | SMS only           | -                  | -         |
 | Service<br>incl. messaging       | public number meant for e.g. registration only           | no          | Reject             | -                  | -         |
 | Travel                           | Usually data-only plans                                  | no          | Reject             | -                  | Prepaid   |
 
 ### Email
 
+#### Security
+
+- Email is another popular option for MFA and often more secure than SMS as e.g. all email accounts need passwords
+- Poses a major attack vector if connected accounts don't use MFA, as email password recovery basically serves as universal password
+- With increasing digitalization, email accounts might contain similar amounts of sensitive data than computer or smartphone (shopping, finance, health, political...)
+- It easier to impersonate somebody via text than e.g. calls and an email inbox usually contains enough personal information (e.g. address, birthday) to authorize more sensitive processes in your name
+- Harder to regain control, as email accounts can be opened anonymously, so there's little legal ownership to begin with
+  - With access to similar information as you but control over your account, in the digital world a fraudster will have more authorite over your identify than you
+- Free providers often don't encrypt your data (also see privacy), which makes them vulnerable to data leaks
+- Some providers reuse deleted addresses, which will at the very least lead to uncomfortable identify switch
+
+#### Privacy
+
+- Free providers likely sell you data or insights from scanning your mail one way or another
+  - With increasing digitization, the possible impact only grows
+
+#### Migration
+
+Considering the potentially catastrophic consequences of losing control of ones (main) email account:
+
+- delete/archive (out of account) mail regularly
+- MFA should be considered mandatory - hardware keys highly recommended 
+
 ### Web
+
+#### Security
+
+#### Privacy
+
+#### Migration
 
 #### Browser 6 search
 
@@ -168,9 +219,27 @@ Caveats
 
 ### Password
 
+#### Security
+
+#### Privacy
+
+#### Migration
+
 ### Payment
 
+#### Security
+
+#### Privacy
+
+#### Migration
+
 ### Device
+
+#### Security
+
+#### Privacy
+
+#### Migration
 
 #### Mobile
 
