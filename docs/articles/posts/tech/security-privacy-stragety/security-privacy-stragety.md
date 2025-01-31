@@ -98,13 +98,47 @@ Also see: ["Google: a walk down privacy lane" on CupWire](https://archive.ph/Xzr
     - fewer options less of an issue
     - more extreme methods like SIMless phone less necessary
 
+### Zero-knowledge E2E encryption
+
+- In zero-knowledge or client E2E encryption
+  - your auth is used to decrypt the data stored at the provider
+  - no unencrypted data ever leaves your device
+
+---
+
+- Red flag: the ability to restore ones access to account data e.g. via recovery link is a sign that the provider has full control over that data
+- Adding more alternative ways of auth can never increase "security" as it only increaes possible attack vectors
+  - The provider either wants to
+    - avoid customer care cases due to lockout
+    - or collect more data about you
+    - or both
+
+![alt text](account_security_bad.png)
+
+- True zero-knowledge providers will offer no recovery methods on their side other than
+  - recovery keys 
+  - recovery from a device still logged in to your account
+  
+![alt text](account_security_good.png)
+
+- Providers serious about security will allow to disable auth and recovery options
+  - so that you can effectively reduce attack vectors and focus on securing the remaining ones
+
+![alt text](account_recovery.png)
+
+Being locked out because no valid auth can be produced is what security is all about!
+If losing your key isn't a big deal because of "convenient account recovery methods" then the account wasn't secure to begin with
+
 ### Authentification methods
 
 - hardware keys e.g. a FIDO2 Yubikey especially if additionally secured with PIN or fingerprint provide the highest security overall and also against most attack vectors individually
 - Both secrets and biometrics have specific advantages
   - secrets like PINs offer the possibility of (plausible) deniability but can be observed and pished as they then need to be typed
     - as they can be "lost", 2FA disable by customer care is more likely here than with e.g. biometrics
-  - biomtrics 
+  - biometrics can't be lost - but also not replaced once compromised
+
+The following table lists common auth method and their susceptibility to remote and physical attack vectors
+- attack vectors are considered in isolation, e.g. given a fingerprint clone a device passkey is not safe on unlocked device. But without it, a passkey is not less secure on an unlocked device
 
 ⚪ no known threat
 🟢 very low risk
@@ -113,13 +147,37 @@ Also see: ["Google: a walk down privacy lane" on CupWire](https://archive.ph/Xzr
 🟠 high risk
 🔴 very high risk
 
-| Auth method                    | Brute Force / Dictionary                                  | Phishing (remote)                                                                          | Social Engineering (customer care etc.)                             | MITM  (Evilginx) -&gt; session cookie                                    | Physical Access<br>(Victim away)                                                                    | Physical Access (Victim present)                                                                             | Physical Access to unlocked device (Victim away 2min)                                                     | Watching the Victim                                                                                 |
-| :----------------------------- | :-------------------------------------------------------- | :----------------------------------------------------------------------------------------- | :------------------------------------------------------------------ | :----------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
-| PIN                            | 🟢 Protected by wipe/lockout                             | 🔵 remote screen or 🟡 existing session required                                         | 🟡2FA disable likely possible                                      | 🟠 (with Anti-Malware)                                                  | 🟡 Keylogger (USB keyboards)                                                                       | 🟢 Protected by wipe/lockout                                                                                | 🟠 Software keylogger etc                                                                                | 🔴 short PIN easily remembered                                                                     |
-| Password (Manager) + TOTP      | 🟢 changing TOTP                                         | 🔵 with Anti-Malware + PW manager autofill[^1]<br><br>TOTP prevents re-login / 2FA change | 🟡2FA disable likely possible                                      | 🟡 (with Anti-Malware)<br><br>prevents re-login / 2FA change            | 🟢 Password not vulnerable to keylogger; TOTP often invalid after use by victim<br>                | 🔵 PIN unlock<br><br>🟠 fingerprint unlock of password manager easily forced<br><br>TOTP seed could copied | 🟡 Software keylogger etc (harder without typed password)<br><br>TOTP prevents re-login / 2FA change<br> | 🟡 Password + TOTP can be spied on<br><br>TOTP prevents re-login / 2FA change                      |
-| Fingerprint                    | 🟢 "master fingerprints" have low success rate + lockout | ⚪ (FIDO2/WebAuthn)                                                                        | 🔵 2FA disable unlikely                                            | 🟡 (with Anti-Malware)<br><br>Biometrics prevents re-login / 2FA change | 🟡 (sophisticated) fingerprint clones can spoof common optical (/sophisticated capacitive) readers | 🔴 easily forced or making clone                                                                            | 🟡 (sophisticated) fingerprint clones can spoof common optical (/sophisticated capacitive) readers       | 🟡 (sophisticated) fingerprint clones can spoof common optical (/sophisticated capacitive) readers |
-| Face                           | 🟢 "master face" have low success rate + lockout         | ⚪ (FIDO2/WebAuthn)                                                                        | 🔵 2FA disable unlikely<br><br>identical twin often not sufficient | 🟡 (with Anti-Malware)<br><br>Biometrics prevents re-login / 2FA change | ⚪ e.g. no known biometric face cloners                                                             | 🔴 easily forced                                                                                            | 🟢 modern readers not vulnerable to photos                                                               | 🟢 modern readers not vulnerable to photos                                                         |
-| Hardware Key + Fingerprint/PIN | ⚪ hardware key                                           | ⚪ (FIDO2/WebAuthn)                                                                        | 🟢 2FA disable very unlikely                                       | ⚪ (FIDO2/WebAuthn)                                                      | ⚪ (FIDO2/WebAuthn)                                                                                 | 🔵 PIN<br>🔴 Fingerprint<br>                                                                               | ⚪ hardware key + FIDO2/WebAuthn                                                                          | 🔵 PIN<br>🟡 Fingerprint                                                                          |
+| Auth method                     | Brute Force / Dictionary                                  | Phishing (remote)                                                                                   | MITM  (Evilginx) -&gt; session hijacking                                               | Physical Access to locked device<br>(Victim away)                                                                      | Physical Access to locked device (Victim present)                                                           | Physical Access to unlocked device (Victim away 2min)                                                                  | Watching the Victim                                                                                              |
+| :------------------------------ | :-------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
+| PIN (short but device specific) | 🟢 Protected by wipe/ lockout                            | 🔵 possible, but useless with access to device                                                     | 🟠 anti-malware helps, but<br>PIN + session stolen at same time can auth most actions | 🟡 Keylogger (wired + wireless), as PIN as need to be typed                                                           | 🟢 Physical threat needed                                                                                  | 🔴 Software keylogger etc                                                                                             | 🔴 short PIN easily remembered                                                                                  |
+| Password (Manager) + TOTP       | 🟢 changing TOTP                                         | 🔵 unlikely with PW manager autofill[^1] + anti-malware<br><br>TOTP prevents re-login / 2FA change | 🟡 anti-malware helps<br><br>TOTP prevents re-login / 2FA change                      | 🔵 Keylogger: passwords usually autocompleted + TOTPs invalid after use by victim<br>                                 | 🟢 PIN: Physical threat needed<br><br>🟠 Fingerprint unlock:  easily forced<br><br>TOTP seed could copied | 🟠 Software keylogger etc (harder without typed password)<br><br>TOTP prevents re-login / 2FA change<br>              | 🔵 Password + TOTP need to be spied on and typed fast<br><br>TOTP prevents re-login / 2FA change                |
+| Passkey                         | ⚪ device-bound credential                                | ⚪ FIDO2/ WebAuthn                                                                                  | ⚪ FIDO2/ WebAuthn                                                                     | ⚪ No access or cloning possible                                                                                       | 🟢 PIN<br>🟠 Biometric (can be forced/spoofed)                                                            | ⚪ PIN or biometrics required                                                                                          | 🔴 PIN<br>🟢 Biometric                                                                                         |
+| Fingerprint                     | 🟢 "master fingerprints" have low success rate + lockout | ⚪ FIDO2/ WebAuthn                                                                                  | ⚪ FIDO2/ WebAuthn                                                                     | 🟡 optical readers can be spoofed with prints from environment<br><br>🟢 capacitive readers need sophisticated clone | 🟠 easily forced and danger of cloning                                                                     | 🟡 optical readers can be spoofed with prints from environment<br><br>🟢 capacitive readers need sophisticated clone | 🟡 optical readers can be spoofed with photos of fingers<br><br>🟢 capacitive readers need sophisticated clone |
+| Face                            | 🟢 "master face" have low success rate + lockout         | ⚪ FIDO2/ WebAuthn                                                                                  | ⚪ FIDO2/ WebAuthn                                                                     | 🟢 no known biometric face spoofing/ cloning                                                                          | 🔴 very easily forced                                                                                      | 🟢 no known biometric face spoofing/ cloning                                                                          | 🟢 no known biometric face spoofing/ cloning                                                                    |
+| Hardware Key + Fingerprint/PIN  | ⚪ hardware key                                           | ⚪ FIDO2/ WebAuthn                                                                                  | ⚪ FIDO2/ WebAuthn                                                                     | ⚪ No access or cloning possible                                                                                       | 🟢 PIN<br>🟠 Biometric (can be forced/spoofed)<br>                                                        | ⚪ hardware key + FIDO2/WebAuthn                                                                                       | 🔵 PIN<br>🟢 Biometric                                                                                         |
+
+[^autofill]: Specify valid target URL with your passwords so that your PW won't be able to autofill on pishing websites
+
+#### PIN
+
+- privacy screens and keypad scrambling can make spying harder
+- less recommended in public for regular unlocks as eventually people will remember
+
+#### Passwords
+
+#### Passkeys
+
+- combination of username + password + "2FA" functionality presents a single point of failure
+  - undermines the whole MFA concept
+  - enables attackers to unlock your accounts "without even knowing the keyhole"
+    - this is relevant for passkeys on devices not immediate tied to you:
+      - e.g. your Amazon passkey on a hardware key: if lost in public and without PIN, attackers can just try popular sevices like Amazon and see what account it unlocks
+
+#### Biometrics
+
+- recommended to disable during protests etc. because law enforcement can force unlock easily
+
+#### Hardware keys
 
 ## Security & privacy per topic
 
