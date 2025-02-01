@@ -131,12 +131,6 @@ If losing your key isn't a big deal because of "convenient account recovery meth
 
 ### Authentification methods
 
-- hardware keys e.g. a FIDO2 Yubikey especially if additionally secured with PIN or fingerprint provide the highest security overall and also against most attack vectors individually
-- Both secrets and biometrics have specific advantages
-  - secrets like PINs offer the possibility of (plausible) deniability but can be observed and pished as they then need to be typed
-    - as they can be "lost", 2FA disable by customer care is more likely here than with e.g. biometrics
-  - biometrics can't be lost - but also not replaced once compromised
-
 The following table lists common auth method and their susceptibility to remote and physical attack vectors
 - attack vectors are considered in isolation, e.g. given a fingerprint clone a device passkey is not safe on unlocked device. But without it, a passkey is not less secure on an unlocked device
 
@@ -158,12 +152,24 @@ The following table lists common auth method and their susceptibility to remote 
 
 [^autofill]: Specify valid target URL with your passwords so that your PW won't be able to autofill on pishing websites
 
-#### PIN
+#### PINs, passwords and other short secrets
 
+- offer the possibility of (plausible) deniability
+- PINs especially for device unlock usually need to be typed (as device is locked), so there's a constant risk if them being seen
 - privacy screens and keypad scrambling can make spying harder
-- less recommended in public for regular unlocks as eventually people will remember
+- less recommended in public for regular unlocks as eventually people will see and remember
+- as forgetting them is common, customer care is more likely to bypass/disable them to help "the customer" regain access
 
-#### Passwords
+- password manager tricks
+  - you can use 2 password managers for additional security multiple ways
+    - split all passwords in two parts and store them in different managers
+    - store important passwords in one and rest in the other manager
+    - store passwords in one and TOTPs in other manager
+  - store most important passwords only partionally and remember
+  - peppering: split (important) passwords into the password saved in the manager + a random string at the end that you keep in mind, e.g.
+    - Amazon PW: 6ybhLNKW**g8e3**
+    - Zalando PW: jte4nYWH**g8e3**
+- you might want to keep important passwords only on paper or in mind to elimate threat of data leaks
 
 #### Passkeys
 
@@ -172,12 +178,46 @@ The following table lists common auth method and their susceptibility to remote 
   - enables attackers to unlock your accounts "without even knowing the keyhole"
     - this is relevant for passkeys on devices not immediate tied to you:
       - e.g. your Amazon passkey on a hardware key: if lost in public and without PIN, attackers can just try popular sevices like Amazon and see what account it unlocks
+- though device specific, password managers can also store them to enable cross device usage
+  - this can actually increase security, as PWMs allow you to put additional PIN/biometrics auth in between
 
 #### Biometrics
 
 - recommended to disable during protests etc. because law enforcement can force unlock easily
+- can't be lost
+- but also not replaced once compromised - shouldn't be considered a secret but rather similar to a username
+- older fingerprint readers aren't secure at all. Three current techs are
+  - optical (e.g. Google Pixel 8): can be fooled with clones of your finger from photos or even prints off the device they secure
+  - capacitive: will also consider the depth profile of your finger and can come with "liveness checks" to prevent spoofing e.g. via clones made of glue
+  - ultrasonic (e.g. Google Pixel 9): further enhances geometric checks etc. 
 
 #### Hardware keys
+
+- provide the highest security overall and also against most attack vectors individually
+  - especially if additionally secured with PIN or biometrics
+
+#### MFA
+
+- generally MFA should be realized via entirely separate devices
+  - e.g. malware on same computer could compromise PWM 1 for passwords and PWM 2 for TOTPs at the same time
+- MFA also protects against social engineering attacks against customer care
+- Even in case of successful session hijacking with compromised password, MFA will usually prevent any security related account changes that could e.g. lead to total account takeover
+
+- SIM is the worst due to the unsafe (unencrypted) protocol and threat of SIM hijacking out of your control
+- Email is reasonably safe given high email account security is recommended anyways
+  - though bit cumbersome and possible damage is high as password + 2FA security could be compromised at the same time for many accounts
+- Device prompts have the benefit of MFA device isolation as they are device specific
+  - though promts without confirmation on unlocked devices can be dangerous
+    - especially with many devices, e.g. people had their kids confirm promts without them knowing
+- Hardware keys etc. are ideal, as they are dedicated offline devices that can additionally be secured via PIN/biometrics 
+
+![alt text](device_promts.png)
+[https://news.softpedia.com/news/google-now-allows-g-suite-admins-to-roll-out-sign-in-prompts-to-all-phones-523120.shtml]
+
+#### General
+
+- Keep automatic locking e.g. for device screen, password managers as short as possible to limit the attack surface on unlocked devices/accounts
+- The more you use you most secure methods (e.g. hardware key, master-master key for password manager) also for unimportant stuff, the higher the exposure to attacks
 
 ## Security & privacy per topic
 
@@ -313,3 +353,9 @@ Considering the potentially catastrophic consequences of losing control of ones 
 - **3x copies**: primary working copy + 2 backups
 - **2x storage media**: e.g. local disk + cloud
 - **1x offsite** e.g. external drive or cloud
+
+### Emergency access/dead man switch
+
+Emergency recovery sheet
+	- Ensure access in case of memory loss
+	- Delayed access: notification to you to stop request (only access if you can't)
