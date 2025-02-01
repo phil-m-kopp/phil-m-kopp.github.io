@@ -195,6 +195,8 @@ The following table lists common auth method and their susceptibility to remote 
 
 - provide the highest security overall and also against most attack vectors individually
   - especially if additionally secured with PIN or biometrics
+- some hardware keys can also be used to generate TOTPs (in conjunction with smartphone)
+- for better or worse, true hardwara auth (FIDO2 etc.) cannot be cloned, so you need dedicated backups keys or methods to not loose access
 
 #### MFA
 
@@ -202,11 +204,18 @@ The following table lists common auth method and their susceptibility to remote 
   - e.g. malware on same computer could compromise PWM 1 for passwords and PWM 2 for TOTPs at the same time
 - MFA also protects against social engineering attacks against customer care
 - Even in case of successful session hijacking with compromised password, MFA will usually prevent any security related account changes that could e.g. lead to total account takeover
+  - this works both ways: if an attacker gains access to password + MFA, they can remove your backup MFA methods to lock you out effectively
 
-- SIM is the worst due to the unsafe (unencrypted) protocol and threat of SIM hijacking out of your control
+- SIM is the worst due to the 
+  - unsafe (unencrypted) protocol
+  - threat of SIM hijacking out of your control
 - Email is reasonably safe given high email account security is recommended anyways
-  - though bit cumbersome and possible damage is high as password + 2FA security could be compromised at the same time for many accounts
-- Device prompts have the benefit of MFA device isolation as they are device specific
+  - possible damage is high as password + 2FA security could be compromised at the same time for many accounts
+- TOTPs depend on the security of the device where they're generated
+  - backup and use across devices is easy
+- Device prompts
+  - usually ensure device isolation as they are device specific
+  - should be pretty pishing resistant, as device prompts e.g. happen outside of browser
   - though promts without confirmation on unlocked devices can be dangerous
     - especially with many devices, e.g. people had their kids confirm promts without them knowing
 - Hardware keys etc. are ideal, as they are dedicated offline devices that can additionally be secured via PIN/biometrics 
@@ -218,6 +227,7 @@ The following table lists common auth method and their susceptibility to remote 
 
 - Keep automatic locking e.g. for device screen, password managers as short as possible to limit the attack surface on unlocked devices/accounts
 - The more you use you most secure methods (e.g. hardware key, master-master key for password manager) also for unimportant stuff, the higher the exposure to attacks
+- Everything 
 
 ## Security & privacy per topic
 
