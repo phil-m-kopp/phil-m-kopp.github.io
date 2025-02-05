@@ -103,6 +103,7 @@ Also see: ["Google: a walk down privacy lane" on CupWire](https://archive.ph/Xzr
 - In zero-knowledge or client E2E encryption
   - your auth is used to decrypt the data stored at the provider
   - no unencrypted data ever leaves your device
+    - this is the deciding difference to only "server side encryption" where the provider can still all your data with restriction
 
 ---
 
@@ -131,6 +132,13 @@ If losing your key isn't a big deal because of "convenient account recovery meth
 
 ### Authentification methods
 
+tl;dr:
+- no single method it best in all - secrets, biometrics and hardware keys have unique benefits
+- thus layering will yield the highest security
+  - e.g. using a remembered password + PIN secured hardware key + fingerprint unlock
+    - will be secure against remote and physical attacks
+    - eleviates risks of short PINs via longer password while fingerprint unlocks helps keeping it secret   
+
 The following table lists common auth method and their susceptibility to remote and physical attack vectors
 - attack vectors are considered in isolation, e.g. given a fingerprint clone a device passkey is not safe on unlocked device. But without it, a passkey is not less secure on an unlocked device
 
@@ -154,6 +162,8 @@ The following table lists common auth method and their susceptibility to remote 
 
 #### PINs, passwords and other short secrets
 
+- PINs serve to keep more powerful auth methods like passwords protected and usually allow only common usage of accounts but not e.g. changing security settings
+  - while passwords usually allow unlimited attempts, PINs lock or erase devices after around 10x attempts
 - offer the possibility of (plausible) deniability
 - PINs especially for device unlock usually need to be typed (as device is locked), so there's a constant risk if them being seen
 - privacy screens and keypad scrambling can make spying harder
@@ -191,6 +201,12 @@ The following table lists common auth method and their susceptibility to remote 
   - capacitive: will also consider the depth profile of your finger and can come with "liveness checks" to prevent spoofing e.g. via clones made of glue
   - ultrasonic (e.g. Google Pixel 9): further enhances geometric checks etc. 
 
+> "It’s important to note that all fingerprint sensors we tested were susceptible to high quality spoofed fingerprints created with a cooperative enrolled user, including those in popular phones and laptops, and the one in the YubiKey Bio. We believe with sufficient skill and practice that this can be done even with latent prints without the cooperation of the enrolled user. An example of this was demonstrated at the Chaos Communication Congress by using photographs of hands to create a spoof of the enrolled user’s fingerprints. However, the vast majority of potential attackers are not physically near to their victims and do not have physical access to their devices."
+> https://www.yubico.com/blog/getting-a-biometric-security-key-right/
+
+![alt text](glue_fingerprint.png)
+https://www.bleepingcomputer.com/news/security/biometric-auth-bypassed-using-fingerprint-photo-printer-and-glue/
+
 #### Hardware keys
 
 - provide the highest security overall and also against most attack vectors individually
@@ -221,13 +237,14 @@ The following table lists common auth method and their susceptibility to remote 
 - Hardware keys etc. are ideal, as they are dedicated offline devices that can additionally be secured via PIN/biometrics 
 
 ![alt text](device_promts.png)
-[https://news.softpedia.com/news/google-now-allows-g-suite-admins-to-roll-out-sign-in-prompts-to-all-phones-523120.shtml]
+https://news.softpedia.com/news/google-now-allows-g-suite-admins-to-roll-out-sign-in-prompts-to-all-phones-523120.shtml
+
+- MFA backups can also be given to e.g. family and friends as MFA on it's own is useless 
 
 #### General
 
 - Keep automatic locking e.g. for device screen, password managers as short as possible to limit the attack surface on unlocked devices/accounts
 - The more you use you most secure methods (e.g. hardware key, master-master key for password manager) also for unimportant stuff, the higher the exposure to attacks
-- Everything 
 
 ## Security & privacy per topic
 
@@ -237,7 +254,7 @@ Caveats
 - legal requirements for a physical address ("ladungsfähig") in certain cases like business mail
   - operating e.g. own blog or business without this can get you fined
 
-#### Services
+#### Providers/Services
 
 | **Service**                                                                      | **Cost**      | **Description**                                                   | **Providers**                                                                                                                                     | **Supports Name Anonymization** | **Supports Packages** | **Legal Physical/Business Address** | **Other Notes**                                                                      |
 | -------------------------------------------------------------------------------- | ------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | --------------------- | ----------------------------------- | ------------------------------------------------------------------------------------ |
@@ -299,18 +316,60 @@ Caveats
   - With access to similar information as you but control over your account, in the digital world a fraudster will have more authorite over your identify than you
 - Free providers often don't encrypt your data (also see privacy), which makes them vulnerable to data leaks
 - Some providers reuse deleted addresses, which will at the very least lead to uncomfortable identify switch
+- Aliases like "amazon.crested799@passmail.net"
+  - protects your main (login) email account address from risks of exposure (spam/data brokers, fingerprinting, hacking etc)
+    - your logins turn from something that identify you into a unique secret 
+    - for incoming + outgoing messages
+    - can be disabled/enabled at will
+    - aliases are usually permanently associated with your account and won't get recycled (for security)
+    - you'll be able to pinpoint data leaks (hacking or sold data) and better avoid shady services
+  - can usually be created in unlimited numbers at small premium
+    - effectively circumventing your limit of extra email addresses on your account
+  - there's 3rd party provider option, but some providers like Proton Mail offer that feature built-in
+  - compared to aliases via custom domain e.g. "amazon.crested799@myrandomdomain.net"
+    - offer additional privacy, security and convenience
+      - since most domain providers need to ID you
+      - eventually there will be a leak to who owns "myrandomdomain.net" e.g. if you use it with services that you also give your address
+    - "myrandomdomain.net" comes with additional attack surface and things you can configure incorrectly
+      - potentially leading to domain take over or attackers imporsonating you in other ways
+    - if your provider doesn't allow unlimited custom domain email addresses, you won't be able to send mails from a majority of aliases (easily)
+      - e.g. customer service might reject requests not coming from your actual account email 
 
 #### Privacy
 
 - Free providers likely sell you data or insights from scanning your mail one way or another
   - With increasing digitization, the possible impact only grows
 
-#### Migration
+#### Mitigation
 
 Considering the potentially catastrophic consequences of losing control of ones (main) email account:
 
 - delete/archive (out of account) mail regularly
 - MFA should be considered mandatory - hardware keys highly recommended 
+- keep your email provider login secret. if you login is your email address, exclusively use it for login, e.g. don't send mails from this addres
+- use email aliases for privacy and security
+- prefer providers with zero-knowledge encryption
+
+#### Providers/Services
+
+Those were the services which I wanted to compare in detail end 2024. 
+Back then I wasn't happy with posteo.de anymore after finding that by design they didn't want to offer MFA together with a usable (3rd) party client e.g. also on mobile.
+In the end I decided for Proton due to offering more flexibiliy/integrations (e.g. 3rd party clients) and also built-in aliases. Plus their ultimate account comes with a very good VPN and password manager as well at little additional cost.
+
+Also see [privacytools.io](https://www.privacytools.io/privacy-email) and [techlore.tech](https://www.privacytools.io/privacy-email) for up to date lists of service recommendations
+
+|                 | Price / m | FIDO2 / U2F | Aliases            | Addresses          | Custom<br>domains | PGP | Full-text search | 3rd party clients | Catch<br>all | Cal<br>Share | Auto<br>reply | Auto<br>forward |
+| --------------- | --------- | ----------- | ------------------ | ------------------ | ----------------- | --- | ---------------- | ----------------- | ------------ | ------------ | ------------- | --------------- |
+| Proton          | 3,5-4€    | x           | 10[^simplelogin]   | 10                 | 1                 | x   | x                | via Bridge        | x            | x            | x             | x               |
+| Proton Ultimate | 8-10€     | x           | ♾️[^simplelogin] | 15                 | 3                 | x   | x                | via Bridge        | x            | x            | x             | x               |
+| Tutanota        | 3€        | U2F only    | 3rd-party only     | 15<br>custom: ♾️ | 3<br>             | -   | x                | -                 | x            | x            | x             | -               |
+
+[^simplelogin]: Proton uses simplelogin.io for their alias feature
+
+Alias provider examples:
+- SimpleLogin
+- AnonAddy
+- Firefox Relay
 
 ### Web
 
@@ -318,7 +377,7 @@ Considering the potentially catastrophic consequences of losing control of ones 
 
 #### Privacy
 
-#### Migration
+#### Mitigation
 
 #### Browser 6 search
 
@@ -332,7 +391,7 @@ Considering the potentially catastrophic consequences of losing control of ones 
 
 #### Privacy
 
-#### Migration
+#### Mitigation
 
 ### Payment
 
@@ -340,7 +399,7 @@ Considering the potentially catastrophic consequences of losing control of ones 
 
 #### Privacy
 
-#### Migration
+#### Mitigation
 
 ### Device
 
@@ -348,7 +407,7 @@ Considering the potentially catastrophic consequences of losing control of ones 
 
 #### Privacy
 
-#### Migration
+#### Mitigation
 
 #### Mobile
 
