@@ -333,7 +333,8 @@ Caveats
     - "myrandomdomain.net" comes with additional attack surface and things you can configure incorrectly
       - potentially leading to domain take over or attackers imporsonating you in other ways
     - if your provider doesn't allow unlimited custom domain email addresses, you won't be able to send mails from a majority of aliases (easily)
-      - e.g. customer service might reject requests not coming from your actual account email 
+      - e.g. customer service might reject requests not coming from your actual account email
+- some anti-malware software come with plugins for email clients like Thunderbird to enhance e.g. protection against phishing that's often missing in consumer email solutions 
 
 #### Privacy
 
@@ -371,49 +372,269 @@ Alias provider examples:
 - AnonAddy
 - Firefox Relay
 
+### File Storage
+
+https://www.privacytools.io/encrypted-cloud-storage
+
+ - if you're already using a cloud storage service though without zero-knowledge E2E encryption, switching services is easy and would improve both security and privacy
+   - however possibly at the expense of a bit of user experience due to encryption (e.g. file previews are harder to achieve then) 
+ - if you're currently not using a cloud storage service, e.g. it's in most cases recommended because
+   - having important documents and private project files backuped around to clock transparently is hugely convenient
+   - self-hosting has limited advantages over zero-knowledge cloud storage at comparible total costs
+     - especially if the risk of messing up one's server setup or rather effort required to preven it is considered as well
+   - makes fulfilling a proper 3-2-1 backup strategy much easier, which is also recommended for high security which in turn depends on secure backups of auth methods
+ - while prices per GB drop significantly with more expensive plans, many providers currently max out at 2 TB for private plans
+   - from then on storage can often only be increased by much more expensive family or business plans
+   - in such cases when you need e.g. more than 6-8 TB, e.g. your fixed effort for server maintenance might make self-hosting more attractive
+     - some providers like Google will only show you >2TB plans if you're already on the 2TB plan
+
+#### Providers/Services
+
+| Service     | Price 2TB / month | Price 4TB / month | Max storage                | Versions<br>+ restore | Video<br>previews | Mobile 2way Sync           | Foto live upload | Docs<br>(web) | Sheets<br>(web)<br> |
+| ----------- | ----------------- | ----------------- | -------------------------- | --------------------- | ----------------- | -------------------------- | ---------------- | ------------- | ------------------- |
+| Proton      | 16€               | 32€               | 3 TB (family)              | x                     | x                 | -                          | x                | x             | -                   |
+| MEGA        | 10€               | 16€               | 16 TB                      | x                     | x                 | x                          | x                | -             | -                   |
+| Nord        | 7€                | 20€               | 2 TB                       | -                     | -                 | -                          | x                | -             | -                   |
+| Cryptomator | + 0€              | + 0€              | depends on storage service | x                     | -                 | depends on storage service | x                | -             | -                   |
+
+- [Cryptomator](https://cryptomator.org/)
+  - not a cloud storage on it's own
+  - FOSS
+  - integrates with most popular insecure cloud storage providers and adds zero-knowledge encryption
+    - aside from metadata, this makes it potentially even more secure than alleged zero-knowledge but closed source providers
+  - allows mixed operation as well, e.g. store media unencrypted to benefit from Google Photos features, but encrypt the rest
+  - usually preserves inherent features of the cloud service like file versioning but also not aways (e.g. file previews)
+
+#### File encryption
+
+- [VeraCrypt](https://www.veracrypt.fr/)
+  - OS-agnostic FOSS
+  - can manage encrypted containers but also encrypt whole system drives
+  - more cumbersome to use than OS-native encryption solutions
+  - but also more control e.g. regarding use with cloud storage or plausible denyability encryption
+- All popular desktop + mobile OS offer steamlined and barely noticable system encryption
+  - desktop system don't have them enabled by default though unlike mobile OS
+
 ### Web
 
-#### Security
+#### "Big tech" accounts
 
-#### Privacy
+- Review security and privacy settings and opt-out whereever you can
+  - most apps/services will tell you if a "convenience" feature doesn't work because you restricted permissions
+  - consider that "customization", AI etc. features collect data around the clock
+    - so in rare cases something you remember as convenient stops working - if you're not willing to spent to time to check why it stopped working it's probably a good privacy tradeoff
 
-#### Mitigation
+![permission_notice](permission_notice.png)
 
-#### Browser 6 search
+#### Browser & search
 
-#### VPN
+- the most common computer uses are mainly or can be done using a browser
+  - e.g. web surfing & search, news & shopping, email & messaging, music & video, documents & meetings
+- security:
+  - updates (browser + plugins!)
+  - plugin (permission) minimalizm
+  - strong (multi factor) auth
+  - script and ad blockers
+    - e.g. uBlock Origin or NoScript
+    - prevent lots of automated attacks (scripts) and attacks on human users (pop ups etc.)
+  - plugin from anti-malware software
+    - blocks malicious sites, scripts, downloads...
+  - enforce HTTPS
+    - e.g. HTTPS Everywhere
+- browsers and search engines controlled by big tech are in a great position to track you anywhere on the internet (even against your non-consent)
+- search engines (or any search field) basically see what you think throughout the day, which might be more sensitive than data on what you actually do
+- switching to a more secure and private browser and search is both easy and quite relevant
+  - advantages
+    - blocks trackers, ads, malicious scripts
+    - less data collection e.g. via telemetry, cloud backup
+    - enforces HTTPS
+    - open source: potentially more secure
 
-#### DNS
+https://www.privacytools.io/private-browser
+https://www.privacytools.io/private-search
 
-### Password
+- privacy frontends [^privacyfrontends]
+  - unfortunately there's no real alternative to some services like YouTube, especially social media in general
+  - privacy frontends or proxies can serve as intermediate layer between you and the service in questions
+    - often at least theoretically possible if the service in generally free to access
+    - they e.g. hide your traffic among the collective of other anonymous users
+    - even user profiles can be supported
+    - proxy solution work in more cases but incur server costs, thus usually require self-hosting for a good experience
 
-#### Security
+[^privacyfrontends]: https://www.privacytools.io/privacy-frontends
 
-#### Privacy
+#### VPN vs DNS
 
-#### Mitigation
+- In both cases the provider can see all your traffic metadata and even data unless it's E2E encrypted e.g. via HTTPS
+- Both work like a proxy by handling part of your internet traffic for you
+  - VPNs 
+- Compared to HTTPS, VPNs encrypt all traffic, so even your ISP can only see metadata of your connection the to VPN
+
+|                      |                                           | VPN                                                                             | DNS                                                 |
+| -------------------- | ----------------------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Security             | Full traffic encryption<br>(even for ISP) | 🟢Always                                                                       | 🔴Never                                            |
+|                      | Malicious site blocking                   | 🟢Provided by most decent providers                                            | 🟢Provided by most decent providers                |
+| Privacy              | Ad/traffic-block                          | 🟢Provided by most decent providers                                            | 🟢Provided by most decent providers                |
+|                      | IP spoofing                               | 🟢Always                                                                       | 🔴Never                                            |
+| Speed                |                                           | 🟡Even fastes VPN can struggle with HD streaming                               | 🟢Can be even faster than without                  |
+| Cost                 |                                           | 🟡~ 5€ / month                                                                 | 🟢~ 2€ / month                                     |
+| Device compatability | Devices supporting apps                   | 🟢Almost always                                                                | 🟢Almost always                                    |
+|                      | Smart device without apps                 | 🔴VPN support rare                                                             | 🟢usually still yes                                |
+| Streaming support    | Speed / traffic                           | 🟡Usually only more expensive VPNs support streaming with good user experience | 🟢Always                                           |
+|                      | Bypass geoblocking                        | 🟢Works in most cases given decent provider                                    | 🔴Highly depends on DNS provider and streaming app |
+
+- VPN "split tunneling"
+  - can be an explicit feature, e.g. to bypass geoblocking in some cases but ensure fast traffic for everything else
+  - can be involuntary, usually on hardware/OS level, e.g. SIM cards can bypass a phones active VPN
+    - can be prevented by connecting device in question to internet only via another device with active VPN, e.g. a mobile hot spot [^calyxinternet]
+      - this trick enables powerful firewalling as well, as it separates connection control from the apps that run malicious code (tracking etc.)
+
+[^calyxinternet]: https://calyxinstitute.org/membership/internet
 
 ### Payment
 
-#### Security
+- payment security/privacy is usually about trusting a single (3rd party) provider a lot as proxy 
+  - so that you don't need to trust others anymore
+- secure payment aspects
+  - payment auth promt: auth should be required for all (non-reoccuring) payments e.g. indepentend of amount
+    - one could argue though if max auth method is weak (e.g. optical fingerprint)
+  - single use credit cards/payment token or burner cards: alternative to "always auth" by preventing payment info reuse
+    - single use cards cannot be used for reoccuring payments
+    - burner cards: ability to quickly create and destroy virtual cards
+  - tokenization / proxy: only token card or proxy account visible to outside (passing payments to linked accounts/cards)
+    - Token: always changes
+    - Proxy: static
+  - prepaid: prevent payments beyond intended balance
+  - disable credit/dispo: prevent payments beyond intended balance
+  - quickly freeze: lock cards/accounts in near real-time because lost or preventively only ever unlock before intended payment
+    - of course removal of payment methods is almost always possible, though cumbersome
+  - daily/monthly limits: prevent use of unreasonable large amounts in a short time
+  - country/shop/online permissions: only allow or lock payments in certain cases 
 
-#### Privacy
-
-#### Mitigation
+| **Criteria**                             | **DKB Debit Card**                                                                    | **Google/Apple Pay etc**        | **PayPal**                                            | **VimPay Go**                                                                         | **Revolut**                                                                                 |
+| ---------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Max payment auth**                     | 🟡App PIN / biometrics<br><br>🟢Chip TAN (MFA)                                      | 🟡Phone unlock                 | 🟢Password + hardware key (MFA)                      | 🟡PIN / biometrics                                                                   | 🟡PIN (random keypad) / biometrics                                                         |
+| **POS auth promt**                       | 🟡<br>Only above/every 50€, though sometimes randomly below<br><br>Cannot be changed | 🟢Always<br><br>Can be toggled | 🟡 <br>Locks after rather short time                 | 🟡<br>Only above/every 25€, though sometimes randomly below<br><br>Cannot be changed | 🟢Always                                                                                   |
+| **Single-use cards / tokens**            | 🔴No                                                                                 | 🔴No                           | 🔴No                                                 | 🔴No                                                                                 | 🟢Yes                                                                                      |
+| **Tokenization / proxy**                 | 🔴No                                                                                 | 🟢Tokenization                 | 🟢Proxy                                              | 🟢Proxy                                                                              | 🟢Both possible                                                                            |
+| **Prepaid**                              | 🔴No                                                                                 | Depends on linked account       | 🟢Yes, can chose for every transaction               | 🟢Yes                                                                                | 🟢Yes                                                                                      |
+| **Disable overdraft**                    | 🟢Yes, on request                                                                    | Depends on linked account       | 🟢-> Prepaid<br><br>Proxy: Depends on linked account | 🟢-> Prepaid                                                                         | 🟢-> Prepaid                                                                               |
+| **Real-time freeze cards**               | 🟢Yes, via app                                                                       | Depends on linked account       | 🟡No (need to remove method)                         | 🟢Yes, via app                                                                       | 🟢Yes, via app                                                                             |
+| **Daily/monthly & max amount limits**    | 🔴<br>Only max bank transfer limit -> no payment limit                               | Depends on linked account       | 🔴No                                                 | 🟢<br>Daily / weekly / monthly caps<br><br>Contactless limits                        | 🟢<br>Daily / monthly caps                                                                 |
+| **Payment feature / permission toggles** | 🟢<br>- Country<br>- Online pay<br>- POS pay<br>- Contactless<br>- Cash withdrawal   | Depends on linked account       | 🔴-                                                  | 🟡<br>- Country<br>- Online pay<br>- Contactless                                     | 🟢<br>- Country<br>- Online pay<br>- Contactless<br>- Cash withdrawal<br>- Magstripe swipe |
 
 ### Device
 
-#### Security
+- Privacy control (e.g. app permissons) and security (e.g. sandboxing) better on iOS/Android compared to desktop
 
-#### Privacy
+#### All devices
 
-#### Mitigation
+Tier 1 - slightly inconvenient at worst
+- Minimalism regarding apps 
+- Go through all app and OS settings and assign minimal permissions, especially for camera, location, microphone
+  - Especially (precise) location - even Google Maps works fine in most cases without
+- OS native device encryption
+- Disable notifactions details on lock screen
+- Remote tracking/lock/wipe, though consider tradeoff:
+  - native solutions require account with ecosystem provider (e.g. Google/Apple Find My Device), significantly decreasing privacy (personalized telemetry, location data...)
+  - 3rd party solutions (e.g. malware protection) might work worse and you're opening yet another attack vector (security + privacy) 
+- prefer web (browser) apps over native device apps
+  - most apps that don't require special hardware (mic, camera, GPS is e.g. fine) work just fine as web apps or in the browser
+  - but have a lot less control over your device e.g. to track you
+
+Tier 2 - taking it seriously
+- Use FOSS
+  - Store apps are usually full of trackers, check Exodus [^exodus]
+  - Check alternative.to for app alternatives
+  - Especially relevant for utility apps that see your sensitive information all the time, e.g. keyboard or voice recording apps
+- Disposable browser: for searches etc. (deletes history when closed)
+- Consider using multiple accounts (user, browser...) to compartementalize use cases
+- Backups: disalbe all native backup features and manage yourself, unless zero-knowledge encrypted like with iCloud ADP
+- Privacy screen
+- Secure connection (VPN)
+  - Firewalls like NetGuard unfortunately occupy the VPN slot, which is usually a worse option (especially if using FOSS, where firewall benefit is less)
+
+
+Tier 3 - paranoid/high threat model
+- Lock device based on distance to wearables
+  - Unfortunately requires e.g. Android Tasker/Automate[^androidautomate] routine or something like BusKill [^buskill]
+- Tape camera
+- strong device auth/password
+  - no biometrics at airports, protests etc.
+- Try to not link with cloud account (Google, Apple, Microsoft...)
+- Remove on-board microphone and only use external headphone mic
+
+
+[^androidautomate]: https://play.google.com/store/apps/details?id=com.llamalab.automate
+[^buskill]: https://www.buskill.in/
+
 
 #### Mobile
 
-- Privacy control (e.g. app permissons) and security (e.g. sandboxing) better on iOS/Android compared to desktop
+Tier 1 - slightly inconvenient at worst
+- Don't root etc.
+- Automatic updates
+- iOS: Enable cloud encryption aka "advanced data protection"
+
+Tier 2 - taking it seriously
+- Most messengers, even WhatsApps, is considerably more private and especially secure than SMS
+- Protect SIM with password
+- iOS: Enable lockdown mode [^lockdownmode]
+- Use mobile in combination with hardware key for isolated TOTPs
+- Device lock with fingerprint, app lock with PIN
+  - iOS doesn't support 3rd party app locks
+- MAC address randomization
+  - careful if you set your router to only allow connections from known devices
+
+Tier 3 - paranoid/high threat model
+- Go into airplane mode (SIM + Bluetooth) if possible and only use WiFi for data and (VoIP) calls 
+- Remove SIM or at least use mobile access point
+- Android: disable all sensors via developer options
+- OS: custom privacy ROM like [GrapheneOS](https://grapheneos.org/) or [CalyxOS](https://calyxos.org/)
+- Remove bloatware and unnecessary system apps with e.g. [ADB AppControl](https://adbappcontrol.com/en/)
+
+[^exodus]: https://exodus-privacy.eu.org/
+[^lockdownmode]: https://support.apple.com/en-euro/105120
 
 #### Desktop
+
+Tier 1 - everybody
+
+Tier 2 - taking it seriously
+- Use OS hardening scripts: https://privacy.sexy/
+  - Windows: https://hotcakex.github.io/
+
+Tier 3 - paranoid
+- OS: QubesOS or TailsOS
+
+## Phils app picks
+
+- VPN: Proton
+- DNS: NextDNS
+- Browser: Brave
+- Search: Brave, DuckDuckGo
+- Privacy Frontends:
+  - YouTube: Invidious
+- Maps: OsmAnd
+- Email & Calendar: Proton (incl. SimpleLogin)
+- Docs: CryptPad, OnlyOffice (, soon: Proton?)
+- App Store:
+  - Windows: UniGetUI
+  - Android: F-Droid, Aurora
+  - Mac: brew
+- Secrets:
+  - Bitwarden (PW)
+  - Proton (MFA)
+- Cloud Storage: MEGA, Proton
+- Messenger
+  - WhatsApp (public)
+  - Matrix/Element, Brave Talk (family)
+- File Encryption: VeraCrypt, 7-Zip, Cryptomator
+- OS (privacy tools)
+  - Windows: O&O ShutUp
+- Firewall
+  - Windows: Portmaster
+- Domain: Hostinger
 
 ## Backups: general tips
 
