@@ -50,6 +50,23 @@ comments: true
 
 Also see: ["Google: a walk down privacy lane" on CupWire](https://archive.ph/XzrbQ)
 
+### Google Cases
+
+- Stalker
+- Fined for still tracking location
+- Law enforcement scan
+
+## Future cases
+
+- Contract rejection due to (medical) history
+
+### Phils cases
+
+- Famialy AI call
+- Scam SMS
+- Phishing simulation
+- Ecom Brushing
+
 ## Security & privacy in general
 
 ### Compartmentalization
@@ -541,19 +558,24 @@ Tier 1 - slightly inconvenient at worst
 - prefer web (browser) apps over native device apps
   - most apps that don't require special hardware (mic, camera, GPS is e.g. fine) work just fine as web apps or in the browser
   - but have a lot less control over your device e.g. to track you
+- if you're a reasonably educated user, the OS built in malware protection (even Windows Defender) should be enough
+  - doesn't open additional privacy attack vectors
+  - free anti-virus come with privacy issues but little additional value
 
 Tier 2 - taking it seriously
 - Use FOSS
   - Store apps are usually full of trackers, check Exodus [^exodus]
   - Check alternative.to for app alternatives
   - Especially relevant for utility apps that see your sensitive information all the time, e.g. keyboard or voice recording apps
+- Get apps from official stores for security, but not directly to preserve privacy
+  - Android: F-Droid, Aurora
+  - Windows: UniGetUI, Scoop
 - Disposable browser: for searches etc. (deletes history when closed)
 - Consider using multiple accounts (user, browser...) to compartementalize use cases
 - Backups: disalbe all native backup features and manage yourself, unless zero-knowledge encrypted like with iCloud ADP
 - Privacy screen
 - Secure connection (VPN)
   - Firewalls like NetGuard unfortunately occupy the VPN slot, which is usually a worse option (especially if using FOSS, where firewall benefit is less)
-
 
 Tier 3 - paranoid/high threat model
 - Lock device based on distance to wearables
@@ -599,10 +621,14 @@ Tier 3 - paranoid/high threat model
 #### Desktop
 
 Tier 1 - everybody
+- Use only local account
 
 Tier 2 - taking it seriously
 - Use OS hardening scripts: https://privacy.sexy/
   - Windows: https://hotcakex.github.io/
+- User account compartementalization, at least:
+  - separate admin account
+  - separate work account
 
 Tier 3 - paranoid
 - OS: QubesOS or TailsOS
@@ -617,9 +643,9 @@ Tier 3 - paranoid
   - YouTube: Invidious
 - Maps: OsmAnd
 - Email & Calendar: Proton (incl. SimpleLogin)
-- Docs: CryptPad, OnlyOffice (, soon: Proton?)
+- Docs: CryptPad, OnlyOffice (, soon: Proton?), Obsidian
 - App Store:
-  - Windows: UniGetUI
+  - Windows: UniGetUI, Scoop
   - Android: F-Droid, Aurora
   - Mac: brew
 - Secrets:
@@ -637,6 +663,9 @@ Tier 3 - paranoid
 - Domain: Hostinger
 
 ## Backups: general tips
+
+- proper security will not only lock out attackers, but also you if you lose control over your auth methods
+  - it's important to think about (auth) backups before locking down your data and accounts
 
 ### 3-2-1 backup method
 
