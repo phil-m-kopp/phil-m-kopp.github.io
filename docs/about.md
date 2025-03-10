@@ -19,58 +19,49 @@ hide:
 
 ===+ "💼 Professional"
 
-    > I'm a **wholistic QA-Manager** with backgrounds as **Certified Agile & Knowledge Management Coach** as well as **Full Stack Tech Lead & Cloud Architecture** and in **E-Com / Payment, Mobility and Games Development**. With **Structure, Ownership, transparent Democratic Leadership and Continuous Improvement** as driving values, I aim to tackle cross-cutting issues for **lasting Impact** at my client's companies proactively.
+    > I'm a result-driven **IT Project and Software Engineering Manager** with a focus on **QA** and backgrounds as **Certified Agile Application Lifecycle Coach** and **Full-stack Tech Lead & Architect** in **E-Commerce and Mobility** industries. With **Quality & Structure, strong Ownership, situational Servant Leadership and Continuous Improvement** as driving values, I like to tackle **cross-cutting high-impact initiatives** and ensure **sustainable, measurable organizational changes**.
 
     [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/philipp-kopp-5b23a912a/)
 
-    [:material-file-document: Resume](assets/docs/CV.pdf){ type=application/pdf style="min-height:25vh;width:100%" }
-
-    Working at [Netlight](https://www.netlight.com/) for many years now, due to an awesome personal, supportive and knowledge-sharing driven culture. 💜
-
     === "🧠 Expertise"
-        - **Roles**
-            - QA Manager
-            - Certified Agile & Knowledge Management Coach
-            - Full Stack Tech Lead & Cloud Architect
-            - Games Designer & Developer
+        - **Competences**
+            - **Application Lifecycle Management & Governance: from Requirements Engineering over QA & Release to Monitoring & Incident Response**
+            - **Tech Project Management**
+            - **Backend/QA/AWS Solution Architecture**
+            - **Engineering Leadership & Agile Coaching (certified)**
+
+            - Stakeholder Management & Cross-functional Collaboration
+            - Engineering Culture & Org Change
+            - IT Compliance (e.g. GDPR, ISO27001)
+            - Knowledge (Culture) Management & Business Process Analysis
         - **Domains**
-            - E-Commerce: Checkout, Orders & Payment (PayPal, Stripe, AmazonPay)
+            - E-Commerce: Checkout, Orders & Payment
             - Mobility Services
         - **QA** 
-            - xUnit e.g. Jest | Int/API: Docker, Postman, OpenAPI, Supertest … | UI: Puppeteer, Selenium, TestCafé … | 
-            - Load: k6 | Pen.: OWASP | DevOps: Chaos Monkey | Static: SonarCube, ESLint ...
+            - xUnit e.g. Jest | Int/API: Docker, Postman, OpenAPI, Supertest … | UI: Puppeteer, Selenium, PlayWright … | 
+            - Load: k6 | Pen.: OWASP ZAP, DefectDojo | DevOps: Chaos Monkey | Static: SonarCube, ESLint …
             - Mgmt: Jira, Xray, Zephyr
             - TDD/BDD: Serenity, Allure, Cucumber, 3 Amigo Sessions
-            - Monitoring (alerts, metrics, logs, RUM, APM): Datadog, Grafana, Prometheus, Kibana, Sentry.io
-        - **Agile / Knowledge Management** 
-            - Team (~5 people directly) and tech. project lead (e.g. QA measures across ~5-10 teams)
+            - Monitoring (alerts, metrics, logs, RUM, APM): Datadog, Grafana, Prometheus, Kibana/ES/OS, Sentry.io
+        - **Project / Knowledge Management** 
+            - Team (e.g. 2x 5 engineers) and tech. project lead (e.g. QA or compliance governance across >10 teams)
             - Scrum (of Scrums, Nexus), Certified Scrum Product Owner
-            - Confluence, PlantUML, [C4](https://c4model.com/), BPMN, Communities of Practice [^COP], [MkDocs](https://squidfunk.github.io/mkdocs-material/)
+            - Confluence, PlantUML/Mermaid, [C4](https://c4model.com/), BPMN, Communities of Practice [^COP], [MkDocs](https://squidfunk.github.io/mkdocs-material/)
         - **Software Eng.**
             - Domain Driven Design | Microservices | Event-driven: Kafka
-            - TypeScript NestJS |PHP Symfony | SQL, MongoDB, Redis... | (previously: Golang, React, Java, C#)
+            - PHP Symfony | TypeScript NestJS | PostgreSQL, MongoDB, Redis... | (previously: Golang, React, Java, C#)
         - **DevOps / Cloud**
             - AWS
             - CI/CD: Jenkins, GitLab... 
             - Kubernetes, Docker, Helm, Istio
-        - **Games**: Godot, StableDiffusion
 
         [^COP]: [https://scaledagileframework.com/communities-of-practice/](https://scaledagileframework.com/communities-of-practice/)
 
-    === "📜 Values"
-        - Quality & Detail
-        - Analysis, Planning, Structure & Coordination
-        - Creativity through Diversification
-        - Responsibility & Ownership
-        - Knowledge Management & Continuous improvement
-        - Democratic-Autocratic leadership style (lead by example but trust the team), valuing transparency
-        - Focus on Cross-cutting concerns
     === "⭐ USPs"
-        - Experience in many areas as well as democratic leadership ensures **creative, innovative solutions**
+        - Experience in many areas as well as servant leadership ensures **creative but pragmatic solutions**
         - Passion for knowledge sharing, structure and processes as part of continuous improvement ensures **lasting impact beyond** short term **individual contribution**
         - **QA focus** pairs well with natural aptitude for detail, analysis, planning and structure
-        - Strong sense of **ownership & responsibility** ensures tasks can be entrusted, while transparency and risk management ensures bad situations are handled well
-        - Passion for **continuous improvement** and optimization drives **proactive initiative**
+        - Strong sense of ownership & responsibility ensures **proactive high-impact work**, while transparency and risk management ensures bad situations are handled well
 
 === "❤️ Private"
 
