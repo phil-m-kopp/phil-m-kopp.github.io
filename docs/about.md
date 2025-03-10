@@ -25,15 +25,15 @@ hide:
 
     === "🧠 Expertise"
         - **Competences**
-            - **Application Lifecycle Management & Governance: from Requirements Engineering over QA & Release to Monitoring & Incident Response**
-            - **Tech Project Management**
-            - **Backend/QA/AWS Solution Architecture**
-            - **Engineering Leadership & Agile Coaching (certified)**
-
-            - Stakeholder Management & Cross-functional Collaboration
-            - Engineering Culture & Org Change
-            - IT Compliance (e.g. GDPR, ISO27001)
-            - Knowledge (Culture) Management & Business Process Analysis
+            - Application Lifecycle Management & Governance: from Requirements Engineering over QA & Release to Monitoring & Incident Response
+            - Tech Project Management
+            - Backend/QA/AWS Solution Architecture
+            - Engineering Leadership & Agile Coaching (certified)
+            - Also:
+                - Stakeholder Management & Cross-functional Collaboration
+                - Engineering Culture & Org Change
+                - IT Compliance (e.g. GDPR, ISO27001)
+                - Knowledge (Culture) Management & Business Process Analysis
         - **Domains**
             - E-Commerce: Checkout, Orders & Payment
             - Mobility Services
