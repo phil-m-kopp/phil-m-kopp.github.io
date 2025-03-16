@@ -662,10 +662,52 @@ Tier 3 - paranoid
   - Windows: Portmaster
 - Domain: Hostinger
 
-## Backups: general tips
+## Backups
+
+### General
 
 - proper security will not only lock out attackers, but also you if you lose control over your auth methods
   - it's important to think about (auth) backups before locking down your data and accounts
+
+### Emergency sheet
+
+![alt text](password-manager-emergency-sheet-filled-out.jpg)
+Source: https://passwordbits.com/password-manager-emergency-sheet/
+
+- something might happen to you or your memory
+  - you should ensure access to your secrets managers in plain text:
+    - logins/usernames 
+    - passwords
+    - 2FA recovery codes
+  - alternatively you could use e.g. a biometric hardware key
+    - (as backup, not primary login, to avoid single point of failure)
+  - in any case you need to ensure you or a trusted person knows where to find and how to use the backup
+    - dead man switch can be used for automation
+    - sheet can be split in two and one half given to trusted person to avoid single point of failure
+
+### Emergency access
+
+- Offered e.g by password managers
+- Trusted emergency contacts (TEC) usually must first accept
+- TECs can then request access to your vault, which will be automatically granted after delay
+  - you can choose a delay, e.g. 14 days
+  - a notification informs you about access requests, which you can manually reject 
+- E.g. see for Bitwarden: https://bitwarden.com/help/emergency-access/
+
+### Dead man switch
+
+![dead man switch](csm_DVG_Totmannschalter_Header_7d6f130644.jpg)
+Source: https://www.dvg-duisburg.de/die-dvg/wissenswertes/totmann
+
+- Dead man switches (DMS) are designed to trigger when no human reaction is detected in a certain amount of time
+  - E.g. in the physical world a train switch must be pushed so that the automatic brakes don't engage
+- DMS are commonly used to
+  - execute a local script like a forced shut down or similar to secure a device
+    - e.g. DIY: https://github.com/flowchartsman/deadman
+  - send a message
+    - e.g. self-hosted: https://github.com/storopoli/dead-man-switch
+    - e.g. Saas: https://www.deadmansswitch.net/
+    - e.g. as scheduled email that you push every week: https://proton.me/support/schedule-email-send
 
 ### 3-2-1 backup method
 
@@ -673,8 +715,12 @@ Tier 3 - paranoid
 - **2x storage media**: e.g. local disk + cloud
 - **1x offsite** e.g. external drive or cloud
 
-### Emergency access/dead man switch
+For example my strategy:
 
-Emergency recovery sheet
-	- Ensure access in case of memory loss
-	- Delayed access: notification to you to stop request (only access if you can't)
+| Type       | Primary             | Media                 | Location                                   |
+| ---------- | ------------------- | --------------------- | ------------------------------------------ |
+| Services   | Online service data | Local manual backup   | Local backup in cloud                      |
+| Devices    | Device data         | External drive backup | Cloud backup                               |
+| PW + Login | Bitwarden (cloud)   | Raw dump              | Bitwarden (local) OR <br>raw dump in cloud |
+| 2FA: FIDO  | Yubikey 1           | Yubikey 2 TOTP        | Yubikey family                             |
+| 2FA: TOTP  | Proton (cloud)      | Raw dump              | Proton (local) OR<br>raw dump in cloud     |
