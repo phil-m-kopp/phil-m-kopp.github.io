@@ -67,6 +67,7 @@ theme:
       ArtAndCraft: fontawesome/solid/scissors
       HomeImprovement: material/hammer-screwdriver
       List: fontawesome/solid/list-ol
+      Experience: material/account-star
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
@@ -151,6 +152,7 @@ extra:
     Food & Cooking: FoodAndCooking
     Art & Craft: ArtAndCraft
     Home Improvement & Repair: HomeImprovement
+    Experience: Experience
   social:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/philipp-kopp-5b23a912a/
