@@ -28,7 +28,8 @@ comments: true
 ## Motivation
 - fatty liver: simple calories deficit doesn't help -> deep ketosis e.g. through fasting necessary [^fattyliver]
 - experience how (benefits from) deep ketosis & autophagy feel
-- reset salt, sweetness and insulin sensitivity
+- reset salt, sweetness, insulin and food volume desensitivity
+- get a bit leaner
 
 ## Prep
 - Laxative: Glauber salt (~5€ at the pharmacy)
@@ -44,6 +45,7 @@ comments: true
 - Food
   - Soup veggies, e.g. 400g / 2 days
   - Veggie broth
+  - Erythritol and stevia: two of the few zero calories sugar substitutes that don't lead to insulin spikes and are not known to impact gut health and thus e.g. insulin resitance [^fattyliver]
 - Equipment
   - Hot water bottle / grain pillow etc.: to calm the stomach
   - optinal tracking
@@ -77,7 +79,7 @@ comments: true
   - Strength training to prevent muscle loss
   - At least 5k - 10k steps to support digestion and counter metabolic adaption
 
-## Timeline
+## The plan
 
 ### 2 weeks before 
 - Get used to eating less 
@@ -88,10 +90,280 @@ comments: true
 - Not much fiber the day before, e.g. only curd, yoghurt etc. 
 
 ### Day 1 
-    Glaubersalz 30g 500ml in <15min 
-Day 2-4 
-    Prepare for crisis 
-        Lay down 
+- Glaubersalz 30g 500ml in <15min
+- Cardio to exhaust carbs
+
+### Day 2-4 
+- Prepare for crisis
+  - Lay down
+
+### Day 5
+- Vacation day for rest
+
+## My actual experience
+
+### Energy/Endurance
+
+> - How easy it was to exercise or even move (motivation wise)
+> - Low energy levels make prolonged cardio in particular very hard and lead to higher heart rate at same output
+> - Low energy doesn't mean potential strength output is low, but it get's very uncomfortable and requires a lot of discipline
+> - Low energy levels are maybe the main factor that make fasting feel hard to endure, especially if you need to stay productive and active
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "1 to 5 (highest)" 1 --> 5
+
+    bar "Energy" [5, 3, 2, 3, 3, 2, 3, 2, 1, 3, 4, 5]
+    bar "Energy" [5, 3, 2, 3, 3, 2, 3, 2, 1, 3, 4, 5]
+```
+
+- Personally the hardest part for me about fasting was knowing that skipping strength training would mean sacraficing hard earned muscle at a potentially fast rate and thus needing to find the motivation for daily training as much as before - while fighting against increasing discomfort to finish sets strong and later even starting sets at all
+- When energy hit a new low on day 8 (Saturday) and going shopping (or at least the thought of it) felt like hiking uphill, I decided that considering needed buffer/ramp up for recovery I should rather start eating again to be fit for work next week
+  - same as the days before, after ~10-30min of walking/activity: energy levels actually recovered noticable and the activity didn't feel so uncomfortable anymore after building some momentum
+  - this again showed that activity wasn't impossible, but rather the body just "strongly discourated" activity to conserve energy
+
+## Power/strength output
+
+> - Maximum strength set volume output during strength training compared to before
+> - Lower power levels mean maximum set volume was lower even at maximum discipline  
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "1 to 5 (highest)" 1 --> 5
+
+    bar "Power" [5, 3, 4, 4, 3, 3, 4, 3, 4, 4, 4, 5]
+    bar "Power" [5, 3, 4, 4, 3, 3, 4, 3, 4, 4, 4, 5]
+```
+
+- As expected, maximum set volume almost didn't suffer at all except maybe on the worst days and during excercies with more pronounced endurance component (e.g. L-sits)
+- On day 11 I even set a new personal record, increasing my handstand-against-wall time from 120 to 240 seconds
+
+## Sleepy
+
+> - Feeling of sleepiness, without differentiation whether caused by low energy levels or poor sleep quality
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "1 to 5 (highest)" 1 --> 5
+
+    bar "Sleepy" [1, 2, 3, 2, 3, 2, 4, 5, 4, 4, 3, 3]
+    bar "Sleepy" [1, 2, 3, 2, 3, 2, 4, 5, 4, 4, 3, 3]
+```
+
+- Unsurprisingly, speepiness increased with decreasing sleep quality and I feel this was the main factor here, even considering decreasing energy levels
+
+## Mood
+
+> - General mood, e.g. considering feelings of sadness and irritability
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "1 to 5 (highest)" 1 --> 5
+
+    bar "Mood" [5, 4, 3, 4, 3, 4, 4, 4, 3, 2, 4, 4]
+    bar "Mood" [5, 4, 3, 4, 3, 4, 4, 4, 3, 2, 4, 4]
+```
+
+- More than anything, mood seemed mostly related to cravings and e.g. not being able to do cooking as a hobby
+
+## Motivation
+
+> - Motivation to be productive and active
+> - Low motivation will lead to e.g. excessive doom scrolling and make non-instrinsically motivated (mental) work quite hard to keep up
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "1 to 5 (highest)" 1 --> 5
+
+    bar "Motivation" [5, 1, 2, 3, 3, 3, 4, 2, 3, 2, 3, 4]
+    bar "Motivation" [5, 1, 2, 3, 3, 3, 4, 2, 3, 2, 3, 4]
+```
+
+- I really needed day 5 as a vacation day to recover some motivation - not sure I'd have managed without it and not appearing like a slacker at work
+
+## Hunger
+
+> - Feeling of hunger as in actually needing to eat, as e.g. indicated by stomach growling
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "1 to 5 (highest)" 1 --> 5
+
+    bar "Hunger" [2, 2, 3, 2, 1, 1, 1, 2, 4, 3, 3, 3]
+    bar "Hunger" [2, 2, 3, 2, 1, 1, 1, 2, 4, 3, 3, 3]
+```
+
+- As expected, probably keeping insulin very low at all times by staying at almost zero with calories helped with keeping hunger in check so that it was only a minor invoncenience - pretty unimportant e.g. compared to lower engery levels
+
+## Pain
+
+> - Any kind of kind which seems directly related to fasting
+> - Stomach (region) pain is probably most common (as it was more me), but e.g. muscle aching due to limited regeneration could also be considerd here
+> - This exludes e.g. non-painful bubbling in stomach
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "1 to 5 (highest)" 1 --> 5
+
+    bar "Pain" [1, 1, 3, 4, 1, 2, 4, 1, 1, 1, 1, 1]
+    bar "Pain" [1, 1, 3, 4, 1, 2, 4, 1, 1, 1, 1, 1]
+```
+
+- I felt both pain spikes (day 3 + 6) from somewhere in lower liver region
+- They were sharp enough to prevent me walking with a straight spine - - The 1st spike I could resolve by laying down for 3min, which seemed to get some water out of a spot where it didnt belong especially during sitting it seemed
+- The 2nd one was even sharper but went away quickly after a toilet break and without needing to lay down
+- Interestingly, binging 1600 kCal at day 8 6pm in 3-4h only caused me only minor issues. I started off again with a veggie puree made of veggie soup liquid remains and frozen veggie soup "leftovers", which caused a minor and short discomfort in the stomach. After that my stomach didn't complain much, though I also tried to keep volume in check with higher calory food like soy bean flakes
+
+## Dizzy
+
+> - Dizzyness while standing but also sitting as well as "brain fog"
+> - Inhibited mental work similarly as low motivation
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "1 to 5 (highest)" 1 --> 5
+
+    bar "Dizzy" [1, 1, 1, 2, 4, 2, 2, 2, 3, 3, 2, 1]
+    bar "Dizzy" [1, 1, 1, 2, 4, 2, 2, 2, 3, 3, 2, 1]
+```
+- The dizziness was comparible to what I feel during a fever
+- Especially combined with mental fatigue in the late afternoon this was impacting concentration required for mental work
+- Balance during exercise wasn't impacted noticably
+- Luckily the dizziness mostly came in spikes and I barely noticed them longer than 30min at a time
+
+## Craving
+
+> - Simply "wanting to eat" or tasting something flavorful independant of a feeling of needing to eat
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "1 to 5 (highest)" 1 --> 5
+
+    bar "Craving" [1, 2, 3, 4, 5, 4, 3, 4, 3, 4, 5, 3]
+    bar "Craving" [1, 2, 3, 4, 5, 4, 3, 4, 3, 4, 5, 3]
+```
+
+- Here I really failed the idea of fasting to avoid intense flavors, especially sweetness and salt
+- On day 2 I began to use more erythritol and stevia tabs e.g. in my tea, where I think especially the erythritol but maybe also the carriers ingredients in the stevia tabs lead to regular bubbling in my stomach, though e.g. not uncontrolled diarrhea or gassing
+- On day 4 I bought some artificially sweetened lozenges
+- On day 5 I switched out some tee with heavily diluted (20 kCal) DIY hot chocolate
+- On day 6 I increased the sweetened consumption yet again, making it hard to fall and stay asleep
+
+## Sleep quality
+
+> - Perceived sleep quality of that night going into the next morning
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "1 to 5 (highest)" 1 --> 5
+
+    bar [5, 5, 5, 5, 4, 3, 2, 1, 4, 3, 3, 2]
+    bar [5, 5, 5, 5, 4, 3, 2, 1, 4, 3, 3, 2]
+```
+
+- Beyond the first days where hunger was still noticable, sleep quality later mainly deterioted due to increased consumption of sweetened drinks
+- but also late night walks I tried to cram in before sleep to counteract not moving enough during the day
+
+## Weight
+
+> - Measured after getting up, going to the toilet, in underwear only
+> - Weight differences should always be evaluated carefully and rather averaged across no less than a week, e.g. considering that muscles in the average person can store ~2kg of water and drinking 2-4l daily during fasting is recommended
+> - Rather, consider that 1kg of body-fat can provide 7000 kCal, so assuming e.g. a 1500 kCal deficit should result ~200g fat loss per day
+> - Anything beyond that must largely be water based differences to happen so quickly 
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "kg"
+
+    bar [66.4, 66.1, 65.5, 65.2, 65.2, 64.7, 63.9, 63.2, 62.8, 62.8, 63.4, 64.1]
+    bar [66.4, 66.1, 65.5, 65.2, 65.2, 64.7, 63.9, 63.2, 62.8, 62.8, 63.4, 64.1]
+```
+
+## Resting heart rate
+
+> - Measured by Huawei Watch Fit 3
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "bpm"
+
+    bar [51, 45, 48, 37, 38, 37, 37, 47, 43, 47, 45, 49]
+    bar [51, 45, 48, 37, 38, 37, 37, 47, 43, 47, 45, 49]
+```
+
+## Calories intake
+
+> - Total kCal intake, incl. e.g. supplements
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "kCal"
+
+    bar [1000, 20, 20, 20, 20, 80, 80, 140, 1500, 1800, 1800, 2400]
+    bar [1000, 20, 20, 20, 20, 80, 80, 140, 1500, 1800, 1800, 2400]
+```
+
+## Water intake
+
+> - Rather accurate during fasting, else estimated intake through raw liquids + food water content
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "ml"
+
+    bar [2000, 2400, 2400, 2400, 2000, 2400, 3000, 3600, 1700, 2000, 2000, 2000]
+    bar [2000, 2400, 2400, 2400, 2000, 2400, 3000, 3600, 1700, 2000, 2000, 2000]
+```
+
+## Stress / HRV
+
+> - Proxy of heart rate variability 
+> - Measured by Huawei Watch Fit 3
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "Value"
+
+    bar [33, 24, 26, 23, 28, 21, 23, 27, 29, 26, 31, 32]
+    bar [33, 24, 26, 23, 28, 21, 23, 27, 29, 26, 31, 32]
+```
+
+## Blood pressure
+
+> - Measured by Omron RS7 Intelli IT
+> - Sys on top, Dia below
+
+``` mermaid
+xychart-beta
+    x-axis "Day" 0 --> 11
+    y-axis "mmHg"
+
+    line "Sys" [99, 98, 94, 100, 99, 97, 101, 99, 91, 94, 97, 93]
+    line "Sys" [99, 98, 94, 100, 99, 97, 101, 99, 91, 94, 97, 93]
+    line "Dia" [66, 61, 59, 65, 69, 64, 68, 63, 55, 64, 58, 60]
+```
+
+## Other
+
+- KFA: 6.5mm -> 5.5mm
+- Temp felt 2-4°C less
+
+## Learnings
 
 ## Q&A
 - Coffein?
@@ -102,3 +374,4 @@ Day 2-4
 - Buchinger method?
   - Focus on veggie soup (only liquid) and diluted veggie/fruit juice (up to 200kcal per day) as compromise between low carb/calories and avoiding vitamin/mineral supplements
   - Focus is not only on autophagy & ketosis but also learning to appreciate and be concious about food again
+- Why 

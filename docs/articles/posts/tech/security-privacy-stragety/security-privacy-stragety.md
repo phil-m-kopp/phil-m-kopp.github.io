@@ -397,8 +397,10 @@ https://www.privacytools.io/encrypted-cloud-storage
    - however possibly at the expense of a bit of user experience due to encryption (e.g. file previews are harder to achieve then) 
  - if you're currently not using a cloud storage service, e.g. it's in most cases recommended because
    - having important documents and private project files backuped around to clock transparently is hugely convenient
-   - self-hosting has limited advantages over zero-knowledge cloud storage at comparible total costs
-     - especially if the risk of messing up one's server setup or rather effort required to preven it is considered as well
+   - self-hosting has no real advantages over zero-knowledge cloud storage for most
+     - unless your needs are special (e.g. require storage >8TB, full control also over metadata)
+     - total costs are comparible (electricity, hardware, your time...)
+     - if server administration and security isn't your hobby, expect considerable time invest or sub-par security compared to reputable cloud providers
    - makes fulfilling a proper 3-2-1 backup strategy much easier, which is also recommended for high security which in turn depends on secure backups of auth methods
  - while prices per GB drop significantly with more expensive plans, many providers currently max out at 2 TB for private plans
    - from then on storage can often only be increased by much more expensive family or business plans
@@ -421,6 +423,7 @@ https://www.privacytools.io/encrypted-cloud-storage
     - aside from metadata, this makes it potentially even more secure than alleged zero-knowledge but closed source providers
   - allows mixed operation as well, e.g. store media unencrypted to benefit from Google Photos features, but encrypt the rest
   - usually preserves inherent features of the cloud service like file versioning but also not aways (e.g. file previews)
+  - E.g. UK banning ADP beginning 2025 [^uk_adp] is a good usecase example for cryptomator
 
 #### File encryption
 
@@ -596,7 +599,8 @@ Tier 3 - paranoid/high threat model
 Tier 1 - slightly inconvenient at worst
 - Don't root etc.
 - Automatic updates
-- iOS: Enable cloud encryption aka "advanced data protection"
+- iOS: Enable cloud encryption aka "advanced data protection" (ADP)
+  - UK banned ADP beginning 2025 [^uk_adp]
 
 Tier 2 - taking it seriously
 - Most messengers, even WhatsApps, is considerably more private and especially secure than SMS
@@ -617,6 +621,7 @@ Tier 3 - paranoid/high threat model
 
 [^exodus]: https://exodus-privacy.eu.org/
 [^lockdownmode]: https://support.apple.com/en-euro/105120
+[^uk_adp]: https://www.youtube.com/watch?v=AuqOzn9GWTU
 
 #### Desktop
 
