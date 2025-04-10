@@ -3,13 +3,13 @@ title: "Experience: Strict fasting for 8 days"
 slug: strict-fasting-8days
 date: 2025-04-10
 updated: 2025-04-10
-tags: 
+tags:
   - Experience
   - Guide
   - Fitness
 categories:
   - Personal Development
-description: I did near zero calories fasting for 8 days - here's what happened 
+description: I did near zero calories fasting for 8 days - here's what happened
 comments: true
 ---
 
@@ -60,22 +60,22 @@ comments: true
 [^vitamins]: E.g. https://www.dm.de/mivolis-vegetarier-und-veganer-vitamine-mineralstoffe-tabletten-30-st-p4066447336986.html
 [^electrolytes]: E.g. https://www.dm.de/mivolis-elektrolyte-20-sticks-p4066447788426.html
 [^fattyliver]: https://www.l-iz.de/bildung/forschung/2020/02/interview-peter-schwarz-iss-so-viel-du-willst-aber-beweg-dich-noch-mehr-317267
-[^cgm] E.g. https://www.freestylelibre.de/produkte/freestyle-libre-3-sensor.html
+[^cgm]: E.g. https://www.freestylelibre.de/produkte/freestyle-libre-3-sensor.html
 
 ### Daily routine
 
 ![veggie soup](<veggie soup.webp>)
 
-- **2-4L Water **
-  - **Veggie soup** (lasts for 2 days actually):  
-    - Boil 400g veggies in 1L for 40-60min 
-    - Strain liquid from veggies 
-    - Add as little salt as possible, up to 6g 
-    - Compensate evaporated water up to 2l again 
-  - **Teas** 
+- **2-4L Water**
+  - **Veggie soup** (lasts for 2 days actually)
+    - Boil 400g veggies in 1L for 40-60min
+    - Strain liquid from veggies
+    - Add as little salt as possible, up to 6g
+    - Compensate evaporated water up to 2l again
+  - **Teas**
     - 1x bag Dandelion + 1x Nettle per day to support detox
-- **Supplements** 
-  - Intake according to product recommendation 
+- **Supplements**
+  - Intake according to product recommendation
 - **Training**
   - Strength training to prevent muscle loss
   - At least 4k steps to support digestion and counter metabolic adaption
@@ -89,15 +89,15 @@ comments: true
 
 ### Timeline
 
-#### 2 weeks before 
+#### 2 weeks before
 - Get used to **eating less**, e.g. 100-250 kcal daily deficit
-- Order **prep stuff** 
+- Order **prep stuff**
 
 #### 1 week before
 - Reduce calories down to **500-1000 kcal till last day** before fasting start
-- **Not much fiber** the day before, e.g. only curd, yoghurt etc. 
+- **Not much fiber** the day before, e.g. only curd, yoghurt etc.
 
-#### Day 1 
+#### Day 1
 - **Glaubersalz** 30-40g 500ml in 15min
 	- to ensure there's nothing left to digest in the stomach and prevent discomfort or cramps, as without new food to push, old food is kind of stuck
 - **Cardio** to exhaust carbs
@@ -143,7 +143,7 @@ xychart-beta
 ### Power/strength output
 
 > - Maximum strength set volume output during strength training compared to before
-> - Lower power levels mean maximum set volume was lower even at maximum discipline  
+> - Lower power levels mean maximum set volume was lower even at maximum discipline 
 
 ``` mermaid
 xychart-beta
@@ -299,7 +299,7 @@ xychart-beta
 > - Measured after getting up, going to the toilet, in underwear only
 > - Weight differences should always be evaluated carefully and rather averaged across no less than a week, e.g. considering that muscles in the average person can store ~2kg of water and drinking 2-4l daily during fasting is recommended
 > - Rather, consider that 1kg of body-fat can provide 7000 kCal, so assuming e.g. a 1500 kCal deficit should result ~200g fat loss per day
-> - Anything beyond that must largely be water based differences to happen so quickly 
+> - Anything beyond that must largely be water based differences to happen so quickly
 
 ``` mermaid
 xychart-beta
@@ -343,7 +343,7 @@ xychart-beta
 ```
 
 - Due to **cravings** I also starting adding diluted hot chocolate to the menu from day 5 (on top of ~20kCal from supplements)
-  - How much those **calories and potentially insulin lead to the sharp breakdown of energy** and e.g. blood pressure levels would be **interesting to know** 
+  - How much those **calories and potentially insulin lead to the sharp breakdown of energy** and e.g. blood pressure levels would be **interesting to know**
 - After eating again normally on day 8 - 10, I wanted to set a signal of "there's enough food, provide energy please" to my body (and also address constant cravings honestly) on day 11, so I went into a distinct calory surplus
 
 ### Water intake
@@ -382,7 +382,7 @@ xychart-beta
 
 ### Stress / HRV
 
-> - Proxy of heart rate variability 
+> - Proxy of heart rate variability
 > - Measured by Huawei Watch Fit 3
 
 ``` mermaid
@@ -394,11 +394,11 @@ xychart-beta
     bar [33, 24, 26, 23, 28, 21, 23, 27, 29, 26, 31, 32]
 ```
 
-- **Doesn't tell me much**, other than it seemed to decrease during fasting and then increased again 
+- **Doesn't tell me much**, other than it seemed to decrease during fasting and then increased again
 
 ## Learnings
 
-- Potentially went into an **electrolyte deficit** due to reading the label wrong 
+- Potentially went into an **electrolyte deficit** due to reading the label wrong
   - the supplement only provided 15% of recommended daily Potassium and 40% Magnesium
   - on the one hand I took at least 10g of added salt per day and the daily 1L of veggie soup is also intended provide electrolytes
   - on the other hand on the later days the 4L of liquid intake also lead to constant liquid and electrolyte on the toilet
@@ -411,7 +411,7 @@ xychart-beta
 - Unsurprisingly, due to giving into salt and sweetness cravings, the customary fasting break apple wasn't so much more exciting flavor-wise, though eating some solid was nice
 ![apple](<apple.webp>)
 
-## Postscript 
+## Postscript
 
 Man, I really not only missed the flavors from eating but maybe even more **not being able to meaningfully have fun with cooking**. I spent the next 1-2 weeks cooking and baking all sorts of old and new dishes, though starting of course with one of my favorites: Teriyaki chicken salad wrap. Just leaving it here...
 
