@@ -200,7 +200,8 @@ The following table lists common auth method and their susceptibility to remote 
 
 #### Passkeys
 
-- combination of username + password + "2FA" functionality presents a single point of failure
+- ⚠️combination of username + password + "2FA" functionality presents a single point of failure
+  - though not all services do it like this
   - undermines the whole MFA concept
   - enables attackers to unlock your accounts "without even knowing the keyhole"
     - this is relevant for passkeys on devices not immediate tied to you:
@@ -516,20 +517,21 @@ https://www.privacytools.io/private-search
 - payment security/privacy is usually about trusting a single (3rd party) provider a lot as proxy 
   - so that you don't need to trust others anymore
 - secure payment aspects
-  - payment auth promt: auth should be required for all (non-reoccuring) payments e.g. indepentend of amount
+  - payment auth prompt: auth should be required for all (non-reoccurring) payments e.g. independent of amount
     - one could argue though if max auth method is weak (e.g. optical fingerprint)
   - single use credit cards/payment token or burner cards: alternative to "always auth" by preventing payment info reuse
-    - single use cards cannot be used for reoccuring payments
+    - single use cards cannot be used for reoccurring payments
     - burner cards: ability to quickly create and destroy virtual cards
   - tokenization / proxy: only token card or proxy account visible to outside (passing payments to linked accounts/cards)
     - Token: always changes
     - Proxy: static
   - prepaid: prevent payments beyond intended balance
-  - disable credit/dispo: prevent payments beyond intended balance
+  - disable credit: prevent payments beyond intended balance
   - quickly freeze: lock cards/accounts in near real-time because lost or preventively only ever unlock before intended payment
     - of course removal of payment methods is almost always possible, though cumbersome
   - daily/monthly limits: prevent use of unreasonable large amounts in a short time
-  - country/shop/online permissions: only allow or lock payments in certain cases 
+  - country/shop/online permissions: only allow or lock payments in certain cases
+  - ⚠️GPay currently doesn't offer payment confirmation on desktop!
 
 | **Criteria**                             | **DKB Debit Card**                                                                    | **Google/Apple Pay etc**        | **PayPal**                                            | **VimPay Go**                                                                         | **Revolut**                                                                                 |
 | ---------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
