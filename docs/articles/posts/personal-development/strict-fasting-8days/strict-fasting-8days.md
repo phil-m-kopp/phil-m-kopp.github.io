@@ -21,34 +21,34 @@ comments: true
 
 ---
 
-# Motivation
+## Motivation
 - **Fatty liver**: simple calories deficit doesn't help - deep ketosis e.g. through fasting necessary [^fattyliver]
 - Experience how **deep ketosis & autophagy** feel
 - Reset salt, sweetness, insulin and food volume **desensitization**
 - Get a bit **leaner**
 
-# The plan
+## The plan
 
-## Prep
+### Prep
 
-### Digestion / Detox
+#### Digestion / Detox
 - **Laxative**: Glauber salt (~5€ at the pharmacy) for a "clean" fasting start and stomach pain prevention
 - **Tea**
 	- Dandelion "Löwenzahn"
 	- Nettle "Brenessel"
 - Apple **vinegar**: mild, low in calories and inhibits insulin spike
 
-### Supplements
+#### Supplements
 - **Vitamins**: [^vitamins]
 - **Electrolytes**, especially Magnesium & Potassium "Kalium" [^electrolytes]
 
-### "Food"
+#### "Food"
 - **Tea**
 - **Soup veggies**, e.g. 400g / 2 days
 - Veggie **broth**
 - **Erythritol and stevia**: two of the few zero calories sugar substitutes that don't lead to insulin spikes and are not known to impact gut health and thus e.g. insulin resistance [^fattyliver]
 
-### Equipment
+#### Equipment
   - **Hot water bottle / grain pillow** etc.: to calm the stomach and feeling cold due to low energy and bad sleep
   - Optional **tracking**
     - Body **scale**
@@ -62,7 +62,7 @@ comments: true
 [^fattyliver]: https://www.l-iz.de/bildung/forschung/2020/02/interview-peter-schwarz-iss-so-viel-du-willst-aber-beweg-dich-noch-mehr-317267
 [^cgm] E.g. https://www.freestylelibre.de/produkte/freestyle-libre-3-sensor.html
 
-## Daily routine
+### Daily routine
 
 ![veggie soup](<veggie soup.webp>)
 
@@ -80,44 +80,44 @@ comments: true
   - Strength training to prevent muscle loss
   - At least 4k steps to support digestion and counter metabolic adaption
 
-## To avoid
+### To avoid
 - Portions with **calories >10-20kcal**
   - Will not only **inhibit autophagy & ketosis**, but can also lead to insulin spike and thus hunger
 - **Protein**, as it might inhibit ketosis
 - Any food with **intense flavor**, e.g. also coffee - not needed for the fat-reduction or detox related benefits, but would reduce the desensitization benefits and might lead to other issues like cravings or drinking more than necessary to experience flavor
 - **Too much salt**, as it increases thirst and thus further promotes electrolytes loss
 
-## Timeline
+### Timeline
 
-### 2 weeks before 
+#### 2 weeks before 
 - Get used to **eating less**, e.g. 100-250 kcal daily deficit
 - Order **prep stuff** 
 
-### 1 week before
+#### 1 week before
 - Reduce calories down to **500-1000 kcal till last day** before fasting start
 - **Not much fiber** the day before, e.g. only curd, yoghurt etc. 
 
-### Day 1 
+#### Day 1 
 - **Glaubersalz** 30-40g 500ml in 15min
 	- to ensure there's nothing left to digest in the stomach and prevent discomfort or cramps, as without new food to push, old food is kind of stuck
 - **Cardio** to exhaust carbs
 
-### Day 2-4
+#### Day 2-4
 - Timing: ideally on a **weekend**
 - Prioritize **strength training**, cause risk of muscle loss with no food and without ketosis is the highest here
 - Prepare for **"fasting crisis"**
   - **Hunger** might be high, **mood** and **concentration** especially bad
   - Increases **risk of pain** due to adaption to ketosis and e.g. release of bound toxins in fat tissue
 
-### Day 5
+#### Day 5
 - **Vacation** day for rest
 
-### Day 7-10
+#### Day 7-10
 - Prepare for **ending the fasting** based on personal goals and how fasting that long feels
 
-# My actual experience
+## My actual experience
 
-## Energy/Endurance
+### Energy/Endurance
 
 > - How easy it was to exercise or even move (motivation wise)
 > - Low energy levels make prolonged cardio in particular very hard and lead to higher heart rate at same output
@@ -140,7 +140,7 @@ xychart-beta
 - Even after eating normally again, especially during training (gymnastics) I noticed energy wasn't back to the levels before
 - Energy preservation was also noticeable through indoor **temperature feeling 2-5°C lower** and warmer clothes didn't help so much as cranking the heating up
 
-## Power/strength output
+### Power/strength output
 
 > - Maximum strength set volume output during strength training compared to before
 > - Lower power levels mean maximum set volume was lower even at maximum discipline  
@@ -157,7 +157,7 @@ xychart-beta
 - As expected, **maximum set volume almost didn't suffer at all** except maybe on the worst days and during exercises with more pronounced endurance component (e.g. L-sits)
 - On day 11 I even set a new personal record, increasing my handstand-against-wall time from 180 to 240 seconds
 
-## Dizzy
+### Dizzy
 
 > - Dizziness while standing but also sitting as well as "brain fog"
 > - Inhibited mental work similarly as low motivation
@@ -176,7 +176,7 @@ xychart-beta
 - **Balance** during exercise **wasn't impacted** noticeably
 - Luckily the dizziness **mostly came only in short spikes** and I barely noticed them longer than 30min at a time
 
-## Mood
+### Mood
 
 > - General mood, e.g. considering feelings of sadness and irritability
 
@@ -191,7 +191,7 @@ xychart-beta
 
 - More than anything, mood seemed **mostly related to cravings** and e.g. not being able to do cooking as a hobby
 
-## Motivation
+### Motivation
 
 > - Motivation to be productive and active
 > - Low motivation will lead to e.g. excessive doom scrolling and make non-intrinsically motivated (mental) work quite hard to keep up
@@ -207,7 +207,7 @@ xychart-beta
 
 - I really **needed day 5 as a vacation day to recover some motivation** - not sure I'd have managed without it and not appearing like a slacker at work
 
-## Hunger
+### Hunger
 
 > - Feeling of hunger as in actually needing to eat, as e.g. indicated by stomach growling
 
@@ -222,7 +222,7 @@ xychart-beta
 
 - As expected, probably **keeping insulin very low** at all times by staying at almost zero with calories helped with keeping **hunger in check** so that it was only a minor inconvenience - pretty unimportant e.g. compared to lower energy levels
 
-## Craving
+### Craving
 
 > - Simply "wanting to eat" or tasting something flavorful independent of a feeling of needing to eat
 
@@ -242,7 +242,7 @@ xychart-beta
 - On day 6 I **increased the sweetened consumption** yet again, **making it hard to fall and stay asleep**
 - Before going into calory surplus on day 11, I still felt **strong cravings** at intake levels that should have been around maintenance level (and I didn't feel hungry)
 
-## Pain
+### Pain
 
 > - Any kind of kind which seems directly related to fasting
 > - Starting the fast with a laxative is recommended to prevent fasting pains
@@ -263,7 +263,7 @@ xychart-beta
 - The 2nd one was even sharper but went away quickly after a toilet break and without needing to lay down
 - Interestingly, **binging 1600 kCal at day 8 6pm in 3-4h only caused me only minor issues**. I started off again with a veggie puree made of veggie soup liquid remains and frozen veggie soup "leftovers", which caused a minor and short discomfort in the stomach. After that my stomach didn't complain much, though I also tried to keep volume in check with higher calory food like soy bean flakes
 
-## Sleep quality
+### Sleep quality
 
 > - Perceived sleep quality of that night going into the next morning
 
@@ -279,7 +279,7 @@ xychart-beta
 - Beyond the first days where hunger was still noticeable, **sleep quality later mainly deteriorated due to increased consumption of sweetened drinks**
 - but also late night walks I tried to cram in before sleep to counteract not moving enough during the day
 
-## Sleepy
+### Sleepy
 
 > - Feeling of sleepiness, without differentiation whether caused by low energy levels or poor sleep quality
 
@@ -294,7 +294,7 @@ xychart-beta
 
 - Unsurprisingly, sleepiness increased with decreasing **sleep quality** and I feel this was the **main factor here, even considering decreasing energy levels**
 
-## Weight
+### Weight
 
 > - Measured after getting up, going to the toilet, in underwear only
 > - Weight differences should always be evaluated carefully and rather averaged across no less than a week, e.g. considering that muscles in the average person can store ~2kg of water and drinking 2-4l daily during fasting is recommended
@@ -313,7 +313,7 @@ xychart-beta
 - Kind of in line with expectations, considering the bodies energy savings attempts maybe reducing my base metabolic rate from ~1600 to maybe below ~1300 or lower, **final weight loss was about 1kg** - 1.5kg
 - My body fat measured via caliper in the suprailiac area went from 6.5mm to 5.5mm (day 8)
 
-## Resting heart rate
+### Resting heart rate
 
 > - Measured by Huawei Watch Fit 3
 
@@ -329,7 +329,7 @@ xychart-beta
 - The **very low RHRs** were usually measured **during sleep** of course
 - It **didn't really give me distinct feeling** as far as I could tell - much unlike low blood pressure strongly correlating with dizziness for example
 
-## Calories intake
+### Calories intake
 
 > - Total kCal intake, incl. e.g. supplements
 
@@ -346,7 +346,7 @@ xychart-beta
   - How much those **calories and potentially insulin lead to the sharp breakdown of energy** and e.g. blood pressure levels would be **interesting to know** 
 - After eating again normally on day 8 - 10, I wanted to set a signal of "there's enough food, provide energy please" to my body (and also address constant cravings honestly) on day 11, so I went into a distinct calory surplus
 
-## Water intake
+### Water intake
 
 > - Rather accurate during fasting, else estimated intake through raw liquids + food water content
 
@@ -362,7 +362,7 @@ xychart-beta
 - **Due to cravings**, I consumed **more** sweetened tea and hot chocolate **from day 6**
 - by day 5 it felt like individual drinks passing through the body in 30 - 120min tops
 
-## Blood pressure
+### Blood pressure
 
 > - Measured by Omron RS7 Intelli IT
 > - Sys on top, Dia below
@@ -380,7 +380,7 @@ xychart-beta
 - Even though I exercise a lot, I guess due to low body weight **my blood pressure is generally low**, giving me not a lot of buffer before other circumstances that lower pressure even further lead noticeable dizziness
 - Blood pressure seemed **fine though until I started to get short black outs on day 7 and then especially day 8** when trying to stand up from sitting too quickly. I didn't want to get to a place were there was a risk of collapsing while standing, so I took this as a **sign to quit the fasting**
 
-## Stress / HRV
+### Stress / HRV
 
 > - Proxy of heart rate variability 
 > - Measured by Huawei Watch Fit 3
@@ -396,7 +396,7 @@ xychart-beta
 
 - **Doesn't tell me much**, other than it seemed to decrease during fasting and then increased again 
 
-# Learnings
+## Learnings
 
 - Potentially went into an **electrolyte deficit** due to reading the label wrong 
   - the supplement only provided 15% of recommended daily Potassium and 40% Magnesium
@@ -411,7 +411,7 @@ xychart-beta
 - Unsurprisingly, due to giving into salt and sweetness cravings, the customary fasting break apple wasn't so much more exciting flavor-wise, though eating some solid was nice
 ![apple](<apple.webp>)
 
-# Postscript 
+## Postscript 
 
 Man, I really not only missed the flavors from eating but maybe even more **not being able to meaningfully have fun with cooking**. I spent the next 1-2 weeks cooking and baking all sorts of old and new dishes, though starting of course with one of my favorites: Teriyaki chicken salad wrap. Just leaving it here...
 
