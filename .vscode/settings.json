@@ -25,5 +25,6 @@
       "markdown",
       "latex",
       "plaintext"
-    ]
+    ],
+    "editor.insertSpaces": true
   }

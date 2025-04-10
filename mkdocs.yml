@@ -246,6 +246,3 @@ markdown_extensions:
   - toc:
       toc_depth: 6
       permalink: "#"
-
-extra_css:
-  - css/custom.css

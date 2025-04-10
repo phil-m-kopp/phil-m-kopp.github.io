@@ -1,14 +1,14 @@
 ---
 title: "Experience: Strict fasting for 8 days"
-slug: strict-fasting-8days
+slug: experience-strict-fasting-8days
 date: 2025-04-10
 updated: 2025-04-10
 tags:
-  - Experience
-  - Guide
-  - Fitness
+- Experience
+- Guide
+- Fitness
 categories:
-  - Personal Development
+- Personal Development
 description: I did near zero calories fasting for 8 days - here's what happened
 comments: true
 ---
@@ -34,8 +34,8 @@ comments: true
 #### Digestion / Detox
 - **Laxative**: Glauber salt (~5€ at the pharmacy) for a "clean" fasting start and stomach pain prevention
 - **Tea**
-  - Dandelion "Löwenzahn"
-  - Nettle "Brenessel"
+    - Dandelion "Löwenzahn"
+    - Nettle "Brenessel"
 - Apple **vinegar**: mild, low in calories and inhibits insulin spike
 
 #### Supplements
@@ -49,13 +49,13 @@ comments: true
 - **Erythritol and stevia**: two of the few zero calories sugar substitutes that don't lead to insulin spikes and are not known to impact gut health and thus e.g. insulin resistance [^fattyliver]
 
 #### Equipment
-  - **Hot water bottle / grain pillow** etc.: to calm the stomach and feeling cold due to low energy and bad sleep
-  - Optional **tracking**
-    - Body **scale**
-    - Body fat **caliper**
-    - **Heart rate** monitor (e.g. watch, to enable monitoring during sleep)
-    - **Blood pressure** monitor
-    - Continuous **glucose** monitor [^cgm]
+    - **Hot water bottle / grain pillow** etc.: to calm the stomach and feeling cold due to low energy and bad sleep
+    - Optional **tracking**
+        - Body **scale**
+        - Body fat **caliper**
+        - **Heart rate** monitor (e.g. watch, to enable monitoring during sleep)
+        - **Blood pressure** monitor
+        - Continuous **glucose** monitor [^cgm]
 
 [^vitamins]: E.g. https://www.dm.de/mivolis-vegetarier-und-veganer-vitamine-mineralstoffe-tabletten-30-st-p4066447336986.html
 [^electrolytes]: E.g. https://www.dm.de/mivolis-elektrolyte-20-sticks-p4066447788426.html
@@ -67,22 +67,22 @@ comments: true
 ![veggie soup](<veggie soup.webp>)
 
 - **2-4L Water**
-  - **Veggie soup** (lasts for 2 days actually)
-    + Boil 400g veggies in 1L for 40-60min
-    - Strain liquid from veggies
-    - Add as little salt as possible, up to 6g
-    - Compensate evaporated water up to 2l again
-  - **Teas**
-    - 1x bag Dandelion + 1x Nettle per day to support detox
+    - **Veggie soup** (lasts for 2 days actually)
+        - Boil 400g veggies in 1L for 40-60min
+        - Strain liquid from veggies
+        - Add as little salt as possible, up to 6g
+        - Compensate evaporated water up to 2l again
+    - **Teas**
+        - 1x bag Dandelion + 1x Nettle per day to support detox
 - **Supplements**
-  - Intake according to product recommendation
+    - Intake according to product recommendation
 - **Training**
-  - Strength training to prevent muscle loss
-  - At least 4k steps to support digestion and counter metabolic adaption
+    - Strength training to prevent muscle loss
+    - At least 4k steps to support digestion and counter metabolic adaption
 
 ### To avoid
 - Portions with **calories >10-20kcal**
-  - Will not only **inhibit autophagy & ketosis**, but can also lead to insulin spike and thus hunger
+    - Will not only **inhibit autophagy & ketosis**, but can also lead to insulin spike and thus hunger
 - **Protein**, as it might inhibit ketosis
 - Any food with **intense flavor**, e.g. also coffee - not needed for the fat-reduction or detox related benefits, but would reduce the desensitization benefits and might lead to other issues like cravings or drinking more than necessary to experience flavor
 - **Too much salt**, as it increases thirst and thus further promotes electrolytes loss
@@ -99,15 +99,15 @@ comments: true
 
 #### Day 1
 - **Glaubersalz** 30-40g 500ml in 15min
-  - to ensure there's nothing left to digest in the stomach and prevent discomfort or cramps, as without new food to push, old food is kind of stuck
+    - to ensure there's nothing left to digest in the stomach and prevent discomfort or cramps, as without new food to push, old food is kind of stuck
 - **Cardio** to exhaust carbs
 
 #### Day 2-4
 - Timing: ideally on a **weekend**
 - Prioritize **strength training**, cause risk of muscle loss with no food and without ketosis is the highest here
 - Prepare for **"fasting crisis"**
-  - **Hunger** might be high, **mood** and **concentration** especially bad
-  - Increases **risk of pain** due to adaption to ketosis and e.g. release of bound toxins in fat tissue
+    - **Hunger** might be high, **mood** and **concentration** especially bad
+    - Increases **risk of pain** due to adaption to ketosis and e.g. release of bound toxins in fat tissue
 
 #### Day 5
 - **Vacation** day for rest
@@ -126,17 +126,17 @@ comments: true
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "1 to 5 (highest)" 1 --> 5
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "1 to 5 (highest)" 1 --> 5
 
-    bar "Energy" [5, 3, 2, 3, 3, 2, 3, 2, 1, 3, 4, 4, 4]
-    bar "Energy" [5, 3, 2, 3, 3, 2, 3, 2, 1, 3, 4, 4]
+        bar "Energy" [5, 3, 2, 3, 3, 2, 3, 2, 1, 3, 4, 4, 4]
+        bar "Energy" [5, 3, 2, 3, 3, 2, 3, 2, 1, 3, 4, 4]
 ```
 
 - Personally the hardest part for me about fasting was knowing that skipping strength training would mean sacrificing hard earned muscle at a potentially fast rate and thus needing to find the **motivation for daily training as much as before - while fighting against increasing discomfort** to finish sets strong and later even starting sets at all
 - When energy hit a new low on **day 8 and going shopping felt like hiking uphill**, I decided that considering needed buffer/ramp up for recovery I should rather **start eating again to be fit for work next week**
-  - same as the days before, after ~10-30min of walking/activity: energy levels actually recovered noticeable and the activity didn't feel so uncomfortable anymore after building some momentum
-  - this again showed that activity wasn't impossible, but rather the **body just "strongly discouraged" activity to conserve energy**
+    - same as the days before, after ~10-30min of walking/activity: energy levels actually recovered noticeable and the activity didn't feel so uncomfortable anymore after building some momentum
+    - this again showed that activity wasn't impossible, but rather the **body just "strongly discouraged" activity to conserve energy**
 - Even after eating normally again, especially during training (gymnastics) I noticed energy wasn't back to the levels before
 - Energy preservation was also noticeable through indoor **temperature feeling 2-5°C lower** and warmer clothes didn't help so much as cranking the heating up
 
@@ -147,11 +147,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "1 to 5 (highest)" 1 --> 5
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "1 to 5 (highest)" 1 --> 5
 
-    bar "Power" [5, 3, 4, 4, 3, 3, 4, 3, 4, 4, 4, 4, 4]
-    bar "Power" [5, 3, 4, 4, 3, 3, 4, 3, 4, 4, 4, 4]
+        bar "Power" [5, 3, 4, 4, 3, 3, 4, 3, 4, 4, 4, 4, 4]
+        bar "Power" [5, 3, 4, 4, 3, 3, 4, 3, 4, 4, 4, 4]
 ```
 
 - As expected, **maximum set volume almost didn't suffer at all** except maybe on the worst days and during exercises with more pronounced endurance component (e.g. L-sits)
@@ -164,11 +164,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "1 to 5 (highest)" 1 --> 5
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "1 to 5 (highest)" 1 --> 5
 
-    bar "Dizzy" [1, 1, 1, 2, 4, 2, 2, 2, 3, 3, 2, 1, 1]
-    bar "Dizzy" [1, 1, 1, 2, 4, 2, 2, 2, 3, 3, 2, 1]
+        bar "Dizzy" [1, 1, 1, 2, 4, 2, 2, 2, 3, 3, 2, 1, 1]
+        bar "Dizzy" [1, 1, 1, 2, 4, 2, 2, 2, 3, 3, 2, 1]
 ```
 
 - The dizziness was **comparable** to what I feel during a **fever**
@@ -182,11 +182,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "1 to 5 (highest)" 1 --> 5
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "1 to 5 (highest)" 1 --> 5
 
-    bar "Mood" [5, 4, 3, 4, 3, 4, 4, 4, 3, 2, 4, 4, 4]
-    bar "Mood" [5, 4, 3, 4, 3, 4, 4, 4, 3, 2, 4, 4]
+        bar "Mood" [5, 4, 3, 4, 3, 4, 4, 4, 3, 2, 4, 4, 4]
+        bar "Mood" [5, 4, 3, 4, 3, 4, 4, 4, 3, 2, 4, 4]
 ```
 
 - More than anything, mood seemed **mostly related to cravings** and e.g. not being able to do cooking as a hobby
@@ -198,11 +198,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "1 to 5 (highest)" 1 --> 5
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "1 to 5 (highest)" 1 --> 5
 
-    bar "Motivation" [5, 1, 2, 3, 3, 3, 4, 2, 3, 2, 3, 4, 5]
-    bar "Motivation" [5, 1, 2, 3, 3, 3, 4, 2, 3, 2, 3, 4]
+        bar "Motivation" [5, 1, 2, 3, 3, 3, 4, 2, 3, 2, 3, 4, 5]
+        bar "Motivation" [5, 1, 2, 3, 3, 3, 4, 2, 3, 2, 3, 4]
 ```
 
 - I really **needed day 5 as a vacation day to recover some motivation** - not sure I'd have managed without it and not appearing like a slacker at work
@@ -213,11 +213,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "1 to 5 (highest)" 1 --> 5
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "1 to 5 (highest)" 1 --> 5
 
-    bar "Hunger" [2, 2, 3, 2, 1, 1, 1, 2, 4, 3, 3, 3, 2]
-    bar "Hunger" [2, 2, 3, 2, 1, 1, 1, 2, 4, 3, 3, 3]
+        bar "Hunger" [2, 2, 3, 2, 1, 1, 1, 2, 4, 3, 3, 3, 2]
+        bar "Hunger" [2, 2, 3, 2, 1, 1, 1, 2, 4, 3, 3, 3]
 ```
 
 - As expected, probably **keeping insulin very low** at all times by staying at almost zero with calories helped with keeping **hunger in check** so that it was only a minor inconvenience - pretty unimportant e.g. compared to lower energy levels
@@ -228,11 +228,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "1 to 5 (highest)" 1 --> 5
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "1 to 5 (highest)" 1 --> 5
 
-    bar "Craving" [1, 2, 3, 4, 5, 4, 3, 4, 3, 4, 5, 3, 4]
-    bar "Craving" [1, 2, 3, 4, 5, 4, 3, 4, 3, 4, 5, 3]
+        bar "Craving" [1, 2, 3, 4, 5, 4, 3, 4, 3, 4, 5, 3, 4]
+        bar "Craving" [1, 2, 3, 4, 5, 4, 3, 4, 3, 4, 5, 3]
 ```
 
 - Here I really **failed the idea of fasting to avoid intense flavors**, especially sweetness and salt
@@ -251,11 +251,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "1 to 5 (highest)" 1 --> 5
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "1 to 5 (highest)" 1 --> 5
 
-    bar "Pain" [1, 1, 3, 4, 1, 2, 4, 1, 1, 1, 1, 1, 1]
-    bar "Pain" [1, 1, 3, 4, 1, 2, 4, 1, 1, 1, 1, 1]
+        bar "Pain" [1, 1, 3, 4, 1, 2, 4, 1, 1, 1, 1, 1, 1]
+        bar "Pain" [1, 1, 3, 4, 1, 2, 4, 1, 1, 1, 1, 1]
 ```
 
 - I felt both **pain spikes (day 3 + 6) from somewhere in lower liver region**
@@ -269,11 +269,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "1 to 5 (highest)" 1 --> 5
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "1 to 5 (highest)" 1 --> 5
 
-    bar [5, 5, 5, 5, 4, 3, 2, 1, 4, 3, 3, 2, 4]
-    bar [5, 5, 5, 5, 4, 3, 2, 1, 4, 3, 3, 2]
+        bar [5, 5, 5, 5, 4, 3, 2, 1, 4, 3, 3, 2, 4]
+        bar [5, 5, 5, 5, 4, 3, 2, 1, 4, 3, 3, 2]
 ```
 
 - Beyond the first days where hunger was still noticeable, **sleep quality later mainly deteriorated due to increased consumption of sweetened drinks**
@@ -285,11 +285,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "1 to 5 (highest)" 1 --> 5
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "1 to 5 (highest)" 1 --> 5
 
-    bar "Sleepy" [1, 2, 3, 2, 3, 2, 4, 5, 4, 4, 3, 3, 2]
-    bar "Sleepy" [1, 2, 3, 2, 3, 2, 4, 5, 4, 4, 3, 3]
+        bar "Sleepy" [1, 2, 3, 2, 3, 2, 4, 5, 4, 4, 3, 3, 2]
+        bar "Sleepy" [1, 2, 3, 2, 3, 2, 4, 5, 4, 4, 3, 3]
 ```
 
 - Unsurprisingly, sleepiness increased with decreasing **sleep quality** and I feel this was the **main factor here, even considering decreasing energy levels**
@@ -303,11 +303,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "kg"
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "kg"
 
-    bar [66.4, 66.1, 65.5, 65.2, 65.2, 64.7, 63.9, 63.2, 62.8, 62.8, 63.4, 64.1, 65.4]
-    bar [66.4, 66.1, 65.5, 65.2, 65.2, 64.7, 63.9, 63.2, 62.8, 62.8, 63.4, 64.1]
+        bar [66.4, 66.1, 65.5, 65.2, 65.2, 64.7, 63.9, 63.2, 62.8, 62.8, 63.4, 64.1, 65.4]
+        bar [66.4, 66.1, 65.5, 65.2, 65.2, 64.7, 63.9, 63.2, 62.8, 62.8, 63.4, 64.1]
 ```
 
 - Kind of in line with expectations, considering the bodies energy savings attempts maybe reducing my base metabolic rate from ~1600 to maybe below ~1300 or lower, **final weight loss was about 1kg** - 1.5kg
@@ -319,11 +319,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "bpm" 30 --> 51
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "bpm" 30 --> 51
 
-    bar [51, 45, 48, 37, 38, 37, 37, 47, 43, 47, 45, 49, 56]
-    bar [51, 45, 48, 37, 38, 37, 37, 47, 43, 47, 45, 49]
+        bar [51, 45, 48, 37, 38, 37, 37, 47, 43, 47, 45, 49, 56]
+        bar [51, 45, 48, 37, 38, 37, 37, 47, 43, 47, 45, 49]
 ```
 
 - The **very low RHRs** were usually measured **during sleep** of course
@@ -335,15 +335,15 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "kCal"
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "kCal"
 
-    bar [1000, 20, 20, 20, 20, 80, 80, 140, 1500, 1800, 1800, 2400, 1900]
-    bar [1000, 20, 20, 20, 20, 80, 80, 140, 1500, 1800, 1800, 2400]
+        bar [1000, 20, 20, 20, 20, 80, 80, 140, 1500, 1800, 1800, 2400, 1900]
+        bar [1000, 20, 20, 20, 20, 80, 80, 140, 1500, 1800, 1800, 2400]
 ```
 
 - Due to **cravings** I also starting adding diluted hot chocolate to the menu from day 5 (on top of ~20kCal from supplements)
-  - How much those **calories and potentially insulin lead to the sharp breakdown of energy** and e.g. blood pressure levels would be **interesting to know**
+    - How much those **calories and potentially insulin lead to the sharp breakdown of energy** and e.g. blood pressure levels would be **interesting to know**
 - After eating again normally on day 8 - 10, I wanted to set a signal of "there's enough food, provide energy please" to my body (and also address constant cravings honestly) on day 11, so I went into a distinct calory surplus
 
 ### Water intake
@@ -352,11 +352,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "ml" 0 --> 3600
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "ml" 0 --> 3600
 
-    bar [2000, 2400, 2400, 2400, 2000, 2400, 3000, 3600, 1700, 2000, 2000, 2000, 2000]
-    bar [2000, 2400, 2400, 2400, 2000, 2400, 3000, 3600, 1700, 2000, 2000, 2000]
+        bar [2000, 2400, 2400, 2400, 2000, 2400, 3000, 3600, 1700, 2000, 2000, 2000, 2000]
+        bar [2000, 2400, 2400, 2400, 2000, 2400, 3000, 3600, 1700, 2000, 2000, 2000]
 ```
 
 - **Due to cravings**, I consumed **more** sweetened tea and hot chocolate **from day 6**
@@ -369,12 +369,12 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "mmHg"
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "mmHg"
 
-    line "Sys" [99, 98, 94, 100, 99, 97, 101, 99, 91, 94, 97, 93, 92]
-    line "Sys" [99, 98, 94, 100, 99, 97, 101, 99, 91, 94, 97, 93]
-    line "Dia" [66, 61, 59, 65, 69, 64, 68, 63, 55, 64, 58, 60, 57]
+        line "Sys" [99, 98, 94, 100, 99, 97, 101, 99, 91, 94, 97, 93, 92]
+        line "Sys" [99, 98, 94, 100, 99, 97, 101, 99, 91, 94, 97, 93]
+        line "Dia" [66, 61, 59, 65, 69, 64, 68, 63, 55, 64, 58, 60, 57]
 ```
 
 - Even though I exercise a lot, I guess due to low body weight **my blood pressure is generally low**, giving me not a lot of buffer before other circumstances that lower pressure even further lead noticeable dizziness
@@ -387,11 +387,11 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-    x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
-    y-axis "Value" 0 --> 31
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        y-axis "Value" 0 --> 31
 
-    bar [33, 24, 26, 23, 28, 21, 23, 27, 29, 26, 31, 32, 34]
-    bar [33, 24, 26, 23, 28, 21, 23, 27, 29, 26, 31, 32]
+        bar [33, 24, 26, 23, 28, 21, 23, 27, 29, 26, 31, 32, 34]
+        bar [33, 24, 26, 23, 28, 21, 23, 27, 29, 26, 31, 32]
 ```
 
 - **Doesn't tell me much**, other than it seemed to decrease during fasting and then increased again
@@ -399,13 +399,13 @@ xychart-beta
 ## Learnings
 
 - Potentially went into an **electrolyte deficit** due to reading the label wrong
-  - the supplement only provided 15% of recommended daily Potassium and 40% Magnesium
-  - on the one hand I took at least 10g of added salt per day and the daily 1L of veggie soup is also intended provide electrolytes
-  - on the other hand on the later days the 4L of liquid intake also lead to constant liquid and electrolyte on the toilet
+    - the supplement only provided 15% of recommended daily Potassium and 40% Magnesium
+    - on the one hand I took at least 10g of added salt per day and the daily 1L of veggie soup is also intended provide electrolytes
+    - on the other hand on the later days the 4L of liquid intake also lead to constant liquid and electrolyte on the toilet
 - **Didn't feel any "fasting high"** or sign of increased serotonin levels - or it didn't unfold due to my lack of control of cravings
 - This is also connected to maybe the **most interesting open question: how much did giving in to cravings** later e.g. via hot chocolate **"ruin" the later phases of fasting** by disturbing ketosis?
 - Fasting could be an **interesting alternative to the classical** e.g. 1000kcal deficit **mini-cut**, as science suggests that only the first days without food and out of ketosis are really harmful for muscle mass. My **strength performance even during fasting barely decreased**, maybe even rather increased a bit (of course less weight needs to be lifted for bodyweight exercises), suggesting that ketosis/fasting at least no longer than maybe 10 days isn't harmful here, but the **weight/fat loss is definitely there**
-  - Thus I also wouldn't recommend e.g. eating 250g lean curd per day as some recommend - the 30g of protein aren't a lot given the deficit and I guess potentially disturbing ketosis would do more harm than good in this regard
+    - Thus I also wouldn't recommend e.g. eating 250g lean curd per day as some recommend - the 30g of protein aren't a lot given the deficit and I guess potentially disturbing ketosis would do more harm than good in this regard
 - Considering very low levels of hunger, even without direct comparison **I'd recommend a near "zero diet" with supplements over classical Buchinger fasting with fruit/veggie juice for lunch**, as I don't think this would have helped with the cravings, but likely would maybe have rather increased them or added hunger to the mix via increased insulin
 - As somebody who exercises weight control through high volume meals, **feeling more full and satisfied even with smaller meals was noticeable and an unexpected benefit**
 - Unsurprisingly, due to giving into salt and sweetness cravings, the customary fasting break apple wasn't so much more exciting flavor-wise, though eating some solid was nice
