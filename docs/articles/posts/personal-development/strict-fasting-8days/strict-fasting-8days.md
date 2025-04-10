@@ -66,19 +66,19 @@ comments: true
 
 ![veggie soup](<veggie soup.webp>)
 
-- **2-4L Water**
-  - **Veggie soup** (lasts for 2 days actually)
-    - Boil 400g veggies in 1L for 40-60min
-    - Strain liquid from veggies
-    - Add as little salt as possible, up to 6g
-    - Compensate evaporated water up to 2l again
-  - **Teas**
-    - 1x bag Dandelion + 1x Nettle per day to support detox
-- **Supplements**
-  - Intake according to product recommendation
-- **Training**
-  - Strength training to prevent muscle loss
-  - At least 4k steps to support digestion and counter metabolic adaption
++ **2-4L Water**
+  + **Veggie soup** (lasts for 2 days actually)
+    + Boil 400g veggies in 1L for 40-60min
+    + Strain liquid from veggies
+    + Add as little salt as possible, up to 6g
+    + Compensate evaporated water up to 2l again
+  + **Teas**
+    + 1x bag Dandelion + 1x Nettle per day to support detox
++ **Supplements**
+  + Intake according to product recommendation
++ **Training**
+  + Strength training to prevent muscle loss
+  + At least 4k steps to support digestion and counter metabolic adaption
 
 ### To avoid
 - Portions with **calories >10-20kcal**
