@@ -34,8 +34,8 @@ comments: true
 #### Digestion / Detox
 - **Laxative**: Glauber salt (~5€ at the pharmacy) for a "clean" fasting start and stomach pain prevention
 - **Tea**
-	- Dandelion "Löwenzahn"
-	- Nettle "Brenessel"
+  - Dandelion "Löwenzahn"
+  - Nettle "Brenessel"
 - Apple **vinegar**: mild, low in calories and inhibits insulin spike
 
 #### Supplements
@@ -99,7 +99,7 @@ comments: true
 
 #### Day 1
 - **Glaubersalz** 30-40g 500ml in 15min
-	- to ensure there's nothing left to digest in the stomach and prevent discomfort or cramps, as without new food to push, old food is kind of stuck
+  - to ensure there's nothing left to digest in the stomach and prevent discomfort or cramps, as without new food to push, old food is kind of stuck
 - **Cardio** to exhaust carbs
 
 #### Day 2-4
@@ -246,7 +246,7 @@ xychart-beta
 
 > - Any kind of kind which seems directly related to fasting
 > - Starting the fast with a laxative is recommended to prevent fasting pains
-> - Stomach (region) pain is probably most common (as it was more me), but e.g. muscle aching due to limited regeneration could also be considerd here
+> - Stomach (region) pain is probably most common (as it was more me), but e.g. muscle aching due to limited regeneration could also be considered here
 > - This excludes e.g. non-painful bubbling in stomach
 
 ``` mermaid
@@ -405,7 +405,7 @@ xychart-beta
 - **Didn't feel any "fasting high"** or sign of increased serotonin levels - or it didn't unfold due to my lack of control of cravings
 - This is also connected to maybe the **most interesting open question: how much did giving in to cravings** later e.g. via hot chocolate **"ruin" the later phases of fasting** by disturbing ketosis?
 - Fasting could be an **interesting alternative to the classical** e.g. 1000kcal deficit **mini-cut**, as science suggests that only the first days without food and out of ketosis are really harmful for muscle mass. My **strength performance even during fasting barely decreased**, maybe even rather increased a bit (of course less weight needs to be lifted for bodyweight exercises), suggesting that ketosis/fasting at least no longer than maybe 10 days isn't harmful here, but the **weight/fat loss is definitely there**
-	- Thus I also wouldn't recommend e.g. eating 250g lean curd per day as some recommend - the 30g of protein aren't a lot given the deficit and I guess potentially disturbing ketosis would do more harm than good in this regard
+  - Thus I also wouldn't recommend e.g. eating 250g lean curd per day as some recommend - the 30g of protein aren't a lot given the deficit and I guess potentially disturbing ketosis would do more harm than good in this regard
 - Considering very low levels of hunger, even without direct comparison **I'd recommend a near "zero diet" with supplements over classical Buchinger fasting with fruit/veggie juice for lunch**, as I don't think this would have helped with the cravings, but likely would maybe have rather increased them or added hunger to the mix via increased insulin
 - As somebody who exercises weight control through high volume meals, **feeling more full and satisfied even with smaller meals was noticeable and an unexpected benefit**
 - Unsurprisingly, due to giving into salt and sweetness cravings, the customary fasting break apple wasn't so much more exciting flavor-wise, though eating some solid was nice
