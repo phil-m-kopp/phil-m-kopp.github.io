@@ -246,3 +246,4 @@ markdown_extensions:
   - toc:
       toc_depth: 6
       permalink: "#"
+  - pymdownx.magiclink

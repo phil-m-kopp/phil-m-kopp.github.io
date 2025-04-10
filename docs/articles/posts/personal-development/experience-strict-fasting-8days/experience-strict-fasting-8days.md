@@ -45,17 +45,17 @@ comments: true
 #### "Food"
 - **Tea**
 - **Soup veggies**, e.g. 400g / 2 days
-- Veggie **broth**
+- Veggie **broth powder**: basically salt, but healthier due to part veggies
 - **Erythritol and stevia**: two of the few zero calories sugar substitutes that don't lead to insulin spikes and are not known to impact gut health and thus e.g. insulin resistance [^fattyliver]
 
 #### Equipment
-    - **Hot water bottle / grain pillow** etc.: to calm the stomach and feeling cold due to low energy and bad sleep
-    - Optional **tracking**
-        - Body **scale**
-        - Body fat **caliper**
-        - **Heart rate** monitor (e.g. watch, to enable monitoring during sleep)
-        - **Blood pressure** monitor
-        - Continuous **glucose** monitor [^cgm]
+- **Hot water bottle / grain pillow** etc.: to calm the stomach and feeling cold due to low energy and bad sleep
+- Optional **tracking**
+    - Body **scale**
+    - Body fat **caliper**
+    - **Heart rate** monitor (e.g. watch, to enable monitoring during sleep)
+    - **Blood pressure** monitor
+    - Continuous **glucose** monitor [^cgm]
 
 [^vitamins]: E.g. https://www.dm.de/mivolis-vegetarier-und-veganer-vitamine-mineralstoffe-tabletten-30-st-p4066447336986.html
 [^electrolytes]: E.g. https://www.dm.de/mivolis-elektrolyte-20-sticks-p4066447788426.html
