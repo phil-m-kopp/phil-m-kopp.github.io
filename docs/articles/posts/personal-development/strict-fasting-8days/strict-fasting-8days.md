@@ -8,7 +8,7 @@ tags:
   - Guide
   - Fitness
 categories:
-  - PersonalDevelopment
+  - Personal Development
 description: I did near zero calories fasting for 8 days - here's what happened 
 comments: true
 ---
