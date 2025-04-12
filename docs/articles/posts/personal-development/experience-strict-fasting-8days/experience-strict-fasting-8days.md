@@ -2,11 +2,12 @@
 title: "Experience: Strict fasting for 8 days"
 slug: experience-strict-fasting-8days
 date: 2025-04-10
-updated: 2025-04-10
+updated: 2025-04-12
 tags:
 - Experience
 - Guide
 - Fitness
+- Health
 categories:
 - Personal Development
 description: I did near zero calories fasting for 8 days - here's what happened
@@ -24,7 +25,7 @@ comments: true
 ## Motivation
 - **Fatty liver**: simple calories deficit doesn't help - deep ketosis e.g. through fasting necessary [^fattyliver]
 - Experience how **deep ketosis & autophagy** feel
-- Reset salt, sweetness, insulin and food volume **desensitization**
+- Reset salt, sweetness, insulin and food volume **desensitization** as well as **breaking habits** of e.g. regular snacking or eating out of **boredom rather than hunger**
 - Get a bit **leaner**
 
 ## The plan
@@ -36,7 +37,7 @@ comments: true
 - **Tea**
     - Dandelion "Löwenzahn"
     - Nettle "Brenessel"
-- Apple **vinegar**: mild, low in calories and inhibits insulin spike
+- **Apple vinegar** (for tea): mild, low in calories and inhibits insulin spike
 
 #### Supplements
 - **Vitamins**: [^vitamins]
@@ -115,6 +116,12 @@ comments: true
 #### Day 7-10
 - Prepare for **ending the fasting** based on personal goals and how fasting that long feels
 
+#### Day 14-16
+- Measure again after ~1 week of eating normal to **learn about short term recovery**
+
+#### Day ~30
+- Measure again to learn about **longer term (persistent) effects**
+
 ## My actual experience
 
 ### Energy/Endurance
@@ -126,10 +133,10 @@ comments: true
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "1 to 5 (highest)" 1 --> 5
 
-        bar "Energy" [5, 3, 2, 3, 3, 2, 3, 2, 1, 3, 4, 4, 4]
+        bar "Energy" [5, 3, 2, 3, 3, 2, 3, 2, 1, 3, 4, 4, 4, 5]
         bar "Energy" [5, 3, 2, 3, 3, 2, 3, 2, 1, 3, 4, 4]
 ```
 
@@ -139,6 +146,7 @@ xychart-beta
     - this again showed that activity wasn't impossible, but rather the **body just "strongly discouraged" activity to conserve energy**
 - Even after eating normally again, especially during training (gymnastics) I noticed energy wasn't back to the levels before
 - Energy preservation was also noticeable through indoor **temperature feeling 2-5°C lower** and warmer clothes didn't help so much as cranking the heating up
+- Might be due to needing to establish a proper sleep routine again or due to being very careful about gaining any unwanted fat back, but my energy levels only really recovered fully after about 1 month (also with 1 week vacation during that time)
 
 ### Power/strength output
 
@@ -147,10 +155,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "1 to 5 (highest)" 1 --> 5
 
-        bar "Power" [5, 3, 4, 4, 3, 3, 4, 3, 4, 4, 4, 4, 4]
+        bar "Power" [5, 3, 4, 4, 3, 3, 4, 3, 4, 4, 4, 4, 4, 5]
         bar "Power" [5, 3, 4, 4, 3, 3, 4, 3, 4, 4, 4, 4]
 ```
 
@@ -164,10 +172,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "1 to 5 (highest)" 1 --> 5
 
-        bar "Dizzy" [1, 1, 1, 2, 4, 2, 2, 2, 3, 3, 2, 1, 1]
+        bar "Dizzy" [1, 1, 1, 2, 4, 2, 2, 2, 3, 3, 2, 1, 1, 1]
         bar "Dizzy" [1, 1, 1, 2, 4, 2, 2, 2, 3, 3, 2, 1]
 ```
 
@@ -182,10 +190,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "1 to 5 (highest)" 1 --> 5
 
-        bar "Mood" [5, 4, 3, 4, 3, 4, 4, 4, 3, 2, 4, 4, 4]
+        bar "Mood" [5, 4, 3, 4, 3, 4, 4, 4, 3, 2, 4, 4, 4, 5]
         bar "Mood" [5, 4, 3, 4, 3, 4, 4, 4, 3, 2, 4, 4]
 ```
 
@@ -198,10 +206,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "1 to 5 (highest)" 1 --> 5
 
-        bar "Motivation" [5, 1, 2, 3, 3, 3, 4, 2, 3, 2, 3, 4, 5]
+        bar "Motivation" [5, 1, 2, 3, 3, 3, 4, 2, 3, 2, 3, 4, 5, 5]
         bar "Motivation" [5, 1, 2, 3, 3, 3, 4, 2, 3, 2, 3, 4]
 ```
 
@@ -213,13 +221,14 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "1 to 5 (highest)" 1 --> 5
 
-        bar "Hunger" [2, 2, 3, 2, 1, 1, 1, 2, 4, 3, 3, 3, 2]
+        bar "Hunger" [2, 2, 3, 2, 1, 1, 1, 2, 4, 3, 3, 3, 2, 1]
         bar "Hunger" [2, 2, 3, 2, 1, 1, 1, 2, 4, 3, 3, 3]
 ```
 
+- On day 0 hunger wasn't at its lowest due to the ongoing fasting prep of eating less for several weeks
 - As expected, probably **keeping insulin very low** at all times by staying at almost zero with calories helped with keeping **hunger in check** so that it was only a minor inconvenience - pretty unimportant e.g. compared to lower energy levels
 
 ### Craving
@@ -228,10 +237,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "1 to 5 (highest)" 1 --> 5
 
-        bar "Craving" [1, 2, 3, 4, 5, 4, 3, 4, 3, 4, 5, 3, 4]
+        bar "Craving" [1, 2, 3, 4, 5, 4, 3, 4, 3, 4, 5, 3, 4, 1]
         bar "Craving" [1, 2, 3, 4, 5, 4, 3, 4, 3, 4, 5, 3]
 ```
 
@@ -241,6 +250,7 @@ xychart-beta
 - On day 5 I switched out some tee with heavily diluted (20 kCal) DIY hot chocolate
 - On day 6 I **increased the sweetened consumption** yet again, **making it hard to fall and stay asleep**
 - Before going into calory surplus on day 11, I still felt **strong cravings** at intake levels that should have been around maintenance level (and I didn't feel hungry)
+- After about a month and working through my "want to cook and taste pipeline" I tried to focus 1) on only eating when hungry 2) reducing salt and sweetness in cooking in general 3) reducing snack frequency and size, which **after time toned down my cravings and eating out of habit or boredom**
 
 ### Pain
 
@@ -251,10 +261,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "1 to 5 (highest)" 1 --> 5
 
-        bar "Pain" [1, 1, 3, 4, 1, 2, 4, 1, 1, 1, 1, 1, 1]
+        bar "Pain" [1, 1, 3, 4, 1, 2, 4, 1, 1, 1, 1, 1, 1, 1]
         bar "Pain" [1, 1, 3, 4, 1, 2, 4, 1, 1, 1, 1, 1]
 ```
 
@@ -269,10 +279,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "1 to 5 (highest)" 1 --> 5
 
-        bar [5, 5, 5, 5, 4, 3, 2, 1, 4, 3, 3, 2, 4]
+        bar [5, 5, 5, 5, 4, 3, 2, 1, 4, 3, 3, 2, 4, 5]
         bar [5, 5, 5, 5, 4, 3, 2, 1, 4, 3, 3, 2]
 ```
 
@@ -285,10 +295,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "1 to 5 (highest)" 1 --> 5
 
-        bar "Sleepy" [1, 2, 3, 2, 3, 2, 4, 5, 4, 4, 3, 3, 2]
+        bar "Sleepy" [1, 2, 3, 2, 3, 2, 4, 5, 4, 4, 3, 3, 2, 1]
         bar "Sleepy" [1, 2, 3, 2, 3, 2, 4, 5, 4, 4, 3, 3]
 ```
 
@@ -303,15 +313,21 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "kg"
 
-        bar [66.4, 66.1, 65.5, 65.2, 65.2, 64.7, 63.9, 63.2, 62.8, 62.8, 63.4, 64.1, 65.4]
+        bar [66.4, 66.1, 65.5, 65.2, 65.2, 64.7, 63.9, 63.2, 62.8, 62.8, 63.4, 64.1, 65.4, 64.0]
         bar [66.4, 66.1, 65.5, 65.2, 65.2, 64.7, 63.9, 63.2, 62.8, 62.8, 63.4, 64.1]
 ```
 
-- Kind of in line with expectations, considering the bodies energy savings attempts maybe reducing my base metabolic rate from ~1600 to maybe below ~1300 or lower, **final weight loss was about 1kg** - 1.5kg
-- My body fat measured via caliper in the suprailiac area went from 6.5mm to 5.5mm (day 8)
+- Kind of in line with expectations, considering the bodies energy savings attempts maybe reducing my base metabolic rate from ~1600 to maybe below ~1300 or lower, **final weight loss was about 1kg to 2kg** (through fasting alone)
+  - It's worth to note that when I started to eat less already 2-3 weeks before the fasting, my weight was around 68kg
+  - The last weight of 64kg was after switching to a more low-carb, low-volume and less watery diet (and after day of generally eating less calories on top)
+- My suprailiac skinfold [^supra] measured via caliper went from 6.5mm to 5.5mm (day 8) to just shy of 6mm (day 27)
+
+![suprailiac](suprailiac.webp)
+
+[^supra]: https://legionathletics.com/body-fat-calipers/
 
 ### Resting heart rate
 
@@ -319,10 +335,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "bpm" 30 --> 51
 
-        bar [51, 45, 48, 37, 38, 37, 37, 47, 43, 47, 45, 49, 56]
+        bar [51, 45, 48, 37, 38, 37, 37, 47, 43, 47, 45, 49, 56, 54]
         bar [51, 45, 48, 37, 38, 37, 37, 47, 43, 47, 45, 49]
 ```
 
@@ -335,10 +351,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "kCal"
 
-        bar [1000, 20, 20, 20, 20, 80, 80, 140, 1500, 1800, 1800, 2400, 1900]
+        bar [1000, 20, 20, 20, 20, 80, 80, 140, 1500, 1800, 1800, 2400, 1900, 1300]
         bar [1000, 20, 20, 20, 20, 80, 80, 140, 1500, 1800, 1800, 2400]
 ```
 
@@ -352,10 +368,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "ml" 0 --> 3600
 
-        bar [2000, 2400, 2400, 2400, 2000, 2400, 3000, 3600, 1700, 2000, 2000, 2000, 2000]
+        bar [2000, 2400, 2400, 2400, 2000, 2400, 3000, 3600, 1700, 2000, 2000, 2000, 2000, 1500]
         bar [2000, 2400, 2400, 2400, 2000, 2400, 3000, 3600, 1700, 2000, 2000, 2000]
 ```
 
@@ -369,16 +385,18 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "mmHg"
 
-        line "Sys" [99, 98, 94, 100, 99, 97, 101, 99, 91, 94, 97, 93, 92]
+        line "Sys" [99, 98, 94, 100, 99, 97, 101, 99, 91, 94, 97, 93, 92, 93]
         line "Sys" [99, 98, 94, 100, 99, 97, 101, 99, 91, 94, 97, 93]
-        line "Dia" [66, 61, 59, 65, 69, 64, 68, 63, 55, 64, 58, 60, 57]
+        line "Dia" [66, 61, 59, 65, 69, 64, 68, 63, 55, 64, 58, 60, 57, 63]
 ```
 
 - Even though I exercise a lot, I guess due to low body weight **my blood pressure is generally low**, giving me not a lot of buffer before other circumstances that lower pressure even further lead noticeable dizziness
 - Blood pressure seemed **fine though until I started to get short black outs on day 7 and then especially day 8** when trying to stand up from sitting too quickly. I didn't want to get to a place were there was a risk of collapsing while standing, so I took this as a **sign to quit the fasting**
+- The **reduction blood pressure by around 5%** seem to stay after 1 month, also showing my experience from other diets again on how weight affects blood pressure rather directly
+    - This might also explain why perceived energy levels took so long to recover - my absolute values are just really low especially now 
 
 ### Stress / HRV
 
@@ -387,10 +405,10 @@ xychart-beta
 
 ``` mermaid
 xychart-beta
-        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16]
+        x-axis "Day" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 27]
         y-axis "Value" 0 --> 31
 
-        bar [33, 24, 26, 23, 28, 21, 23, 27, 29, 26, 31, 32, 34]
+        bar [33, 24, 26, 23, 28, 21, 23, 27, 29, 26, 31, 32, 34, 34]
         bar [33, 24, 26, 23, 28, 21, 23, 27, 29, 26, 31, 32]
 ```
 
@@ -406,13 +424,12 @@ xychart-beta
 - This is also connected to maybe the **most interesting open question: how much did giving in to cravings** later e.g. via hot chocolate **"ruin" the later phases of fasting** by disturbing ketosis?
 - Fasting could be an **interesting alternative to the classical** e.g. 1000kcal deficit **mini-cut**, as science suggests that only the first days without food and out of ketosis are really harmful for muscle mass. My **strength performance even during fasting barely decreased**, maybe even rather increased a bit (of course less weight needs to be lifted for bodyweight exercises), suggesting that ketosis/fasting at least no longer than maybe 10 days isn't harmful here, but the **weight/fat loss is definitely there**
     - Thus I also wouldn't recommend e.g. eating 250g lean curd per day as some recommend - the 30g of protein aren't a lot given the deficit and I guess potentially disturbing ketosis would do more harm than good in this regard
+- Weight loss yet again directly **reduced my blood pressure** (by ~5%)
 - Considering very low levels of hunger, even without direct comparison **I'd recommend a near "zero diet" with supplements over classical Buchinger fasting with fruit/veggie juice for lunch**, as I don't think this would have helped with the cravings, but likely would maybe have rather increased them or added hunger to the mix via increased insulin
-- As somebody who exercises weight control through high volume meals, **feeling more full and satisfied even with smaller meals was noticeable and an unexpected benefit**
+- Regarding bad eating habits
+  - as somebody who exercises weight control through high volume meals, **feeling more full and satisfied even with smaller meals was noticeable and an unexpected benefit**
+  - reestablishing a **recent reference point through restraint of eating only when hungry**, not letting snacking escalate and especially also **not needing to season/flavor boost food right from the start** considerably helped with not having thoughts regularly revolve about eating
 - Unsurprisingly, due to giving into salt and sweetness cravings, the customary fasting break apple wasn't so much more exciting flavor-wise, though eating some solid was nice
 ![apple](<apple.webp>)
-
-## Postscript
-
-Man, I really not only missed the flavors from eating but maybe even more **not being able to meaningfully have fun with cooking**. I spent the next 1-2 weeks cooking and baking all sorts of old and new dishes, though starting of course with one of my favorites: Teriyaki chicken salad wrap. Just leaving it here...
-
+- I really not only missed the flavors from eating but maybe even more **not being able to meaningfully have fun with cooking**. I spent the next 1-2 weeks cooking and baking all sorts of old and new dishes, though starting of course with one of my favorites: Teriyaki chicken salad wrap. Just leaving it here...
 ![wrap](<wrap.webp>)

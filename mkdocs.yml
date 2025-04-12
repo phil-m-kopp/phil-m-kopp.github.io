@@ -61,6 +61,7 @@ theme:
       SoftwareEngineering: fontawesome/solid/laptop-code
       GamesDevelopment: material/gamepad-square
       Fitness: material/arm-flex-outline
+      Health: material/medical-bag
       Finances: fontawesome/regular/money-bill-1
       Psychology: material/brain
       FoodAndCooking: material/food-apple-outline
@@ -147,6 +148,7 @@ extra:
     Software Engineering: SoftwareEngineering
     Games Development: GamesDevelopment
     Fitness: Fitness
+    Health: Health
     Finances: Finances
     Psychology: Psychology
     Food & Cooking: FoodAndCooking
