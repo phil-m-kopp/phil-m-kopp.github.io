@@ -2,7 +2,7 @@
 title: "Experience: Strict fasting for 8 days"
 slug: experience-strict-fasting-8days
 date: 2025-04-10
-updated: 2025-04-12
+updated: 2025-07-20
 tags:
 - Experience
 - Guide
@@ -164,6 +164,7 @@ xychart-beta
 
 - As expected, **maximum set volume almost didn't suffer at all** except maybe on the worst days and during exercises with more pronounced endurance component (e.g. L-sits)
 - On day 11 I even set a new personal record, increasing my handstand-against-wall time from 180 to 240 seconds
+- It could be that strength recovered so slowly because I was overtraining and actually needed a deload anyways
 
 ### Dizzy
 
