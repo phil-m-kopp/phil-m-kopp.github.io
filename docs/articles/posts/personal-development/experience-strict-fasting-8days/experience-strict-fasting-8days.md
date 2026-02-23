@@ -439,30 +439,30 @@ xychart-beta
 ## Updates
 
 - **Fasting got easier after incorporating some learnings and less strict fasting**
-        - though also **at the expense of results** (e.g. weight loss), which people report seems to be normal
-        - so in the end **relation between effort und output seems to stay somewhat constant**
+  - though also **at the expense of results** (e.g. weight loss), which people report seems to be normal
+  - so in the end **relation between effort und output seems to stay somewhat constant**
 
 ### Different approaches
 
 - Easy to **incorporate learnings**
-        - **instead of laxatives, longer low/medium-intensity cardio** sessions also seem to shorten time till ketosis - which is IMO more comfortable for people already exercising regularly like that
-        - **take (much) more salt and electrolyte supplements, especially in case of confusion, dizzyness or overall feeling sluggish**
+  - **instead of laxatives, longer low/medium-intensity cardio** sessions also seem to shorten time till ketosis - which is IMO more comfortable for people already exercising regularly like that
+  - **take (much) more salt and electrolyte supplements, especially in case of confusion, dizzyness or overall feeling sluggish**
 - **Less strict fasting**
-        - **zero-calorie drinks** don't increase hunger but can address cravings
-        - **zero-calarie/Konjac/Shirataki noodles and even some low calorie veggies** like zucchini and tomatoes in the same soup or even separate
-        - more (low fat/pure) **cacao and coffee - still heavily diluted**, e.g. 5g with 200ml - but also sweetened with stevia
+  - **zero-calorie drinks** don't increase hunger but can address cravings
+  - **zero-calarie/Konjac/Shirataki noodles and even some low calorie veggies** like zucchini and tomatoes in the same soup or even separate
+  - more (low fat/pure) **cacao and coffee - still heavily diluted**, e.g. 5g with 200ml - but also sweetened with stevia
 - Also tried **"whey fasting"**: unflavored whey-shake to address cravings
-        - definitely triggers and **insulin response** and/or hunger after consuming too much at once
-        - but **overall hunger can be kept down** if consumption is controlled and calories can still be kept below 200-500kcal (up to almost 200g whey per day) while reducing mental stress
+  - definitely triggers and **insulin response** and/or hunger after consuming too much at once
+  - but **overall hunger can be kept down** if consumption is controlled and calories can still be kept below 200-500kcal (up to almost 200g whey per day) while reducing mental stress
 
 ### Different outcomes
 
 - any form of **more solid foods or fiber** seemed to have **helped** a great deal with **diarrea and stomach pains**
-        - the more I leaned to the extreme of only consuming liquids, the more often I encountered diarrea-like symtopms, though never as often as before (e.g. every 1-3h)
-        - overall I spent a generally **very low amount of time in the bathroom**
-        - intrestingly, considering that I certainly didn't consume less salt, I still never felt like having consumed too much salt like sometimes before and I generally also felt less thirsty (correlated to loosing less water in the bathroom)
+  - the more I leaned to the extreme of only consuming liquids, the more often I encountered diarrea-like symtopms, though never as often as before (e.g. every 1-3h)
+  - overall I spent a generally **very low amount of time in the bathroom**
+  - intrestingly, considering that I certainly didn't consume less salt, I still never felt like having consumed too much salt like sometimes before and I generally also felt less thirsty (correlated to loosing less water in the bathroom)
 - sometimes I now actually experience "**fasting highs**" or I can at least understand the reports of **high focus/flow**
-        - since experience and adjustsments make fasting much **less mentally taxing**, leaving mostly benefits related to not having to go grocery shopping, prepare meals or speding time in the bathroom
-        - with hunger, cravings, dizzyness addressed, I could **keep fitness training performance high** until the very last days, which I then used as clear indicators to stop
+  - since experience and adjustsments make fasting much **less mentally taxing**, leaving mostly benefits related to not having to go grocery shopping, prepare meals or speding time in the bathroom
+  - with hunger, cravings, dizzyness addressed, I could **keep fitness training performance high** until the very last days, which I then used as clear indicators to stop
 - **sleep also improved** on most nights, with only few nights of bad sleep remaining
 - overall I find it now **easier to get into a fasting good state fast and staying there with few downsides - though as said at expense of perceived gains**. however considering most people would need to integrate fasting into their everyday work and family life, I see this as an acceptable tradeoff
