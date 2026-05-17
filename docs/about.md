@@ -19,49 +19,62 @@ hide:
 
 ===+ "💼 Professional"
 
-    > I'm a result-driven **IT Project and Software Engineering Manager** with a focus on **QA** and backgrounds as **Certified Agile Application Lifecycle Coach** and **Full-stack Tech Lead & Architect** in **E-Commerce and Mobility** industries. With **Quality & Structure, strong Ownership, situational Servant Leadership and Continuous Improvement** as driving values, I like to tackle **cross-cutting high-impact initiatives** and ensure **sustainable, measurable organizational changes**.
+    > I lead technical delivery and quality across full SDLC — from architecture and requirements through release governance and operational stability. Focus: predictable delivery via clear process, measurable quality standards, and hands-on technical guidance.
+
+    Operated as Tech Lead, Engineering Lead, QA Manager, and Release Manager across distributed, multi‑vendor environments in e‑commerce, mobility, public sector, and compliance‑heavy domains. Leadership via governance, coaching, and delivery ownership — not line management. Goal: build capabilities that persist after engagement.
+
+    M.Sc. Information Systems (TU Munich, top 9%). Certified Scrum Product Owner.
 
     [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/philipp-kopp-5b23a912a/)
 
     === "🧠 Expertise"
-        - **Competences**
-            - Application Lifecycle Management & Governance: from Requirements Engineering over QA & Release to Monitoring & Incident Response
-            - Tech Project Management
-            - Backend/QA/AWS Solution Architecture
-            - Engineering Leadership & Agile Coaching (certified)
-            - Also:
-                - Stakeholder Management & Cross-functional Collaboration
-                - Engineering Culture & Org Change
-                - IT Compliance (e.g. GDPR, ISO27001)
-                - Knowledge (Culture) Management & Business Process Analysis
+        - **Delivery & Programme Management**
+            - End‑to‑end delivery ownership: scope/milestones, RAID, dependencies, release readiness across multi‑team, multi‑vendor programmes
+            - Cross‑functional alignment incl. executive reporting and vendor coordination
+            - Roadmap prioritisation: trade‑offs, build‑vs‑buy, capacity forecasting, risk‑based sequencing
+            - Delivery governance: Jira workflow design/automation, DORA & squad‑health metrics for data‑informed decisions
+        - **Architecture & Technical Fluency**
+            - Solution/cloud architecture: event‑driven microservices, DDD/hexagonal, monolith → cloud migration, API/integration strategy
+            - Advisory to product/engineering leadership: feasibility, trade‑offs, make/buy, sequencing
+            - Documentation standards adopted programme‑wide (C4 model, PlantUML/Mermaid)
+            - Hands‑on fluency across backend, DevOps, infra → own technical roadmaps and act as intake gate
+        - **QA Governance & SDLC Quality**
+            - SDLC quality strategy: test pyramid (unit → contract → integration → E2E → performance), quality gates, env/data strategy, go/no‑go criteria
+            - Requirements traceability & risk‑based coverage: feature set definition, risk matrices, acceptance criteria discipline
+            - Bug/incident systems: triage cadence, severity/SLA models, ownership/reporting — lower noise, faster resolution
+            - Team enablement: embed quality ownership in squads; QA as coaching enabler, not central bottleneck
+            - Shift‑left: BDD/Gherkin, Definition of Ready/Done, testable story slicing
+        - **Compliance & Security Integration**
+            - ISO 27001 programme management: audit readiness, STRIDE threat modelling, internal champions, evidence governance
+            - AppSec in SDLC: SAST/DAST integration, vuln management, secrets hygiene, least‑privilege design
+            - Digital trust/PKI: certificate lifecycle, OIDC/mTLS/MFA patterns, QTSP coordination
+            - Privacy/regulatory (GDPR/PII) in e‑commerce and public sector
+        - **Observability & Incident Readiness**
+            - Monitoring strategy: metrics, logs, tracing, RUM/APM with playbooks and solid alerting
+            - Incident lifecycle: triage, war‑room facilitation, post‑incident reviews, prevention loops back to SDLC
+            - Release stability: reduce change failure via quality gates, staged rollouts, rollback criteria
+            - Org enablement: onboard teams to monitoring tooling with clear ownership models
+        - **Agile Process & Coaching**
+            - Process design/improvement across Scrum, Kanban, hybrid; Nexus for multi‑team scaling
+            - Requirements engineering: workshops, story slicing, acceptance criteria discipline, backlog health
+            - Continuous improvement: DORA, squad health, retro action tracking, cycle‑time analysis
+            - Governance: Jira automation, workflow standardisation, RACI/ownership to cut coordination overhead
+        - **Knowledge Management & Engineering Culture**
+            - Communities of Practice: design/moderation from seed to multi‑format forums (20–40 participants)
+            - Structured onboarding: reference service docs, templates, guided pairing — reduce onboarding time
+            - Documentation standards: ADRs, service docs, playbooks, training material
+            - AI adoption: integrate agentic AI into analysis, documentation, development workflows
         - **Domains**
-            - E-Commerce: Checkout, Orders & Payment
+            - E‑Commerce: Checkout, Orders & Payment
             - Mobility Services
-        - **QA** 
-            - xUnit e.g. Jest | Int/API: Docker, Postman, OpenAPI, Supertest … | UI: Puppeteer, Selenium, PlayWright … | 
-            - Load: k6 | Pen.: OWASP ZAP, DefectDojo | DevOps: Chaos Monkey | Static: SonarCube, ESLint …
-            - Mgmt: Jira, Xray, Zephyr
-            - TDD/BDD: Serenity, Allure, Cucumber, 3 Amigo Sessions
-            - Monitoring (alerts, metrics, logs, RUM, APM): Datadog, Grafana, Prometheus, Kibana/ES/OS, Sentry.io
-        - **Project / Knowledge Management** 
-            - Team (e.g. 2x 5 engineers) and tech. project lead (e.g. QA or compliance governance across >10 teams)
-            - Scrum (of Scrums, Nexus), Certified Scrum Product Owner
-            - Confluence, PlantUML/Mermaid, [C4](https://c4model.com/), BPMN, Communities of Practice [^COP], [MkDocs](https://squidfunk.github.io/mkdocs-material/)
-        - **Software Eng.**
-            - Domain Driven Design | Microservices | Event-driven: Kafka
-            - PHP Symfony | TypeScript NestJS | PostgreSQL, MongoDB, Redis... | (previously: Golang, React, Java, C#)
-        - **DevOps / Cloud**
-            - AWS
-            - CI/CD: Jenkins, GitLab... 
-            - Kubernetes, Docker, Helm, Istio
 
         [^COP]: [https://scaledagileframework.com/communities-of-practice/](https://scaledagileframework.com/communities-of-practice/)
 
     === "⭐ USPs"
-        - Experience in many areas as well as servant leadership ensures **creative but pragmatic solutions**
-        - Passion for knowledge sharing, structure and processes as part of continuous improvement ensures **lasting impact beyond** short term **individual contribution**
-        - **QA focus** pairs well with natural aptitude for detail, analysis, planning and structure
-        - Strong sense of ownership & responsibility ensures **proactive high-impact work**, while transparency and risk management ensures bad situations are handled well
+        - Delivery builds capability, not dependency — governance, documentation, coaching (ISO champions, CoPs, SDLC strategy, onboarding) that persist after engagement
+        - QA and delivery treated as one system — fix root causes (requirements, ownership, gates) vs tool layering; proven drops in change failures and leakage in compliance‑critical platforms
+        - Technical depth in coordination role — architecture reviews, CI/CD, incident traces, threat models + stakeholder comms, sequencing, risk ownership
+        - Governance without bureaucracy — KPIs first (cycle time, defect leakage, incident rate), lightweight process, automation over paperwork
 
 === "❤️ Private"
 
