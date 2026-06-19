@@ -69,6 +69,8 @@ theme:
       HomeImprovement: material/hammer-screwdriver
       List: fontawesome/solid/list-ol
       Experience: material/account-star
+      Minimalism: material/arrow-collapse-all
+      Productivity: material/hammer-wrench
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
