@@ -59,7 +59,7 @@ theme:
       QA: material/magnify-scan
       Agile: fontawesome/solid/arrows-spin
       SoftwareEngineering: fontawesome/solid/laptop-code
-      GamesDevelopment: material/gamepad-variant-outline
+      GamesDevelopment: material/gamepad-square
       Fitness: material/arm-flex-outline
       Health: material/medical-bag
       Finances: fontawesome/regular/money-bill-1
