@@ -23,78 +23,71 @@ comments: true
 
     **Business "PO"**, **Development "DEV"** and **Quality Assurance "QA"** should be understood as **roles**, not necessarily different persons at all times. E.g. if a QA specialist is unavailable, a DEV can also focus on the QA perspective during refinements.
 
-```puml
-@startuml
-' !theme cerulean-outline
-actor PO #lightblue
-participant Story
-actor DEV #orange
-actor QA #lightgreen
+```mermaid
+sequenceDiagram
+    actor PO
+    participant Story
+    actor DEV
+    actor QA
 
-group New Requirement
-  PO -> Story++#black: <color:blue>[OPEN]
-  PO -> Story: **ACs**
-end group
+    rect rgb(235, 245, 255)
+    note over PO,Story: New Requirement
+    PO->>Story: [OPEN]
+    PO->>Story: ACs
+    end
 
-group Refinement
-  PO -> Story++#lightblue: **schedule** Refinement\n(1-2 sprints ahead)
-  PO -> Story: <color:blue>[REFINEMENT]
-  DEV -> Story++#orange: **Subtasks**
-  DEV -> Story: Define all **interfaces** as early as possible
-  QA -> Story: Input: **"What can go wrong?"**
-  QA -> Story: Input: **Testability**
-  return
-  QA -> Story++#lightgreen: Sketching **E2E (acceptance/sanity) tests** based on ACs
-  QA -> Story: Ensure **dependencies to stakeholders/other teams** are adressed
-  QA -> Story: Ensure **no open questions or uncertainties** as far as possible
-  QA -> Story: Ensuring **DoR**
-  return
-  DEV -> Story: **Estimation** (Story points)
-  return
-  PO -> Story: **Prioritization**
-  PO -> Story: <color:blue>[READY]
-end group
+    rect rgb(235, 245, 255)
+    note over PO,QA: Refinement
+    PO->>Story: Schedule refinement<br/>(1-2 sprints ahead)
+    PO->>Story: [REFINEMENT]
+    DEV->>Story: Subtasks
+    DEV->>Story: Define all interfaces as early as possible
+    QA->>Story: Input: "What can go wrong?"
+    QA->>Story: Input: Testability
+    QA->>Story: Sketch E2E acceptance/sanity tests based on ACs
+    QA->>Story: Ensure dependencies to stakeholders/other teams are addressed
+    QA->>Story: Ensure no open questions or uncertainties as far as possible
+    QA->>Story: Ensure DoR
+    DEV->>Story: Estimation (story points)
+    PO->>Story: Prioritization
+    PO->>Story: [READY]
+    end
 
-group Sprint Planning
-  DEV -> Story++#orange: Sprint (capacity) **Planning**
-  DEV -> Story: **communicate** dependencies to affected teams again
-  return dependencies managed, sprint goal defined...
-end group
+    rect rgb(255, 245, 230)
+    note over DEV,Story: Sprint Planning
+    DEV->>Story: Sprint capacity planning
+    DEV->>Story: Communicate dependencies to affected teams again
+    Story-->>DEV: Dependencies managed, sprint goal defined...
+    end
 
-alt Development 
-  DEV -> Story++#orange: <color:blue>[DEVELOPMENT]
-  DEV -> Story: **Implementation** incl. developer **whitebox tests** (Unit etc)
-  return Blackbox smoke + **sanity testing** on integrated system\n("Main AC working from end user perspective?")
-  DEV -> Story++#orange: <color:blue>[PEER REVIEW]
-  DEV -> Story: **Peer Review**
-  return **Approved** & deployed for **acceptance test**
-  DEV -> Story: <color:blue>[ACCEPTANCE TEST]
-else QA
-  QA -> Story++#lightgreen: Development of SIT E2E tests incl. test data and error paths\n(manual/automated, for regression and acceptance testing)
-  PO -> Story: **Review** of E2E tests
-end alt
+    alt Development
+        DEV->>Story: [DEVELOPMENT]
+        DEV->>Story: Implementation incl. developer whitebox tests (unit etc.)
+        Story-->>DEV: Blackbox smoke + sanity testing on integrated system<br/>("Main AC working from end-user perspective?")
+        DEV->>Story: [PEER REVIEW]
+        DEV->>Story: Peer review
+        Story-->>DEV: Approved & deployed for acceptance test
+        DEV->>Story: [ACCEPTANCE TEST]
+    else QA
+        QA->>Story: Develop SIT E2E tests incl. test data and error paths<br/>(manual/automated, for regression and acceptance testing)
+        PO->>Story: Review E2E tests
+    end
 
-group Approval
-  QA -> Story: Execution of **E2E tests**
-  return
-  PO -> Story: **Final approval** of ACs\n
-  note right
-  __based__ on 
-  - Feedback from **Developer tests** -> technical functionality (Whitebox) and
-  - Feedback from **E2E tests** -> technical functionality (Blackbox) & domain correctness
-  end note
-  PO -> Story--: <color:blue>[RELEASE]
-return
-end group
+    rect rgb(235, 255, 235)
+    note over PO,QA: Approval
+    QA->>Story: Execute E2E tests
+    PO->>Story: Final approval of ACs
+    note right of Story: Based on developer tests for technical functionality (whitebox)<br/>and E2E tests for technical functionality (blackbox) and domain correctness
+    PO->>Story: [RELEASE]
+    end
 
-group Release
-  DEV -> Story++#orange: **Deploy** to PROD\n(considering deployment checklist + rollout strategy)
-  return Deployment **stable** for 1-24h\n(depending on traffic, cron jobs...)
-  DEV -> Story: Update **release notes**
-end group
+    rect rgb(255, 245, 230)
+    note over DEV,Story: Release
+    DEV->>Story: Deploy to PROD<br/>(considering deployment checklist + rollout strategy)
+    Story-->>DEV: Deployment stable for 1-24h<br/>(depending on traffic, cron jobs...)
+    DEV->>Story: Update release notes
+    end
 
-QA -> Story++#lightgreen: Check **DoD**
-return
-QA -> Story: <color:blue>[DONE]
-@enduml
+    QA->>Story: Check DoD
+    QA->>Story: [DONE]
 ```

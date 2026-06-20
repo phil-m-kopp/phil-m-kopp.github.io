@@ -59,7 +59,7 @@ theme:
       QA: material/magnify-scan
       Agile: fontawesome/solid/arrows-spin
       SoftwareEngineering: fontawesome/solid/laptop-code
-      GamesDevelopment: material/gamepad-square
+      GamesDevelopment: material/gamepad-variant-outline
       Fitness: material/arm-flex-outline
       Health: material/medical-bag
       Finances: fontawesome/regular/money-bill-1
@@ -121,8 +121,6 @@ plugins:
       enabled: true
       tags_file: tags.md
   # - mkdocs-pdf
-  - plantuml:
-        puml_url: https://www.plantuml.com/plantuml/
 
 nav:
   - "👦 Phil": about.md
@@ -133,6 +131,7 @@ nav:
     - tags.md
   - 💻 Tech/IT: "/articles/category/tech/"
   - 🛠️ DIY & Craft: "/articles/category/diy/"
+  - 📈 Personal Development: "/articles/category/personal-development/"
   - "🎮 Games": games.md
 
 extra:

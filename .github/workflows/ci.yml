@@ -10,30 +10,18 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@v3
+          python-version: "3.12"
+      - uses: actions/cache@v4
         with:
-          key: mkdocs-material-${{ env.cache_id }}
+          key: mkdocs-material-${{ hashFiles('requirements.txt') }}
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install \
-                mkdocs-material \
-                mkdocs-rss-plugin \
-                mkdocs-redirects \
-                mkdocs-table-reader-plugin \
-                mkdocs-glightbox \
-                Pillow \
-                openpyxl \
-                mkdocs-macros-plugin \
-                mkdocs-autolinks-plugin \
-                mkdocs_puml
+      - run: python -m pip install -r requirements.txt
       # - run: python3 convertWebP.py
       # - run: mkdocs build -d build
       # - run: echo "philipp-kopp.com" > build/CNAME
       - run: mkdocs gh-deploy --force
-
