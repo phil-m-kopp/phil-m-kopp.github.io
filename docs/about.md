@@ -19,49 +19,56 @@ hide:
 
 ===+ "💼 Professional"
 
-    > I'm a result-driven **IT Project and Software Engineering Manager** with a focus on **QA** and backgrounds as **Certified Agile Application Lifecycle Coach** and **Full-stack Tech Lead & Architect** in **E-Commerce and Mobility** industries. With **Quality & Structure, strong Ownership, situational Servant Leadership and Continuous Improvement** as driving values, I like to tackle **cross-cutting high-impact initiatives** and ensure **sustainable, measurable organizational changes**.
+    > I lead **technical delivery** and **quality** across the **full AI-first SDLC** — from **architecture** and **requirements** through **agentic spec-driven development** to **release governance** and **operational stability**.
+
+    Operated as **Full-stack Tech Lead/Architect**, **Technical Project Manager**, and **QA Manager** across distributed, multi-vendor environments in compliance-heavy **E-commerce** and **Mobility** domains. Practicing leadership via **governance**, **coaching**, and **delivery ownership**. Goal: build capabilities for **sustainable and KPI-measurable change** through **hands-on technical coaching, quality gates, and lived processes with owners**.
+
+    Driven by a strong sense of ownership and responsibility, I **anticipate issues and act proactively**, while balancing quality with economic considerations without neglecting **pragmatic** solutions.
 
     [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/philipp-kopp-5b23a912a/)
 
+    === "🎯 Reference Impact"
+        - **Org-scale governance:** drove ISO27001 audit readiness and company-wide QA initiatives spanning **>10 engineering teams** as part of whole-SDLC QA redesign
+        - **Quality governance:** reduced UAT defect leakage from **80% to 20%** and CFR from **50% to 5%** while raising smoke coverage from **~60% to >95%**
+        - **SDLC improvement:** cut cycle time by **44%**, failed approvals by **35%**, and incidents by **23%**; raised squad-health metrics by **17%** within **~6 months**
+        - **QA operations:** reduced regression runtime from **>8h to <2h**, improved defect leakage by **18%**, reduced rejected bugs by **38%**, and cut QA onboarding from **3.5 to 2 weeks**
+        - **Knowledge scaling:** grew weekly developer CoP from **~15 participants** into multiple formats serving **~20–40 participants each**
+
     === "🧠 Expertise"
-        - **Competences**
-            - Application Lifecycle Management & Governance: from Requirements Engineering over QA & Release to Monitoring & Incident Response
-            - Tech Project Management
-            - Backend/QA/AWS Solution Architecture
-            - Engineering Leadership & Agile Coaching (certified)
-            - Also:
-                - Stakeholder Management & Cross-functional Collaboration
-                - Engineering Culture & Org Change
-                - IT Compliance (e.g. GDPR, ISO27001)
-                - Knowledge (Culture) Management & Business Process Analysis
+        - **Tech Management**
+            - **Shift-left agentic AI SDLC including hands-on coaching, strategy, and governance**: from requirements engineering and agentic AI engineering workflows to release, monitoring, and incident response
+              - Metrics/KPI optimization: DORA, Squad Health, SPACE, feature/risk coverage, test effort, incident impact, etc.
+              - **Engineering Culture and Org Change**
+              - **IT Compliance (e.g. GDPR, ISO27001)**
+            - **Technical Project Ownership**, e.g. release automation from >8h to 10min with GitOps or ISO27001 audit readiness
+              - **Stakeholder Management and Cross-functional Facilitation**
+              - **Multi-vendor Management**
+            - **Engineering Leadership** from roadmap and team leadership to executive reporting and **Agile Coaching (certified)**
+              - **Event-driven Microservices/QA/Cloud Solution Architecture**
         - **Domains**
-            - E-Commerce: Checkout, Orders & Payment
-            - Mobility Services
-        - **QA** 
-            - xUnit e.g. Jest | Int/API: Docker, Postman, OpenAPI, Supertest … | UI: Puppeteer, Selenium, PlayWright … | 
-            - Load: k6 | Pen.: OWASP ZAP, DefectDojo | DevOps: Chaos Monkey | Static: SonarCube, ESLint …
-            - Mgmt: Jira, Xray, Zephyr
-            - TDD/BDD: Serenity, Allure, Cucumber, 3 Amigo Sessions
-            - Monitoring (alerts, metrics, logs, RUM, APM): Datadog, Grafana, Prometheus, Kibana/ES/OS, Sentry.io
-        - **Project / Knowledge Management** 
-            - Team (e.g. 2x 5 engineers) and tech. project lead (e.g. QA or compliance governance across >10 teams)
-            - Scrum (of Scrums, Nexus), Certified Scrum Product Owner
-            - Confluence, PlantUML/Mermaid, [C4](https://c4model.com/), BPMN, Communities of Practice [^COP], [MkDocs](https://squidfunk.github.io/mkdocs-material/)
-        - **Software Eng.**
-            - Domain Driven Design | Microservices | Event-driven: Kafka
-            - PHP Symfony | TypeScript NestJS | PostgreSQL, MongoDB, Redis... | (previously: Golang, React, Java, C#)
-        - **DevOps / Cloud**
-            - AWS
-            - CI/CD: Jenkins, GitLab... 
-            - Kubernetes, Docker, Helm, Istio
+            - **E-commerce**: Checkout, Orders, and Payment
+            - **Mobility** Services
+        - **QA**
+            - **Unit** | **Int/Service**: Testcontainers, Dev Containers | **Contract/API**: OpenAPI, Pact | **UI**: Selenium, Playwright | **Load**: k6 | **Static**: SonarQube | **SAST/DAST**: DefectDojo, OWASP ZAP | **Infra**: Chaos Monkey
+            - **Risk-based Testing/Requirements Traceability Matrix**, Xray
+            - **TDD/BDD**: Cucumber, Jira Automation, DoD/DoR
+            - **Monitoring** (alerts, metrics, logs, RUM, APM): Datadog, Grafana, Kibana/ES/OS, Sentry.io, OTel
+        - **Project / Knowledge Management**
+            - Team leadership (e.g. 2x 5 engineers) and technical project **leadership** (e.g. QA or compliance governance across >10 teams)
+            - Scrum (of Scrums, Nexus), **Certified Scrum Product Owner**
+            - PlantUML/Mermaid, [**C4**](https://c4model.com/), BPMN, **Communities of Practice** [^COP], [MkDocs](https://squidfunk.github.io/mkdocs-material/), ADRs, Backstage.io, Playbooks
+        - **Software Engineering**
+            - Claude Code, Codex | **Spec-driven Development**, subagents, skills/MCPs, hooks/loops, multi-layered graph contexts…
+            - DDD | Microservices | Event-driven: Kafka
+            - Java Spring, PHP Symfony, NestJS TypeScript | PostgreSQL, MongoDB
+        - **DevSecOps / Cloud**
+            - AWS/StackIT (compute, blob storage, DBs, networking, secrets, observability, K8s, IAM)
+            - GitHub, GitLab, Jenkins
+            - ArgoCD **GitOps**, Terraform/Terragrunt **IaC**
+            - K8s, Helm, Istio
+            - STRIDE, OWASP | Digital Certificates and PKI, Secrets Management | IAM, (m)TLS, OIDC, OAuth2 | RBAC, ACLs, Least Privilege, Audit Trails | DoS/CDN, Input Validation, WAF
 
         [^COP]: [https://scaledagileframework.com/communities-of-practice/](https://scaledagileframework.com/communities-of-practice/)
-
-    === "⭐ USPs"
-        - Experience in many areas as well as servant leadership ensures **creative but pragmatic solutions**
-        - Passion for knowledge sharing, structure and processes as part of continuous improvement ensures **lasting impact beyond** short term **individual contribution**
-        - **QA focus** pairs well with natural aptitude for detail, analysis, planning and structure
-        - Strong sense of ownership & responsibility ensures **proactive high-impact work**, while transparency and risk management ensures bad situations are handled well
 
 === "❤️ Private"
 
