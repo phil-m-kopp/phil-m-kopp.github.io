@@ -35,7 +35,7 @@ hide:
         - **Knowledge scaling:** grew weekly developer CoP from **~15 participants** into multiple formats serving **~20–40 participants each**
 
     === "🧠 Expertise"
-        ## **Tech Management**
+        ## Tech Management
           - **Shift-left agentic AI SDLC including hands-on coaching, strategy, and governance**: from requirements engineering and agentic AI engineering workflows to release, monitoring, and incident response
             - Metrics/KPI optimization: DORA, Squad Health, SPACE, feature/risk coverage, test effort, incident impact, etc.
             - **Engineering Culture and Org Change**
@@ -45,23 +45,23 @@ hide:
             - **Multi-vendor Management**
           - **Engineering Leadership** from roadmap and team leadership to executive reporting and **Agile Coaching (certified)**
             - **Event-driven Microservices/QA/Cloud Solution Architecture**
-        ## **Domains**
+        ## Domains
           - **E-commerce**: Checkout, Orders, and Payment
           - **Mobility** Services
-        ## **QA**
+        ## QA
           - **Unit** | **Int/Service**: Testcontainers, Dev Containers | **Contract/API**: OpenAPI, Pact | **UI**: Selenium, Playwright | **Load**: k6 | **Static**: SonarQube | **SAST/DAST**: DefectDojo, OWASP ZAP | **Infra**: Chaos Monkey
           - **Risk-based Testing/Requirements Traceability Matrix**, Xray
           - **TDD/BDD**: Cucumber, Jira Automation, DoD/DoR
           - **Monitoring** (alerts, metrics, logs, RUM, APM): Datadog, Grafana, Kibana/ES/OS, Sentry.io, OTel
-        ## **Project / Knowledge Management**
+        ## Project / Knowledge Management
           - Team leadership (e.g. 2x 5 engineers) and technical project **leadership** (e.g. QA or compliance governance across >10 teams)
           - Scrum (of Scrums, Nexus), **Certified Scrum Product Owner**
           - PlantUML/Mermaid, [**C4**](https://c4model.com/), BPMN, **Communities of Practice** [^COP], [MkDocs](https://squidfunk.github.io/mkdocs-material/), ADRs, Backstage.io, Playbooks
-        ## **Software Engineering**
+        ## Software Engineering
           - Claude Code, Codex | **Spec-driven Development**, subagents, skills/MCPs, hooks/loops, multi-layered graph contexts…
           - DDD | Microservices | Event-driven: Kafka
           - Java Spring, PHP Symfony, NestJS TypeScript | PostgreSQL, MongoDB
-        ## **DevSecOps / Cloud**
+        ## DevSecOps / Cloud
           - AWS/StackIT (compute, blob storage, DBs, networking, secrets, observability, K8s, IAM)
           - GitHub, GitLab, Jenkins
           - ArgoCD **GitOps**, Terraform/Terragrunt **IaC**
@@ -72,51 +72,21 @@ hide:
 
 === "❤️ Private"
 
-    !!! info "Outgoing links"
-
-        I like to support my favorite products and services by linking, though I don't have any affiliate relationships with any atm
-
-    > "Writing equals thinking" - Jordan Peterson
-
-    ## 📈**Personal development & Life**
-      - **Sports**
-          - **Calisthenics (Strength)** at home with program from [Calisthenics Movement](https://www.calimove.com/p/complete-calisthenics-level-1-5)
-          - **Yoga (Mobility)** with [down dog](https://www.downdogapp.com/) - ideally short daily session
-          - **Gymnastics/Tricking (Cardio/Skill)** as long-term member of [Free Arts of Movement "FAM"](https://www.freeartsofmovement.com/)
-      - **Habits & Goals**: defining and tracking goals in 3 main areas **"Physical/Mental Health", "Social/Romantic Relationships" and "Career/Business"** every few months and using and reviewing daily **"atomic"* habits/systems** [^atomic] to get there        
-      - **Learning/knowledge building**: Maintaining a **second brain** [^2ndbrain] with [Obsidian.md](https://obsidian.md/) also this website (made with [MkDocs](https://squidfunk.github.io/mkdocs-material/)) to ensure I don't forget but continuously build upon things I learn and experience by "writing stuff down", sharing and thus reflecting on it. **Spaced Repetition** [^repetition] then automates the process of regular reviews for optimal retention
-      - **Financial**: strong believer in **passive investing** as the only sane, practical, time/cost efficient and not to mention scientific way to invest. Highly recommend the ETF-based globally diversified portfolio approach [^worldetf]
-      - **Minimalism**: because increasing clarity about what is most important in ones life and then focusing on it without distraction makes life feel so much better
-      - **Psychology**: I find it fascinating how **unintuitive** the **brain** often works and thus how much there is **gain from understanding** it. My favorite **concepts** being:
-          - non-judgemental mindfulness [^mindful] / meditation / ignoring "monkey brain"
-          - positive reinforcement via lofty questions [^lofty] and future self/goal visualization, carrots and sticks for habits & commitment devices as well as momentum effect & getting started effect
-          - happiness through exercising, healthy eating and sleep as well, practicing gratitude and investing in relationships
+    ## 📈 Personal development
+      
+    Outside of work, I’m interested in building a healthy, curious and sustainable life. 
     
-    [^atomic]: [https://jamesclear.com/atomic-habits](https://jamesclear.com/atomic-habits)
-    [^2ndbrain]: [https://www.buildingasecondbrain.com/](https://www.buildingasecondbrain.com/)
-    [^repetition]: [https://ncase.me/remember/](https://ncase.me/remember/)
-    [^worldetf]: [https://www.justetf.com/en/academy/how-to-get-a-globally-diversified-portfolio-with-just-one-etf.html](https://www.justetf.com/en/academy/how-to-get-a-globally-diversified-portfolio-with-just-one-etf.html), Book: [Souverän investieren](https://www.amazon.de/Souver%C3%A4n-investieren-Indexfonds-ETFs-Book/dp/3593508524)
-    [^mindful]: [https://en.wikipedia.org/wiki/The_Power_of_Now](https://en.wikipedia.org/wiki/The_Power_of_Now)
-    [^lofty]: [https://blog.mindvalley.com/lofty-questions/](https://blog.mindvalley.com/lofty-questions/)
+    A few recurring themes I care about are fitness & nutrition, continuous learning & teaching, minimalism & mindfulness, as well as psychology & habit systems.
 
-    > "Medicine, law, business, engineering, these are all noble pursuits, and necessary to sustain life. But poetry, beauty, romance, love, these are what we stay alive for." ― Dead Poet’s Society
-    
-    ## 🎲**Tech & Fun**
-      - **Audio**: really enjoy the immersive sound good 2.1 speakers can deliver (fan of [Eve Audio](https://eve-audio.com)) and owning more headphones than my flat has rooms - favorite ones still being some modded [Koss Porta Pros](https://koss.com/products/porta-pro), which also serve as warming ear pads in the winter
-      - **Video games**: nowadays I enjoy the never-ending technical and broad artistic challenges of (2D) **video game creation** with [Godot](https://godotengine.org/) often more than actually playing games. Though I still like to play old games e.g. from [myabandonware.com](https://www.myabandonware.com/)/[gog.com](https://www.gog.com/) or newer **retro and/or indie** games for the nostalgic feeling and inspiration that either challenge my **reaction/dexterity** via action or thinking in turn-based **strategy**
-      - **Physical Games**: from >100 board games, park games from Speedball over Frisbee to Kubb or Mölkky as well as escape games with friends - I like to **experience and analyze game mechanics** in all shapes and forms
-    ## 🛠️**DIY**
-      - **Electronics & (light) engineering**: e.g. power banks & solar stuff, smart home sensors, small electric tools like drills, wearable cameras for action recording, folding bedside TV...
-      - **Repairing** anything from household appliances over clothes to plumbing
-      - **Artsy stuff**, like small wooden/metal jewelry or lamps
-      - **Furniture making & home improvement**: I like to combine light wood and linen, black metal and artificial plants (even my indoor floor is artificial grass :D). Highly recommended: [SketchUp free](https://www.sketchup.com/de/plans-and-pricing/sketchup-free)
-      - **Food & Cooking**, like to experiment in the direction of **molecular gastronomy**, also practising **intermittent fasting**; addicted to **sweet stuff**, thus e.g. making lots of DIY ice cream
+    I like staying open, experimenting and figuring out what works in practice. Different perspectives can be useful in different contexts, and this blog exists in part to capture, share and iterate on those learnings.
 
-=== "🙏 Support"
+    ## 🛠️ Tech, DIY & Fun 
 
-    Creating free content takes 💵 money (e.g. hosting this site) and 💪 effort.
+    Games fascinate me in many forms: video — especially retro and indie — board, park or escape room games. These days, the design and mechanics behind them are increasingly what keeps the hobby fresh for me.
 
-    If you like, you can support me via [:fontawesome-brands-paypal: PayPal](https://paypal.me/PhilMKopp)
+    I like making, fixing and improving things because they combine creativity, craft and engineering: small (electronic) practical gadgets, furniture, home improvement or occasional artsy projects. I enjoy understanding how something works, improving it and making it more useful, elegant or fun.
+
+    Cooking and baking are special passion topics for me, where experimentation, skill development and artistic expression can come together in something that is also highly relatable and useful to almost everybody.
 
 === "✉️ Contact"
 
@@ -131,3 +101,9 @@ hide:
     </label>
     <input type="submit" value="Submit">
     </form>
+
+=== "🙏 Support"
+
+    Creating free content takes 💵 money (e.g. hosting this site) and 💪 effort.
+
+    If you like, you can support me via [:fontawesome-brands-paypal: PayPal](https://paypal.me/PhilMKopp)

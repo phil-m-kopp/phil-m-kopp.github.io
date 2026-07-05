@@ -1,13 +1,13 @@
 site_name: Philipp Kopp
 site_url: https://philipp-kopp.com
-site_description: Philipp Kopp - sharing pragmatic ideas about IT, DIY and personal development
+site_description: Philipp Kopp - about IT, DIY and personal development
 # repo_url: https://github.com/phil-m-kopp/phil-m-kopp.github.io
 site_author: Philipp Kopp
-header: "<a href='/about'><u>Philipp Kopp</u></a> - pragmatic ideas about 💻IT, 🛠️DIY and 📈personal development"
+header: "<a href='/about'><u>Philipp Kopp</u></a> - about 💻 IT, 🛠️ DIY and 📈 personal development"
 copyright: >
   © 2023 <a href="/about">Philipp Kopp</a>. All rights reserved under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1">CC BY-SA 4.0</a>.
-  | <a href="/privacy">👤 Privacy Policy / Datenschutz</a> | <a href="/imprint">📜Imprint / Impressum</a>
-  | <a href="#__consent">🍪Cookie settings</a>
+  | <a href="/privacy">👤 Privacy Policy / Datenschutz</a> | <a href="/imprint">📜 Imprint / Impressum</a>
+  | <a href="#__consent">🍪 Cookie settings</a> | <a href="/feed_rss_updated.xml">📡 RSS</a>
 
 theme:
   language: en
@@ -123,8 +123,8 @@ plugins:
   # - mkdocs-pdf
 
 nav:
-  - "👦 Phil": about.md
-  - 📰All articles: 
+  - "👤 Phil": about.md
+  - 📰 All articles: 
     - articles/index.md
   # - 'A link': 'https://example.com/'
   - 📑 Tags:
