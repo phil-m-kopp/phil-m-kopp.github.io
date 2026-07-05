@@ -78,7 +78,7 @@ hide:
     
     A few recurring themes I care about are fitness & nutrition, continuous learning & teaching, minimalism & mindfulness, as well as psychology & habit systems.
 
-    I like staying open, experimenting and figuring out what works in practice. Different perspectives can be useful in different contexts, and this blog exists in part to capture, share and iterate on those learnings.
+    I like staying open, experimenting and figuring out what works in practice or rather how. Different perspectives can be useful in different contexts, and this blog exists in part to capture, share and iterate on those learnings.
 
     ## 🛠️ Tech, DIY & Fun 
 
